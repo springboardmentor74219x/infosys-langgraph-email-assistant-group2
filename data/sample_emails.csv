@@ -1,0 +1,9 @@
+id,sender,subject,body,priority,label
+1,hr@company.com,"Offer Letter - Please Sign","Dear Candidate, Congratulations! Please sign and upload your offer letter by today evening.",high,important
+2,noreply@shopping.com,"Big Billion Sale is Live","Flat 70% OFF on electronics. Limited period offer. Visit our store now.",low,promotion
+3,alerts@mybank.com,"Unusual Login Attempt","We detected a login attempt to your account from a new device. If this was not you, please reset your password.",high,security
+4,newsletter@blog.com,"Weekly Tech Newsletter","In this week's edition, learn about AI agents, LangGraph, and more.",low,newsletter
+5,friend123@gmail.com,"Coffee this weekend?","Hey, long time no see! Are you free this weekend for coffee?",medium,personal
+6,spam@strange-domain.ru,"You won $1,000,000!!!","Click here to claim your lottery now. Do not share this with anyone.",high,spam
+7,manager@company.com,"Project Update Required","Please share the status update of your project before 5 PM today.",high,work
+8,training@lms.com,"Reminder: Complete Mandatory Training","Your mandatory security awareness training is due tomorrow.",medium,work
