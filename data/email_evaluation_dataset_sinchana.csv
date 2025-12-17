@@ -1,0 +1,101 @@
+email_text,expected_action,expected_tone
+Reminder: The project review meeting is scheduled tomorrow at 10 AM.,respond,polite
+Your electricity bill for August is due by 25th. Please make the payment.,respond,urgent
+Newsletter: Top career tips for engineering students.,ignore,neutral
+Server CPU usage has crossed 90%. Immediate attention required.,notify,urgent
+"Hi, can you please share the updated project documentation?",respond,polite
+Your order #4321 has been delivered successfully.,ignore,neutral
+Final reminder: Internship report submission deadline is today.,respond,urgent
+Congratulations! You have won a gift voucher. Click to claim.,ignore,neutral
+Please approve the purchase request raised yesterday.,notify,polite
+Daily news digest No action required.,ignore,neutral
+The client has requested changes to the UI design.,notify,polite
+Meeting postponed to Friday at 3 PM.,notify,neutral
+Your mobile recharge was successful.,ignore,neutral
+Submit your assignment on LMS before midnight.,respond,urgent
+Reminder to complete mandatory cybersecurity training.,respond,polite
+Weekly progress report attached for your review.,respond,polite
+Your account password was changed successfully.,notify,neutral
+Invitation to attend the tech webinar tomorrow.,respond,polite
+System maintenance scheduled tonight from 11 PM.,notify,neutral
+Discount sale on electronics Limited period offer.,ignore,neutral
+Please confirm your availability for the interview.,respond,polite
+Library books are overdue. Fine applicable.,respond,urgent
+Team lunch planned this Friday.,ignore,neutral
+Payment failed. Retry immediately to avoid service interruption.,respond,urgent
+New policy update: Work from home guidelines.,notify,neutral
+Monthly salary has been credited to your account.,ignore,neutral
+Client escalation: Issue not resolved within SLA.,notify,urgent
+Reminder: Fill semester feedback form.,respond,polite
+Your subscription will expire tomorrow.,respond,urgent
+Spam alert: Unusual login detected.,notify,urgent
+Thank you for contacting customer support.,ignore,neutral
+Urgent: Production server is down.,notify,urgent
+Meeting minutes from today's call.,respond,polite
+Join us for the annual cultural fest.,ignore,neutral
+Your exam hall ticket is now available.,respond,polite
+Reminder: Fee payment deadline today.,respond,urgent
+Security alert: Multiple failed login attempts.,notify,urgent
+Survey request: Share your feedback.,ignore,neutral
+Please review and sign the attached agreement.,respond,polite
+Reminder: Stand-up meeting in 15 minutes.,notify,urgent
+Your food order has been dispatched.,ignore,neutral
+Client requested an urgent call today.,notify,urgent
+Welcome to the internship program.,ignore,polite
+Final notice: Account will be suspended.,respond,urgent
+Please verify your email address.,respond,polite
+Weekly newsletter from the alumni association.,ignore,neutral
+Project deadline extended by two days.,notify,neutral
+Immediate action required: Compliance violation detected.,notify,urgent
+Your refund has been processed.,ignore,neutral
+Meeting room booking confirmed.,ignore,neutral
+Request approval for leave on Monday.,respond,polite
+System alert: Disk space running low.,notify,urgent
+Thank you for attending the workshop.,ignore,polite
+Urgent reminder: Client demo in one hour.,notify,urgent
+Your OTP for transaction verification.,respond,urgent
+Office will remain closed tomorrow.,notify,neutral
+Please update your contact details.,respond,polite
+Reminder: Training completion pending.,respond,polite
+Job application status update.,notify,neutral
+Security patch deployment scheduled.,notify,neutral
+Event invitation: Hackathon registration open.,ignore,polite
+Payment confirmation for invoice #8891.,ignore,neutral
+Urgent: Data breach suspected.,notify,urgent
+Team outing photos shared.,ignore,neutral
+Please submit timesheet before EOD.,respond,urgent
+Your cloud usage exceeded the free limit.,notify,urgent
+Holiday announcement for next week.,notify,neutral
+Feedback requested for recent purchase.,ignore,neutral
+Client meeting agenda attached.,respond,polite
+Reminder: Insurance renewal due.,respond,urgent
+System reboot scheduled in 30 minutes.,notify,urgent
+Training session recording available.,ignore,neutral
+Immediate response required: Legal notice received.,notify,urgent
+Thank you for your payment.,ignore,polite
+Reminder: Update project status tracker.,respond,polite
+Application shortlisted for next round.,notify,polite
+Server backup completed successfully.,ignore,neutral
+Alert: Unauthorized access attempt blocked.,notify,urgent
+Monthly performance review meeting invite.,respond,polite
+Meeting rescheduled to Friday at 3 PM. Please confirm availability.,respond,polite
+Action required: Update your KYC details to avoid service interruption.,respond,urgent
+Weekly newsletter: Learn Python data analysis tips.,ignore,neutral
+Alert: Unusual login detected on your account.,notify,urgent
+Can you review the attached document and share feedback?,respond,polite
+System maintenance scheduled tonight from 12 AM to 2 AM.,ignore,neutral
+Your package delivery has been delayed due to weather conditions.,respond,polite
+Security warning: Multiple failed login attempts detected.,notify,urgent
+Invitation to attend the AI webinar this Saturday.,ignore,neutral
+Please submit your timesheet by EOD today.,respond,urgent
+Reminder: Complete mandatory compliance training.,respond,polite
+Database connection failure detected on production server.,notify,urgent
+Happy Holidays! Wishing you a great year ahead.,ignore,neutral
+Kindly approve the purchase request raised yesterday.,respond,polite
+Critical: Disk space usage exceeded 95%.,notify,urgent
+Monthly performance report is now available.,respond,neutral
+Special offer: Get 50% off on premium subscription.,ignore,neutral
+Client escalation: Immediate resolution required.,notify,urgent
+Please find the revised project timeline attached.,respond,polite
+Scheduled power shutdown in your area tomorrow.,respond,urgent
+Reminder to update your password for security reasons.,respond,polite
