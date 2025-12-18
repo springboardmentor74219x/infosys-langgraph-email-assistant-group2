@@ -1,0 +1,101 @@
+email_text,expected_action,expected_tone
+"Hi team, just a reminder that the Q3 strategy meeting is starting in 15 minutes in Room 302.",notify,urgent
+"Dear Student, your internship application for the Summer 2025 batch has been received. We will review it shortly.",notify,polite
+"Attached is the invoice for the web development services provided in November. Please acknowledge receipt.",respond,polite
+"Hey, are we still on for lunch today? Let me know if you need to reschedule.",respond,neutral
+"Congratulations! You have been selected for the final round of interviews for the SDE Intern role at TechCorp.",respond,polite
+"The server will be undergoing scheduled maintenance this Saturday from 2 AM to 4 AM UTC. No action is required.",notify,neutral
+"Can you please send me the lecture notes from yesterday's Data Structures class? I missed the session.",respond,polite
+"Urgent: The production database is down. We need everyone on the bridge call immediately.",notify,urgent
+"Weekly Newsletter: Top 10 trends in AI and Machine Learning for this week.",ignore,neutral
+"Please confirm your attendance for the upcoming workshop by replying to this email by EOD.",respond,urgent
+"Your payment of $50.00 for subscription renewal was successful. Thank you for your business.",notify,polite
+"Hi, I wanted to follow up on my previous email regarding the project deadline extension. Is it approved?",respond,polite
+"Limited time offer! Get 50% off on all electronics this weekend only.",ignore,neutral
+"Professor, could you please clarify the requirements for the final project submission? The guidelines are slightly ambiguous.",respond,polite
+"Meeting rescheduled: The daily standup has been moved to 11:30 AM to accommodate the client call.",notify,neutral
+"Attached is the syllabus for the upcoming semester. Please read through it before the first class.",notify,neutral
+"I am writing to inquire about open research assistant positions in your lab for the upcoming fall semester.",respond,polite
+"Payment Overdue: Your invoice #8821 is 5 days past due. Please settle this immediately to avoid service interruption.",respond,urgent
+"Quick question - do we have the updated API documentation link? The old one seems broken.",respond,neutral
+"FYI, I have pushed the latest code changes to the 'feature-login' branch.",notify,neutral
+"Join us for the annual hackathon! Register now to win exciting prizes.",ignore,polite
+"Can we schedule a quick sync later today to discuss the blockers on the frontend task?",respond,neutral
+"Your library book 'Introduction to Algorithms' is due tomorrow. Please renew or return it.",notify,urgent
+"Dear Customer, we noticed a new login to your account from an unrecognized device. Was this you?",respond,urgent
+"Happy Birthday! Wishing you a fantastic year ahead from the HR team.",respond,polite
+"Reminder: The deadline for submitting the assignment is tonight at 11:59 PM.",notify,urgent
+"Could you review the attached PR when you get a chance? I've fixed the bug in the login module.",respond,polite
+"Automatic Reply: I am currently out of the office with no access to email. I will respond upon my return.",ignore,neutral
+"Please find the minutes of the meeting attached for your reference.",notify,neutral
+"Is there any update on the budget approval for the new hardware procurement?",respond,neutral
+"Reminder: Your dental appointment is scheduled for tomorrow at 10:00 AM.",notify,neutral
+"Hi, I noticed a typo in the documentation on page 42. Should I open a PR to fix it?",respond,polite
+"Alert: High CPU usage detected on instance i-098234. Immediate investigation required.",notify,urgent
+"Your monthly statement for the internet bill is now available for viewing.",notify,neutral
+"Hey, are you free to chat for 5 mins regarding the UI design?",respond,neutral
+"Invitation: End of Year Office Party at the Rooftop Lounge.",respond,polite
+"Your application for the Machine Learning Workshop has been approved.",notify,polite
+"Did you get a chance to look at the budget proposal I sent last week?",respond,polite
+"Warning: Your cloud storage is 95% full. Upgrade now to avoid data loss.",respond,urgent
+"Great news! Your paper has been accepted for presentation at the conference.",respond,polite
+"Please disregard the previous email. It was sent in error.",ignore,neutral
+"Can you send me the Zoom link for the 2 PM call? I can't find it in my calendar.",respond,urgent
+"Weekly digest: 5 new articles on React performance optimization.",ignore,neutral
+"Action Required: Please verify your email address to complete the registration.",respond,urgent
+"Hi Professor, I am struggling with the assignment due on Monday. Can I come to your office hours?",respond,polite
+"The package with tracking ID #XYZ123 has been delivered to your front porch.",notify,neutral
+"Update: The office Wi-Fi password has been changed to 'SecureNet2025'.",notify,neutral
+"Are we still meeting at the library for the group project study session?",respond,neutral
+"Congratulations! You've won a $10 gift card. Click here to claim.",ignore,neutral
+"Please submit your travel expense report by Friday for reimbursement processing.",respond,urgent
+"FYI: The cafeteria will be closed for cleaning between 3 PM and 4 PM today.",notify,neutral
+"Request for Leave: I would like to take next Monday off for personal reasons.",respond,polite
+"Your free trial is ending in 3 days. We hope you enjoyed the service.",notify,neutral
+"Could you please review the attached contract and sign on page 3?",respond,polite
+"System Update: We have successfully patched the security vulnerability reported yesterday.",notify,neutral
+"Hey, I left my charger at your desk. Can you keep it safe until tomorrow?",respond,neutral
+"Receipt for your recent ride with Uber. Total: $15.40.",notify,neutral
+"Don't miss out! The webinar on 'Future of AI' starts in 1 hour.",notify,urgent
+"I'm running 10 minutes late for the standup. Please start without me.",notify,neutral
+"Can you provide an ETA for the bug fix ticket #404?",respond,neutral
+"Your password was changed successfully. If this wasn't you, contact support.",notify,urgent
+"Newsletter: This week's top coding challenges and hackathons.",ignore,neutral
+"Feedback requested: How was your recent support experience with us?",ignore,polite
+"Urgent: The client is asking for the updated slide deck. Please send it ASAP.",respond,urgent
+"Hi, do you know who is the point of contact for the new marketing campaign?",respond,polite
+"Your ride has arrived. Please meet the driver at the pickup point.",notify,urgent
+"Semester Results: The grades for the Fall semester have been published on the portal.",notify,urgent
+"Can we push the design review to next Tuesday? I have a conflict.",respond,polite
+"Invitation to collaborate on repository 'backend-api-v2'.",respond,neutral
+"Security Alert: A sign-in attempt was blocked from an unknown location.",respond,urgent
+"Reminder: Peer review feedback is due by EOD tomorrow.",notify,urgent
+"Is the team lunch still happening at the Italian place?",respond,neutral
+"Your order #5566 has been shipped and will arrive by Wednesday.",notify,neutral
+"Please complete the mandatory compliance training by the end of the month.",respond,neutral
+"Hi, just checking in on the status of my refund request sent 3 days ago.",respond,polite
+"Looking for a roommate? Check out these listings near campus.",ignore,neutral
+"The meeting room has been changed from Room A to Room B.",notify,urgent
+"Can you help me debug this segmentation fault? I've been stuck on it for hours.",respond,neutral
+"Thank you for your donation. Here is your tax-deductible receipt.",notify,polite
+"Scheduled Downtime: The payment gateway will be unavailable for 30 mins tonight.",notify,neutral
+"Proposal: Let's switch to a graph database for the new social feature. Thoughts?",respond,neutral
+"Final Call: Register for the coding contest before registration closes.",respond,urgent
+"Attached is the updated project timeline reflecting the recent delays.",notify,neutral
+"Could you please share the access keys for the test environment?",respond,polite
+"Welcome to the team! We are excited to have you on board.",respond,polite
+"Your subscription payment failed. Please update your payment method.",respond,urgent
+"Just a heads up, I'll be working remotely tomorrow.",notify,neutral
+"Who is responsible for updating the README file? It's quite outdated.",respond,neutral
+"Exclusive deal for you: Buy one get one free on all courses!",ignore,neutral
+"Please approve the purchase order #9090 for the new monitors.",respond,urgent
+"Hi, I think we missed a corner case in the logic for user validation.",respond,neutral
+"Your ticket #7788 has been resolved. We are closing this request.",notify,neutral
+"Reminder: Quarterly goals submission deadline is approaching.",notify,urgent
+"Can you forward me the contact details of the vendor we discussed?",respond,polite
+"The build failed on the CI/CD pipeline. Please check the logs.",notify,urgent
+"Lunch is on me today! Meet me in the lobby at 12:30.",respond,polite
+"Survey: Help us improve our campus facilities by answering 3 questions.",ignore,neutral
+"Notice: The elevator maintenance is scheduled for this weekend.",notify,neutral
+"I've updated the Trello board with the latest tasks for the sprint.",notify,neutral
+"Can we have a quick sync to align on the presentation flow?",respond,neutral
