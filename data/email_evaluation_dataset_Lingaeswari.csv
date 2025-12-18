@@ -98,4 +98,4 @@ id	email_text	expected_action	expected_tone
 97	This email is to inform you about recent updates. No action is required.	ignore	neutral
 98	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
 99	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
-100	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
+100	Thank you for participating in the event. This message is for your reference only.	ignore	neutralv
