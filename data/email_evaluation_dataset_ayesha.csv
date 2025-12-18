@@ -1,0 +1,88 @@
+email_text,expected_action,expected_tone
+"Reminder: Client meeting scheduled for Jan 10 at 11 AM. Please confirm your availability.",respond,polite
+"Your invoice INV-1023 is due on Jan 5. Kindly make the payment to avoid late fees.",respond,urgent
+"We are pleased to inform you that your internship application has been shortlisted.",respond,polite
+"Happy New Year! Wishing you success and good health.",ignore,neutral
+"Please find attached the minutes of yesterday’s meeting for your reference.",ignore,neutral
+"Reminder: Submit your assignment by tonight 11:59 PM.",notify,urgent
+"Can you share the updated project timeline by EOD today?",respond,polite
+"Your payment has been successfully received. Thank you.",ignore,neutral
+"We noticed unusual login activity on your account.",notify,urgent
+"Invitation to attend the alumni networking event this Saturday.",respond,polite
+"The office will remain closed on Monday due to a public holiday.",notify,neutral
+"Please review the attached contract and share your feedback.",respond,polite
+"Your internship completion certificate is now available for download.",notify,neutral
+"Reminder: Library books are due for return tomorrow.",notify,urgent
+"Thank you for attending the workshop. We value your participation.",ignore,neutral
+"Can we reschedule our call to next week?",respond,polite
+"Your exam hall ticket has been released.",notify,neutral
+"Weekly newsletter: Top tech updates you may like.",ignore,neutral
+"Payment failed due to insufficient balance. Please retry.",notify,urgent
+"Please submit your timesheet for this week.",respond,polite
+"Meeting postponed to Friday due to unforeseen circumstances.",notify,neutral
+"We have updated our privacy policy.",ignore,neutral
+"Requesting approval for leave on Jan 12.",respond,polite
+"Your resume has been received successfully.",ignore,neutral
+"Urgent: Server downtime expected tonight from 12–2 AM.",notify,urgent
+"Please confirm your participation in the hackathon.",respond,polite
+"Invoice reminder: Outstanding amount pending for 30 days.",respond,urgent
+"General announcement: New cafeteria menu launched.",ignore,neutral
+"Your OTP for account verification is 456789.",notify,urgent
+"Can you guide me regarding the project submission format?",respond,polite
+"Meeting agenda for tomorrow attached.",notify,neutral
+"Thank you for your feedback. We appreciate it.",ignore,neutral
+"Please update your contact details in the portal.",respond,polite
+"Reminder: Fee payment deadline is today.",notify,urgent
+"Your GitHub pull request has been merged.",notify,neutral
+"Congratulations! You have cleared the first interview round.",notify,polite
+"Spam promotion: Buy one get one free now!",ignore,neutral
+"Please acknowledge receipt of this email.",respond,polite
+"System maintenance scheduled this weekend.",notify,neutral
+"Your class has been canceled today.",notify,neutral
+"Can you share the notes from yesterday’s lecture?",respond,polite
+"Invoice paid successfully. No further action required.",ignore,neutral
+"Reminder: Team stand-up at 9:30 AM daily.",notify,neutral
+"Your application status has been updated.",notify,neutral
+"Please complete the attached survey.",respond,polite
+"We could not deliver your package. Update address.",notify,urgent
+"Meeting follow-up: Action items assigned.",respond,polite
+"Greetings from the HR team.",ignore,neutral
+"Urgent: Submit documents for background verification.",respond,urgent
+"Your password was changed successfully.",notify,neutral
+"Reminder: Online assessment link expires today.",notify,urgent
+"Can you mentor a junior for the next sprint?",respond,polite
+"Monthly performance report attached.",ignore,neutral
+"Please confirm receipt of stipend.",respond,polite
+"Event reminder: Webinar starts in 30 minutes.",notify,urgent
+"Your seat has been confirmed for the exam.",notify,neutral
+"FYI: Office Wi-Fi password changed.",notify,neutral
+"Kindly review and approve the budget proposal.",respond,polite
+"No-reply: System generated confirmation email.",ignore,neutral
+"Urgent meeting requested by management today.",notify,urgent
+"Please update your availability calendar.",respond,polite
+"Internship orientation schedule shared.",notify,neutral
+"Thank you for your patience.",ignore,neutral
+"Reminder: Assignment resubmission window closes today.",notify,urgent
+"Could you clarify the requirements for Milestone 2?",respond,polite
+"Invoice overdue: Immediate action required.",respond,urgent
+"Weekly digest: Company news and updates.",ignore,neutral
+"Your offer letter is attached.",notify,polite
+"System alert: Storage limit almost reached.",notify,urgent
+"Please verify your email address to continue.",notify,urgent
+"Meeting minutes approved by all members.",ignore,neutral
+"Can you review my code before submission?",respond,polite
+"Holiday greetings from the team.",ignore,neutral
+"Reminder: Internship report submission tomorrow.",notify,urgent
+"Payment confirmation for your recent transaction.",ignore,neutral
+"Requesting feedback on the draft presentation.",respond,polite
+"Server issue resolved successfully.",notify,neutral
+"Please respond with your preferred interview slot.",respond,polite
+"General info: Campus map attached.",ignore,neutral
+"Urgent notice: Exam venue changed.",notify,urgent
+"Thanks for reaching out. We’ll get back soon.",ignore,neutral
+"Action required: Update KYC documents.",respond,urgent
+"Meeting reminder: Project review at 4 PM today.",notify,urgent
+"Newsletter unsubscribe confirmation.",ignore,neutral
+"Please submit your internship feedback form.",respond,polite
+"System generated alert: Backup completed.",ignore,neutral
+"Reminder: Submit NOC form by tomorrow.",notify,urgent
