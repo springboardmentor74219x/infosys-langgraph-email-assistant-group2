@@ -1,0 +1,101 @@
+id,email_text,expected_action,expected_tone,predicted_action,predicted_tone,action_correct,tone_correct
+1,"Hi team, just a reminder that the Q3 marketing sync is scheduled for tomorrow at 10 AM. Please update the slide deck.",respond,neutral,ignore,neutral,False,True
+2,Invoice #2024-001 is now overdue by 5 days. Please process the payment immediately to avoid service interruption.,notify,urgent,notify,urgent,True,True
+3,Congratulations! You have been shortlisted for the Software Engineer Intern role. Please reply with your availability for an interview.,respond,polite,respond,polite,True,True
+4,"Hey, are we still on for lunch today? Let me know if you need to reschedule.",respond,casual,respond,neutral,True,False
+5,Weekly Newsletter: Top 10 trends in AI this week. Click here to read more.,ignore,neutral,ignore,neutral,True,True
+6,Urgent: The production server is down. We need you to jump on the bridge call right now.,notify,urgent,notify,urgent,True,True
+7,Can you please send me the syllabus for the upcoming semester exams? Thanks.,respond,polite,respond,neutral,True,False
+8,Automatic Reply: I am currently out of the office with limited access to email. I will respond when I return.,ignore,neutral,ignore,neutral,True,True
+9,Your subscription to Spotify has been successfully renewed. No action is needed.,ignore,neutral,ignore,neutral,True,True
+10,Attached is the final report for the project. Let me know if you have any feedback.,respond,neutral,respond,neutral,True,True
+11,Reminder: Your dentist appointment is tomorrow at 2 PM.,notify,neutral,respond,neutral,False,True
+12,Please find the attached invoice for the recent hardware purchase. Payment is due in 30 days.,notify,neutral,respond,neutral,False,True
+13,Quick question - what is the wifi password for the guest network?,respond,neutral,respond,neutral,True,True
+14,"Dear Student, the deadline for submitting your assignment has been extended by 24 hours.",notify,polite,respond,neutral,False,False
+15,50% OFF on all shoes! Limited time offer. Shop now.,ignore,neutral,ignore,neutral,True,True
+16,Could you review my pull request when you get a chance? It's blocking the release.,respond,neutral,respond,neutral,True,True
+17,Meeting canceled: Project Kickoff. We will reschedule for next week.,ignore,neutral,respond,neutral,False,True
+18,I'm running 10 minutes late to the standup. Start without me.,ignore,neutral,respond,neutral,False,True
+19,"Security Alert: A new device signed into your account. If this wasn't you, change your password immediately.",notify,urgent,notify,urgent,True,True
+20,Happy Birthday! wishing you a fantastic year ahead.,ignore,polite,respond,neutral,False,False
+21,Can you help me debug this React Native error? I'm stuck.,respond,neutral,respond,neutral,True,True
+22,Your package has been delivered to the front desk.,notify,neutral,respond,neutral,False,True
+23,Please updated your contact information in the HR portal by Friday.,respond,neutral,respond,neutral,True,True
+24,Do not reply to this email. This is a system generated notification.,ignore,neutral,ignore,neutral,True,True
+25,Invitation: Code Review Session @ Thu 3pm.,respond,neutral,respond,neutral,True,True
+26,"Hi, I am interested in your research regarding deep learning in agriculture. Can we chat?",respond,polite,respond,neutral,True,False
+27,Your credit card ending in 1234 was declined. Please update your payment method.,notify,urgent,notify,urgent,True,True
+28,Don't forget to submit your timesheet for this week.,notify,neutral,respond,neutral,False,True
+29,FW: The client wants to change the scope of the project. We need to discuss this ASAP.,notify,urgent,respond,neutral,False,False
+30,Welcome to the team! We are excited to have you on board.,respond,polite,respond,neutral,True,False
+31,New assignment uploaded: Data Structures Lab 4.,notify,neutral,respond,neutral,False,True
+32,Can you share the link to the Figma design file?,respond,neutral,respond,neutral,True,True
+33,Refund processed: $29.99 has been credited to your account.,ignore,neutral,respond,neutral,False,True
+34,Are you free for a quick call to discuss the hackathon ideas?,respond,neutral,respond,neutral,True,True
+35,Google Calendar Reminder: Dentist Appointment in 30 minutes.,ignore,neutral,respond,neutral,False,True
+36,Please approve the budget request for the new monitors.,respond,urgent,respond,neutral,True,False
+37,"Hi, I noticed a typo on the landing page. Just wanted to let you know.",respond,polite,respond,neutral,True,False
+38,Your Uber ride is arriving in 2 minutes.,ignore,neutral,respond,neutral,False,True
+39,Action Required: Verify your email address to complete registration.,respond,urgent,respond,neutral,True,False
+40,"Hey, did you see the game last night? It was insane!",ignore,casual,respond,neutral,False,False
+41,The library books are due tomorrow. Please return them to avoid fines.,notify,neutral,respond,neutral,False,True
+42,Request for Leave: I would like to take next Monday off for personal reasons.,respond,neutral,respond,neutral,True,True
+43,Your monthly bank statement is ready for view.,ignore,neutral,respond,neutral,False,True
+44,Can we postpone our 1:1 to later this afternoon?,respond,neutral,respond,neutral,True,True
+45,Warning: High disk usage detected on Server 01.,notify,urgent,notify,urgent,True,True
+46,Thank you for your order. Your tracking number is #123456789.,ignore,neutral,ignore,neutral,True,True
+47,Class is cancelled today due to the professor being unwell.,notify,neutral,respond,neutral,False,True
+48,Looking for a 27-inch monitor recommendations. Any suggestions?,respond,neutral,respond,neutral,True,True
+49,Final Call: Register for the workshop before seats fill up.,ignore,urgent,respond,neutral,False,False
+50,"Hey, I think I left my charger at your desk. Did you see it?",respond,neutral,respond,neutral,True,True
+51,Update: The bug in the login module has been fixed.,notify,neutral,respond,neutral,False,True
+52,Please review the attached contract and sign it by EOD.,respond,urgent,respond,neutral,True,False
+53,Invitation: Office Holiday Party. RSVP by Friday.,respond,polite,respond,neutral,True,False
+54,Your free trial is ending in 3 days. Upgrade now to keep premium features.,ignore,neutral,respond,neutral,False,True
+55,Can you send me the API documentation link?,respond,neutral,respond,neutral,True,True
+56,Alert: Smoke detector triggered in Building A.,notify,urgent,notify,urgent,True,True
+57,Great job on the presentation today! The client was very impressed.,respond,polite,respond,neutral,True,False
+58,Reminder: Pay your electricity bill by the 20th.,notify,neutral,respond,neutral,False,True
+59,Is the gym open on public holidays?,respond,neutral,respond,neutral,True,True
+60,Submission received: Milestone 1 project files.,ignore,neutral,respond,neutral,False,True
+61,Can you assist me with the Python environment setup?,respond,neutral,respond,neutral,True,True
+62,LinkedIn: You appeared in 5 searches this week.,ignore,neutral,respond,neutral,False,True
+63,Please confirm your attendance for the graduation ceremony.,respond,neutral,respond,neutral,True,True
+64,The meeting room has been changed to Conference Room B.,notify,neutral,respond,neutral,False,True
+65,Check out these photos from the team outing!,ignore,polite,respond,neutral,False,False
+66,URGENT: Data breach detected. Initiate protocol immediately.,notify,urgent,notify,urgent,True,True
+67,Do you have the contact details for the vendor?,respond,neutral,respond,neutral,True,True
+68,Your flight has been delayed by 2 hours.,notify,urgent,respond,neutral,False,False
+69,Weekly Standup has been moved to Zoom. Here is the link.,notify,neutral,respond,neutral,False,True
+70,"Just checking in, have you had a chance to look at my email from yesterday?",respond,polite,respond,neutral,True,False
+71,New Login from Chrome on Windows. Was this you?,notify,urgent,respond,neutral,False,False
+72,Pizza in the breakroom! Come grab a slice.,ignore,casual,respond,neutral,False,False
+73,Please provide feedback on the intern's performance.,respond,neutral,respond,neutral,True,True
+74,Your domain name will expire in 10 days. Renew now.,notify,urgent,respond,neutral,False,False
+75,Application Update: We regret to inform you that we will not be moving forward.,ignore,polite,respond,neutral,False,False
+76,Can you cover for me next week while I'm on vacation?,respond,neutral,respond,neutral,True,True
+77,System maintenance scheduled for Saturday 10 PM - 2 AM.,ignore,neutral,respond,neutral,False,True
+78,Reminder: Submit your project proposal by tonight.,notify,urgent,respond,neutral,False,False
+79,"Hey, what's the status of the VaultKey app deployment?",respond,neutral,respond,neutral,True,True
+80,Your OTP for login is 482910. Do not share this with anyone.,ignore,neutral,respond,neutral,False,True
+81,Let's catch up over coffee sometime next week.,respond,polite,respond,neutral,True,False
+82,The AC is not working in the lab. Who do I report this to?,respond,neutral,respond,neutral,True,True
+83,Draft for review: Client proposal v2.,respond,neutral,respond,neutral,True,True
+84,Congratulations on your work anniversary!,respond,polite,respond,polite,True,True
+85,Payment failed: Insufficient funds.,notify,urgent,notify,urgent,True,True
+86,Please bring your ID card for the exam tomorrow.,notify,neutral,respond,neutral,False,True
+87,Any update on the salary credited? It hasn't reflected yet.,respond,urgent,respond,neutral,True,False
+88,The build failed on the CI/CD pipeline. Check the logs.,notify,urgent,notify,urgent,True,True
+89,Lunch is on me today! Meet at the lobby at 1.,respond,casual,respond,neutral,True,False
+90,Did you finish the documentation for the API?,respond,neutral,respond,neutral,True,True
+91,Reminder: Return the projector to the IT desk.,notify,neutral,respond,neutral,False,True
+92,Your AWS budget threshold has been exceeded.,notify,urgent,respond,neutral,False,False
+93,Can you forward me the email from the Dean?,respond,neutral,respond,neutral,True,True
+94,Alert: Heavy rain forecast. Drive safely.,ignore,neutral,notify,urgent,False,False
+95,Please fill out this survey about your cafeteria experience.,ignore,neutral,respond,neutral,False,True
+96,What time is the hackathon starting tomorrow?,respond,neutral,respond,neutral,True,True
+97,Your request for a new laptop has been approved.,notify,polite,respond,neutral,False,False
+98,"Hey, are you joining the gaming session tonight?",ignore,casual,respond,neutral,False,False
+99,Important: Changes to the company work-from-home policy.,notify,neutral,respond,neutral,False,True
+100,Can you review the database schema for the new project?,respond,neutral,respond,neutral,True,True
