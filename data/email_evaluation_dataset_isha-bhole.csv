@@ -1,0 +1,101 @@
+id,email_text,expected_action,expected_tone
+1,Newsletter: Top ML papers this week.,ignore,neutral
+2,Weekly newsletter: Latest AI research updates.,ignore,neutral
+3,Automatic reply: Out of office till 2025-12-20.,ignore,neutral
+4,Scholarship application status: Shortlisted. Next steps attached.,ignore,neutral
+5,"Payment reminder: INR INR 10,602 outstanding. Due Jan 5.",notify,polite
+6,"Dear student, your thesis submission is due 2025-12-20. Upload to portal.",respond,urgent
+7,Server maintenance completed. All systems normal.,ignore,neutral
+8,Thesis review meeting confirmed for Jan 5. Prepare slides.,notify,polite
+9,"Dear student, your thesis submission is due Dec 31. Upload to portal.",respond,urgent
+10,"Invoice #505 for INR INR 8,523 due on 2025-12-20. Payment link attached.",respond,urgent
+11,Quick question: Can you review my code changes in PR #734?,respond,polite
+12,Need help with NLTK stemming. Any recommendations?,respond,polite
+13,Thesis review meeting confirmed for 2025-12-25. Prepare slides.,notify,polite
+14,Reminder: Team meeting tomorrow at 10 AM. Please confirm attendance.,respond,urgent
+15,Quick question: Can you review my code changes in PR #378?,respond,polite
+16,"Final notice: Overdue amount INR INR 1,758 due immediately.",respond,urgent
+17,Project extension approved till Jan 5. Update progress.,ignore,neutral
+18,Could you clarify the dataset format for crop recommendation?,ignore,neutral
+19,Urgent: Meeting rescheduled to today 3 PM. Join Zoom link.,notify,polite
+20,Faculty meeting reminder: 2 PM in Lab 101.,notify,polite
+21,Reminder: Team meeting tomorrow at 3 PM IST. Please confirm attendance.,respond,urgent
+22,"Your payment of INR INR 1,585 was successful.",respond,urgent
+23,Request: Share the meeting notes from yesterday.,respond,polite
+24,Project sync scheduled for 2025-12-25 at 4 PM. Agenda attached.,ignore,neutral
+25,Grades updated for ML course. Check portal for details.,respond,polite
+26,"Your payment of INR INR 13,654 was successful.",respond,urgent
+27,"Invoice #280 for INR INR 3,819 due on 2025-12-20. Payment link attached.",respond,urgent
+28,"Invoice #354 for INR INR 11,366 due on 2025-12-20. Payment link attached.",respond,urgent
+29,Thesis review meeting confirmed for Dec 31. Prepare slides.,respond,urgent
+30,Thesis review meeting confirmed for 2025-12-20. Prepare slides.,notify,polite
+31,"Payment reminder: INR INR 8,664 outstanding. Due 2025-12-25.",notify,polite
+32,"Subscription renewal: INR INR 6,853 charged on Dec 31. Receipt attached.",ignore,neutral
+33,"Invoice #113 for INR INR 1,306 due on Jan 5. Payment link attached.",respond,urgent
+34,Project extension approved till Dec 31. Update progress.,ignore,neutral
+35,Project sync scheduled for Dec 31 at 4 PM. Agenda attached.,ignore,neutral
+36,"Dear student, your thesis submission is due Jan 5. Upload to portal.",respond,urgent
+37,"Subscription renewal: INR INR 5,486 charged on Dec 31. Receipt attached.",ignore,neutral
+38,Reminder: Team meeting tomorrow at 2 PM. Please confirm attendance.,respond,urgent
+39,Faculty meeting reminder: 10 AM in Lab 101.,notify,polite
+40,"Bank alert: Failed payment attempt of INR INR 12,406. Retry now.",respond,urgent
+41,"Payment reminder: INR INR 8,238 outstanding. Due 2025-12-25.",respond,urgent
+42,"Invoice #821 for INR INR 5,468 due on 2025-12-25. Payment link attached.",respond,urgent
+43,"Payment reminder: INR INR 3,580 outstanding. Due 2025-12-25.",notify,polite
+44,"Subscription renewal: INR INR 4,131 charged on 2025-12-20. Receipt attached.",ignore,neutral
+45,"Your payment of INR INR 14,385 was successful.",respond,urgent
+46,"Payment reminder: INR INR 13,815 outstanding. Due 2025-12-25.",respond,urgent
+47,Project sync scheduled for Dec 31 at 2 PM. Agenda attached.,ignore,neutral
+48,Follow up: Did you receive my thesis draft?,notify,polite
+49,Automatic reply: Out of office till Jan 5.,ignore,neutral
+50,Project sync scheduled for Jan 5 at 2 PM. Agenda attached.,ignore,neutral
+51,"Payment reminder: INR INR 9,394 outstanding. Due 2025-12-25.",respond,urgent
+52,"Subscription renewal: INR INR 13,689 charged on Dec 31. Receipt attached.",ignore,neutral
+53,Project extension approved till 2025-12-25. Update progress.,ignore,neutral
+54,Internship offer letter attached. Please sign by Jan 5.,respond,polite
+55,"Final notice: Overdue amount INR INR 9,274 due immediately.",respond,urgent
+56,Internship offer letter attached. Please sign by 2025-12-20.,respond,polite
+57,"Payment reminder: INR INR 2,438 outstanding. Due Jan 5.",respond,urgent
+58,"Final notice: Overdue amount INR INR 14,960 due immediately.",respond,urgent
+59,Quick question: Can you review my code changes in PR #814?,respond,polite
+60,"Dear student, your thesis submission is due 2025-12-25. Upload to portal.",respond,urgent
+61,"Final notice: Overdue amount INR INR 8,204 due immediately.",respond,urgent
+62,"Bank alert: Failed payment attempt of INR INR 1,223. Retry now.",respond,urgent
+63,"Your payment of INR INR 2,092 was successful.",respond,urgent
+64,"Final notice: Overdue amount INR INR 5,627 due immediately.",respond,urgent
+65,"Invoice #221 for INR INR 12,166 due on Jan 5. Payment link attached.",respond,urgent
+66,"Final notice: Overdue amount INR INR 8,512 due immediately.",respond,urgent
+67,"Payment reminder: INR INR 6,100 outstanding. Due Dec 31.",notify,polite
+68,"Bank alert: Failed payment attempt of INR INR 1,479. Retry now.",respond,urgent
+69,"Final notice: Overdue amount INR INR 9,201 due immediately.",respond,urgent
+70,"Subscription renewal: INR INR 6,376 charged on 2025-12-25. Receipt attached.",ignore,neutral
+71,"Bank alert: Failed payment attempt of INR INR 4,729. Retry now.",respond,urgent
+72,Project extension approved till 2025-12-20. Update progress.,ignore,neutral
+73,Quick question: Can you review my code changes in PR #277?,respond,polite
+74,"Payment reminder: INR INR 12,540 outstanding. Due Dec 31.",respond,urgent
+75,"Bank alert: Failed payment attempt of INR INR 8,040. Retry now.",respond,urgent
+76,"Subscription renewal: INR INR 5,228 charged on 2025-12-20. Receipt attached.",ignore,neutral
+77,Quick question: Can you review my code changes in PR #904?,respond,polite
+78,Quick question: Can you review my code changes in PR #951?,respond,polite
+79,"Subscription renewal: INR INR 8,298 charged on 2025-12-20. Receipt attached.",ignore,neutral
+80,"Your payment of INR INR 5,877 was successful.",respond,urgent
+81,Internship offer letter attached. Please sign by 2025-12-25.,respond,polite
+82,"Subscription renewal: INR INR 14,000 charged on Jan 5. Receipt attached.",ignore,neutral
+83,Project sync scheduled for 2025-12-25 at 2 PM. Agenda attached.,ignore,neutral
+84,Project sync scheduled for Jan 5 at 4 PM. Agenda attached.,ignore,neutral
+85,"Bank alert: Failed payment attempt of INR INR 13,972. Retry now.",respond,urgent
+86,"Final notice: Overdue amount INR INR 10,800 due immediately.",respond,urgent
+87,"Your payment of INR INR 8,985 was successful.",respond,urgent
+88,Internship offer letter attached. Please sign by Dec 31.,respond,polite
+89,"Subscription renewal: INR INR 1,190 charged on Dec 31. Receipt attached.",ignore,neutral
+90,"Your payment of INR INR 11,044 was successful.",respond,urgent
+91,"Payment reminder: INR INR 3,224 outstanding. Due Jan 5.",respond,urgent
+92,Reminder: Team meeting tomorrow at 4 PM. Please confirm attendance.,respond,urgent
+93,Your payment of INR INR 536 was successful.,respond,urgent
+94,"Bank alert: Failed payment attempt of INR INR 13,753. Retry now.",respond,urgent
+95,"Bank alert: Failed payment attempt of INR INR 9,428. Retry now.",respond,urgent
+96,Subscription renewal: INR INR 832 charged on Jan 5. Receipt attached.,ignore,neutral
+97,"Your payment of INR INR 6,480 was successful.",respond,urgent
+98,"Invoice #960 for INR INR 5,371 due on Jan 5. Payment link attached.",respond,urgent
+99,"Bank alert: Failed payment attempt of INR INR 12,956. Retry now.",respond,urgent
+100,Project sync scheduled for 2025-12-25 at 3 PM IST. Agenda attached.,ignore,neutral
