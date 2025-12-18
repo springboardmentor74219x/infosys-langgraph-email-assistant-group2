@@ -1,0 +1,101 @@
+id	email_text	expected_action	expected_tone
+1	This is a reminder to attend the client discussion meeting on Monday at 4:30 PM. Venue: Google Meet.	notify	neutral
+2	Please remember the project review meeting happening on Thursday at 10:30 AM via Google Meet.	notify	neutral
+3	This is a reminder to attend the client discussion meeting on Friday at 2:00 PM. Venue: Conference Room 1.	notify	neutral
+4	This is a reminder to attend the weekly update meeting on Thursday at 9:00 AM. Venue: Main Hall.	notify	neutral
+5	This is a reminder to attend the team sync meeting on Friday at 3:00 PM. Venue: Main Hall.	notify	neutral
+6	This is a reminder to attend the client discussion meeting on Friday at 9:00 AM. Venue: Google Meet.	notify	neutral
+7	This is a reminder to attend the project review meeting on Tuesday at 9:00 AM. Venue: Conference Room 2.	notify	neutral
+8	This is a reminder to attend the weekly update meeting on Wednesday at 2:00 PM. Venue: Main Hall.	notify	neutral
+9	Please remember the planning session meeting happening on Tuesday at 10:30 AM via Main Hall.	notify	neutral
+10	Reminder: The weekly update meeting is scheduled on Monday at 4:30 PM in Google Meet.	notify	neutral
+11	Payment reminder: Your invoice INV-2000 amounting to INR 8000 must be paid within 5 days.	respond	urgent
+12	Dear Customer, invoice INV-2001 for INR 6500 is due in 2 days. Kindly complete the payment.	respond	urgent
+13	Payment reminder: Your invoice INV-2002 amounting to INR 6500 must be paid within 2 days.	respond	urgent
+14	Dear Customer, invoice INV-2003 for INR 6500 is due in 2 days. Kindly complete the payment.	respond	urgent
+15	Dear Customer, invoice INV-2004 for INR 6500 is due in 3 days. Kindly complete the payment.	respond	urgent
+16	Payment reminder: Your invoice INV-2005 amounting to INR 5000 must be paid within 3 days.	respond	urgent
+17	Dear Customer, invoice INV-2006 for INR 8000 is due in 2 days. Kindly complete the payment.	respond	urgent
+18	Dear Customer, invoice INV-2007 for INR 5000 is due in 2 days. Kindly complete the payment.	respond	urgent
+19	Payment reminder: Your invoice INV-2008 amounting to INR 5000 must be paid within 2 days.	respond	urgent
+20	Payment reminder: Your invoice INV-2009 amounting to INR 6500 must be paid within 5 days.	respond	urgent
+21	Dear Student, you have been shortlisted for the Research Internship. Please reply to confirm availability.	respond	polite
+22	Dear Student, you have been shortlisted for the Summer Internship Program. Please reply to confirm availability.	respond	polite
+23	Dear Student, you have been shortlisted for the Summer Internship Program. Please reply to confirm availability.	respond	polite
+24	Congratulations! You are selected for the Research Internship. Kindly confirm your participation.	respond	polite
+25	Congratulations! You are selected for the Research Internship. Kindly confirm your participation.	respond	polite
+26	Congratulations! You are selected for the Research Internship. Kindly confirm your participation.	respond	polite
+27	Congratulations! You are selected for the Summer Internship Program. Kindly confirm your participation.	respond	polite
+28	Congratulations! You are selected for the Research Internship. Kindly confirm your participation.	respond	polite
+29	Congratulations! You are selected for the Summer Internship Program. Kindly confirm your participation.	respond	polite
+30	Congratulations! You are selected for the Research Internship. Kindly confirm your participation.	respond	polite
+31	Hello, I would like information about pricing plans. Please let me know.	respond	polite
+32	Could you please clarify details regarding pricing plans?	respond	polite
+33	Hello, I would like information about course syllabus. Please let me know.	respond	polite
+34	Hello, I would like information about course syllabus. Please let me know.	respond	polite
+35	Could you please clarify details regarding service availability?	respond	polite
+36	Could you please clarify details regarding pricing plans?	respond	polite
+37	Could you please clarify details regarding service availability?	respond	polite
+38	Hello, I would like information about pricing plans. Please let me know.	respond	polite
+39	Hello, I would like information about service availability. Please let me know.	respond	polite
+40	Hello, I would like information about service availability. Please let me know.	respond	polite
+41	This email is to inform you about recent updates. No action is required.	ignore	neutral
+42	This email is to inform you about recent updates. No action is required.	ignore	neutral
+43	This email is to inform you about recent updates. No action is required.	ignore	neutral
+44	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
+45	This email is to inform you about recent updates. No action is required.	ignore	neutral
+46	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
+47	This email is to inform you about recent updates. No action is required.	ignore	neutral
+48	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
+49	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
+50	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
+51	This is a reminder to attend the client discussion meeting on Monday at 4:30 PM. Venue: Google Meet.	notify	neutral
+52	Please remember the project review meeting happening on Thursday at 10:30 AM via Google Meet.	notify	neutral
+53	This is a reminder to attend the client discussion meeting on Friday at 2:00 PM. Venue: Conference Room 1.	notify	neutral
+54	This is a reminder to attend the weekly update meeting on Thursday at 9:00 AM. Venue: Main Hall.	notify	neutral
+55	This is a reminder to attend the team sync meeting on Friday at 3:00 PM. Venue: Main Hall.	notify	neutral
+56	This is a reminder to attend the client discussion meeting on Friday at 9:00 AM. Venue: Google Meet.	notify	neutral
+57	This is a reminder to attend the project review meeting on Tuesday at 9:00 AM. Venue: Conference Room 2.	notify	neutral
+58	This is a reminder to attend the weekly update meeting on Wednesday at 2:00 PM. Venue: Main Hall.	notify	neutral
+59	Please remember the planning session meeting happening on Tuesday at 10:30 AM via Main Hall.	notify	neutral
+60	Reminder: The weekly update meeting is scheduled on Monday at 4:30 PM in Google Meet.	notify	neutral
+61	Payment reminder: Your invoice INV-2000 amounting to INR 8000 must be paid within 5 days.	respond	urgent
+62	Dear Customer, invoice INV-2001 for INR 6500 is due in 2 days. Kindly complete the payment.	respond	urgent
+63	Payment reminder: Your invoice INV-2002 amounting to INR 6500 must be paid within 2 days.	respond	urgent
+64	Dear Customer, invoice INV-2003 for INR 6500 is due in 2 days. Kindly complete the payment.	respond	urgent
+65	Dear Customer, invoice INV-2004 for INR 6500 is due in 3 days. Kindly complete the payment.	respond	urgent
+66	Payment reminder: Your invoice INV-2005 amounting to INR 5000 must be paid within 3 days.	respond	urgent
+67	Dear Customer, invoice INV-2006 for INR 8000 is due in 2 days. Kindly complete the payment.	respond	urgent
+68	Dear Customer, invoice INV-2007 for INR 5000 is due in 2 days. Kindly complete the payment.	respond	urgent
+69	Payment reminder: Your invoice INV-2008 amounting to INR 5000 must be paid within 2 days.	respond	urgent
+70	Payment reminder: Your invoice INV-2009 amounting to INR 6500 must be paid within 5 days.	respond	urgent
+71	Dear Student, you have been shortlisted for the Research Internship. Please reply to confirm availability.	respond	polite
+72	Dear Student, you have been shortlisted for the Summer Internship Program. Please reply to confirm availability.	respond	polite
+73	Dear Student, you have been shortlisted for the Summer Internship Program. Please reply to confirm availability.	respond	polite
+74	Congratulations! You are selected for the Research Internship. Kindly confirm your participation.	respond	polite
+75	Congratulations! You are selected for the Research Internship. Kindly confirm your participation.	respond	polite
+76	Congratulations! You are selected for the Research Internship. Kindly confirm your participation.	respond	polite
+77	Congratulations! You are selected for the Summer Internship Program. Kindly confirm your participation.	respond	polite
+78	Congratulations! You are selected for the Research Internship. Kindly confirm your participation.	respond	polite
+79	Congratulations! You are selected for the Summer Internship Program. Kindly confirm your participation.	respond	polite
+80	Congratulations! You are selected for the Research Internship. Kindly confirm your participation.	respond	polite
+81	Hello, I would like information about pricing plans. Please let me know.	respond	polite
+82	Could you please clarify details regarding pricing plans?	respond	polite
+83	Hello, I would like information about course syllabus. Please let me know.	respond	polite
+84	Hello, I would like information about course syllabus. Please let me know.	respond	polite
+85	Could you please clarify details regarding service availability?	respond	polite
+86	Could you please clarify details regarding pricing plans?	respond	polite
+87	Could you please clarify details regarding service availability?	respond	polite
+88	Hello, I would like information about pricing plans. Please let me know.	respond	polite
+89	Hello, I would like information about service availability. Please let me know.	respond	polite
+90	Hello, I would like information about service availability. Please let me know.	respond	polite
+91	This email is to inform you about recent updates. No action is required.	ignore	neutral
+92	This email is to inform you about recent updates. No action is required.	ignore	neutral
+93	This email is to inform you about recent updates. No action is required.	ignore	neutral
+94	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
+95	This email is to inform you about recent updates. No action is required.	ignore	neutral
+96	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
+97	This email is to inform you about recent updates. No action is required.	ignore	neutral
+98	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
+99	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
+100	Thank you for participating in the event. This message is for your reference only.	ignore	neutral
