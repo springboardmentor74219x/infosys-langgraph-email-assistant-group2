@@ -86,3 +86,16 @@ email_text,expected_action,expected_tone
 "Please submit your internship feedback form.",respond,polite
 "System generated alert: Backup completed.",ignore,neutral
 "Reminder: Submit NOC form by tomorrow.",notify,urgent
+"Meeting follow-up: Action items assigned.",respond,polite
+"Greetings from the HR team.",ignore,neutral
+"Urgent: Submit documents for background verification.",respond,urgent
+"Your password was changed successfully.",notify,neutral
+"Reminder: Online assessment link expires today.",notify,urgent
+"Can you mentor a junior for the next sprint?",respond,polite
+"Monthly performance report attached.",ignore,neutral
+"Your exam hall ticket has been released.",notify,neutral
+"Weekly newsletter: Top tech updates you may like.",ignore,neutral
+"Payment failed due to insufficient balance. Please retry.",notify,urgent
+"Please submit your timesheet for this week.",respond,polite
+"Meeting postponed to Friday due to unforeseen circumstances.",notify,neutral
+"We have updated our privacy policy.",ignore,neutral
