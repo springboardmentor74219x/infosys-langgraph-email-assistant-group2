@@ -1,0 +1,101 @@
+id,email_text,expected_action,expected_tone
+1,"Hi team, just a reminder that the Q3 marketing sync is scheduled for tomorrow at 10 AM. Please update the slide deck.",respond,neutral
+2,"Invoice #2024-001 is now overdue by 5 days. Please process the payment immediately to avoid service interruption.",notify,urgent
+3,"Congratulations! You have been shortlisted for the Software Engineer Intern role. Please reply with your availability for an interview.",respond,polite
+4,"Hey, are we still on for lunch today? Let me know if you need to reschedule.",respond,casual
+5,"Weekly Newsletter: Top 10 trends in AI this week. Click here to read more.",ignore,neutral
+6,"Urgent: The production server is down. We need you to jump on the bridge call right now.",notify,urgent
+7,"Can you please send me the syllabus for the upcoming semester exams? Thanks.",respond,polite
+8,"Automatic Reply: I am currently out of the office with limited access to email. I will respond when I return.",ignore,neutral
+9,"Your subscription to Spotify has been successfully renewed. No action is needed.",ignore,neutral
+10,"Attached is the final report for the project. Let me know if you have any feedback.",respond,neutral
+11,"Reminder: Your dentist appointment is tomorrow at 2 PM.",notify,neutral
+12,"Please find the attached invoice for the recent hardware purchase. Payment is due in 30 days.",notify,neutral
+13,"Quick question - what is the wifi password for the guest network?",respond,neutral
+14,"Dear Student, the deadline for submitting your assignment has been extended by 24 hours.",notify,polite
+15,"50% OFF on all shoes! Limited time offer. Shop now.",ignore,neutral
+16,"Could you review my pull request when you get a chance? It's blocking the release.",respond,neutral
+17,"Meeting canceled: Project Kickoff. We will reschedule for next week.",ignore,neutral
+18,"I'm running 10 minutes late to the standup. Start without me.",ignore,neutral
+19,"Security Alert: A new device signed into your account. If this wasn't you, change your password immediately.",notify,urgent
+20,"Happy Birthday! wishing you a fantastic year ahead.",ignore,polite
+21,"Can you help me debug this React Native error? I'm stuck.",respond,neutral
+22,"Your package has been delivered to the front desk.",notify,neutral
+23,"Please updated your contact information in the HR portal by Friday.",respond,neutral
+24,"Do not reply to this email. This is a system generated notification.",ignore,neutral
+25,"Invitation: Code Review Session @ Thu 3pm.",respond,neutral
+26,"Hi, I am interested in your research regarding deep learning in agriculture. Can we chat?",respond,polite
+27,"Your credit card ending in 1234 was declined. Please update your payment method.",notify,urgent
+28,"Don't forget to submit your timesheet for this week.",notify,neutral
+29,"FW: The client wants to change the scope of the project. We need to discuss this ASAP.",notify,urgent
+30,"Welcome to the team! We are excited to have you on board.",respond,polite
+31,"New assignment uploaded: Data Structures Lab 4.",notify,neutral
+32,"Can you share the link to the Figma design file?",respond,neutral
+33,"Refund processed: $29.99 has been credited to your account.",ignore,neutral
+34,"Are you free for a quick call to discuss the hackathon ideas?",respond,neutral
+35,"Google Calendar Reminder: Dentist Appointment in 30 minutes.",ignore,neutral
+36,"Please approve the budget request for the new monitors.",respond,urgent
+37,"Hi, I noticed a typo on the landing page. Just wanted to let you know.",respond,polite
+38,"Your Uber ride is arriving in 2 minutes.",ignore,neutral
+39,"Action Required: Verify your email address to complete registration.",respond,urgent
+40,"Hey, did you see the game last night? It was insane!",ignore,casual
+41,"The library books are due tomorrow. Please return them to avoid fines.",notify,neutral
+42,"Request for Leave: I would like to take next Monday off for personal reasons.",respond,neutral
+43,"Your monthly bank statement is ready for view.",ignore,neutral
+44,"Can we postpone our 1:1 to later this afternoon?",respond,neutral
+45,"Warning: High disk usage detected on Server 01.",notify,urgent
+46,"Thank you for your order. Your tracking number is #123456789.",ignore,neutral
+47,"Class is cancelled today due to the professor being unwell.",notify,neutral
+48,"Looking for a 27-inch monitor recommendations. Any suggestions?",respond,neutral
+49,"Final Call: Register for the workshop before seats fill up.",ignore,urgent
+50,"Hey, I think I left my charger at your desk. Did you see it?",respond,neutral
+51,"Update: The bug in the login module has been fixed.",notify,neutral
+52,"Please review the attached contract and sign it by EOD.",respond,urgent
+53,"Invitation: Office Holiday Party. RSVP by Friday.",respond,polite
+54,"Your free trial is ending in 3 days. Upgrade now to keep premium features.",ignore,neutral
+55,"Can you send me the API documentation link?",respond,neutral
+56,"Alert: Smoke detector triggered in Building A.",notify,urgent
+57,"Great job on the presentation today! The client was very impressed.",respond,polite
+58,"Reminder: Pay your electricity bill by the 20th.",notify,neutral
+59,"Is the gym open on public holidays?",respond,neutral
+60,"Submission received: Milestone 1 project files.",ignore,neutral
+61,"Can you assist me with the Python environment setup?",respond,neutral
+62,"LinkedIn: You appeared in 5 searches this week.",ignore,neutral
+63,"Please confirm your attendance for the graduation ceremony.",respond,neutral
+64,"The meeting room has been changed to Conference Room B.",notify,neutral
+65,"Check out these photos from the team outing!",ignore,polite
+66,"URGENT: Data breach detected. Initiate protocol immediately.",notify,urgent
+67,"Do you have the contact details for the vendor?",respond,neutral
+68,"Your flight has been delayed by 2 hours.",notify,urgent
+69,"Weekly Standup has been moved to Zoom. Here is the link.",notify,neutral
+70,"Just checking in, have you had a chance to look at my email from yesterday?",respond,polite
+71,"New Login from Chrome on Windows. Was this you?",notify,urgent
+72,"Pizza in the breakroom! Come grab a slice.",ignore,casual
+73,"Please provide feedback on the intern's performance.",respond,neutral
+74,"Your domain name will expire in 10 days. Renew now.",notify,urgent
+75,"Application Update: We regret to inform you that we will not be moving forward.",ignore,polite
+76,"Can you cover for me next week while I'm on vacation?",respond,neutral
+77,"System maintenance scheduled for Saturday 10 PM - 2 AM.",ignore,neutral
+78,"Reminder: Submit your project proposal by tonight.",notify,urgent
+79,"Hey, what's the status of the VaultKey app deployment?",respond,neutral
+80,"Your OTP for login is 482910. Do not share this with anyone.",ignore,neutral
+81,"Let's catch up over coffee sometime next week.",respond,polite
+82,"The AC is not working in the lab. Who do I report this to?",respond,neutral
+83,"Draft for review: Client proposal v2.",respond,neutral
+84,"Congratulations on your work anniversary!",respond,polite
+85,"Payment failed: Insufficient funds.",notify,urgent
+86,"Please bring your ID card for the exam tomorrow.",notify,neutral
+87,"Any update on the salary credited? It hasn't reflected yet.",respond,urgent
+88,"The build failed on the CI/CD pipeline. Check the logs.",notify,urgent
+89,"Lunch is on me today! Meet at the lobby at 1.",respond,casual
+90,"Did you finish the documentation for the API?",respond,neutral
+91,"Reminder: Return the projector to the IT desk.",notify,neutral
+92,"Your AWS budget threshold has been exceeded.",notify,urgent
+93,"Can you forward me the email from the Dean?",respond,neutral
+94,"Alert: Heavy rain forecast. Drive safely.",ignore,neutral
+95,"Please fill out this survey about your cafeteria experience.",ignore,neutral
+96,"What time is the hackathon starting tomorrow?",respond,neutral
+97,"Your request for a new laptop has been approved.",notify,polite
+98,"Hey, are you joining the gaming session tonight?",ignore,casual
+99,"Important: Changes to the company work-from-home policy.",notify,neutral
+100,"Can you review the database schema for the new project?",respond,neutral
