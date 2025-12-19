@@ -1,0 +1,101 @@
+email_id,sender,subject,body,category
+1,john@example.com,Meeting Reminder,Please attend the project meeting tomorrow at 10 AM.,work
+2,hr@company.com,Offer Letter,Congratulations! We are pleased to offer you the position.,work
+3,spam@promo.com,Win a Prize,You have won a $1000 gift card. Click here.,spam
+4,alerts@bank.com,Account Alert,Your account login was detected from a new device.,important
+5,friend@gmail.com,Weekend Plan,Are we meeting this Saturday?,personal
+6,newsletter@tech.com,Tech Weekly,Latest updates in AI and machine learning.,promotion
+7,billing@amazon.com,Order Confirmation,Your order has been successfully placed.,important
+8,spam@casino.com,Casino Bonus,Get free casino credits now!,spam
+9,manager@office.com,Task Update,Please submit the report by EOD.,work
+10,college@edu.in,Exam Schedule,The semester exam schedule is attached.,important
+11,travel@airlines.com,Flight Ticket,Your flight ticket details are enclosed.,important
+12,spam@loan.com,Easy Loan,Get instant personal loan approved.,spam
+13,team@startup.com,Standup Meeting,Daily standup at 9:30 AM.,work
+14,linkedin@linkedin.com,Profile Views,Your profile was viewed by 5 people.,promotion
+15,mom@gmail.com,Dinner,Don’t forget dinner at 8 PM.,personal
+16,alerts@upi.com,Payment Success,Your payment of ₹500 was successful.,important
+17,spam@crypto.com,Crypto Offer,Invest in crypto and double your money.,spam
+18,admin@college.edu,Assignment Deadline,Assignment submission deadline extended.,work
+19,events@meetup.com,Tech Meetup,Join us for a tech meetup this weekend.,promotion
+20,friend@yahoo.com,Birthday Party,You are invited to my birthday party.,personal
+21,security@google.com,Security Alert,New sign-in detected on your account.,important
+22,spam@ads.com,Discount Sale,Flat 70% off on all products.,spam
+23,client@business.com,Project Feedback,Please find the feedback attached.,work
+24,newsletter@health.com,Health Tips,Daily health tips for a better life.,promotion
+25,dad@gmail.com,Call Me,Please call me when free.,personal
+26,bank@icici.com,Statement,Your monthly bank statement is ready.,important
+27,spam@freegift.com,Free Gift,Claim your free gift today.,spam
+28,hr@company.com,Policy Update,New company policies have been updated.,work
+29,alerts@swiggy.com,Order Delivered,Your food order has been delivered.,important
+30,friend@outlook.com,Trip Plan,Let’s plan a trip next month.,personal
+31,support@netflix.com,Subscription Update,Your subscription has been renewed.,important
+32,spam@dating.com,New Match,You have a new match waiting.,spam
+33,lead@company.com,Sales Lead,New sales lead generated.,work
+34,newsletter@finance.com,Market News,Stock market updates for today.,promotion
+35,sister@gmail.com,Shopping,Let’s go shopping tomorrow.,personal
+36,alerts@paytm.com,Wallet Alert,₹200 added to your Paytm wallet.,important
+37,spam@job.com,Job Offer,Work from home and earn daily.,spam
+38,teacher@school.com,Class Notice,Tomorrow class is online.,work
+39,events@conference.com,Conference Invite,Invitation to attend tech conference.,promotion
+40,friend@gmail.com,Movie Night,Shall we watch a movie tonight?,personal
+41,security@facebook.com,Password Changed,Your password was changed successfully.,important
+42,spam@traveldeal.com,Cheap Flights,Book flights at lowest prices.,spam
+43,boss@office.com,Client Meeting,Meeting scheduled with client.,work
+44,newsletter@edu.com,Learning Update,New courses available now.,promotion
+45,cousin@gmail.com,Wedding Invite,You’re invited to my wedding.,personal
+46,alerts@zomato.com,Order Cancelled,Your order has been cancelled.,important
+47,spam@lottery.com,Lottery Winner,You won the international lottery.,spam
+48,project@team.com,Milestone Completed,Phase 1 milestone completed.,work
+49,offers@shopping.com,Special Offer,Exclusive deals for you.,promotion
+50,friend@yahoo.com,Exam Help,Can you help me with exam prep?,personal
+51,bank@sbi.co.in,OTP Verification,Your OTP is 456789.,important
+52,spam@investment.com,High Returns,Guaranteed high investment returns.,spam
+53,manager@company.com,Performance Review,Your review is scheduled next week.,work
+54,newsletter@science.com,Science Daily,Latest discoveries in science.,promotion
+55,uncle@gmail.com,Family Visit,We are visiting next week.,personal
+56,alerts@irctc.co.in,Ticket Booked,Your train ticket is confirmed.,important
+57,spam@shoppingdeal.com,Flash Sale,Flash sale ends tonight.,spam
+58,admin@office.com,System Maintenance,System maintenance scheduled tonight.,work
+59,events@hackathon.com,Hackathon Invite,Register for upcoming hackathon.,promotion
+60,friend@gmail.com,Notes Request,Please send yesterday’s notes.,personal
+61,security@amazon.com,Login Alert,New login detected.,important
+62,spam@mobileoffer.com,Free Mobile,Get a free smartphone today.,spam
+63,teamlead@project.com,Code Review,Please review the latest code.,work
+64,newsletter@ai.com,AI Trends,Top AI trends this year.,promotion
+65,brother@gmail.com,Game Night,Let’s play games tonight.,personal
+66,alerts@uber.com,Ride Receipt,Your ride receipt is attached.,important
+67,spam@workhome.com,Online Job,Easy online job opportunity.,spam
+68,hr@startup.com,Interview Call,Interview scheduled tomorrow.,work
+69,offers@food.com,Food Discount,Get 50% off on meals.,promotion
+70,friend@hotmail.com,Lost Phone,Lost my phone, call me.,personal
+71,bank@hdfc.com,Credit Card Bill,Your credit card bill is generated.,important
+72,spam@forex.com,Forex Trading,Earn daily with forex trading.,spam
+73,admin@university.edu,Fee Payment,Semester fee payment reminder.,work
+74,newsletter@design.com,Design Weekly,New UI/UX trends.,promotion
+75,aunt@gmail.com,Festival Wishes,Happy festival to you!,personal
+76,alerts@ola.com,Ride Completed,Your ride is completed.,important
+77,spam@prize.com,Prize Alert,Claim your surprise prize.,spam
+78,manager@corp.com,Deadline Reminder,Deadline is tomorrow.,work
+79,events@webinar.com,Webinar Registration,Join free webinar.,promotion
+80,friend@gmail.com,Resume Help,Can you review my resume?,personal
+81,security@twitter.com,Account Locked,Your account was locked temporarily.,important
+82,spam@shoppingnow.com,Buy Now,Limited stock available.,spam
+83,client@company.com,Invoice,Please find the invoice attached.,work
+84,newsletter@marketing.com,Marketing Tips,Grow your business with tips.,promotion
+85,friend@gmail.com,Internship Info,Any internship openings?,personal
+86,alerts@phonepe.com,Payment Failed,Your payment failed.,important
+87,spam@loanfast.com,Instant Cash,Get cash instantly.,spam
+88,team@org.com,Weekly Summary,Weekly work summary.,work
+89,offers@electronics.com,Gadget Sale,Discounts on electronics.,promotion
+90,friend@gmail.com,Study Group,Let’s form a study group.,personal
+91,bank@axis.com,Debit Alert,₹1500 debited from account.,important
+92,spam@luxury.com,Cheap Luxury,Buy luxury items cheap.,spam
+93,supervisor@company.com,Shift Update,Your shift timing updated.,work
+94,newsletter@startup.com,Startup News,Latest startup news.,promotion
+95,neighbor@gmail.com,House Help,Can you water plants?,personal
+96,alerts@insurance.com,Policy Renewal,Your policy expires soon.,important
+97,spam@travelwin.com,Free Trip,Win a free international trip.,spam
+98,ceo@company.com,Company Vision,Message from CEO.,work
+99,offers@books.com,Book Sale,Buy books at discount.,promotion
+100,friend@gmail.com,Thank You,Thanks for your help!,personal

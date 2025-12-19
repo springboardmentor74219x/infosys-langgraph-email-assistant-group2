@@ -1,0 +1,101 @@
+email_text,expected_action,expected_tone,prediction,predicted_action,predicted_tone,action_correct,tone_correct
+Reminder: Team meeting scheduled tomorrow at 10 AM in Conference Room B.,notify,neutral,"('notify', 'neutral')",notify,neutral,True,True
+Please find attached the invoice for last month's services. Kindly process the payment at the earliest.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Congratulations! You have been selected for the summer internship program.,notify,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Your subscription has been successfully renewed.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+URGENT: Payment deadline missed. Immediate action required.,respond,urgent,"('respond', 'urgent')",respond,urgent,True,True
+Thank you for your feedback on our product. We appreciate your insights.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+We regret to inform you that your application has not been successful.,notify,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Happy Birthday! Wishing you a wonderful year ahead.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please review the attached document and provide your comments by end of day.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+System maintenance scheduled for this weekend. Expect downtime from 2 AM to 4 AM.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Your order has been shipped and is expected to arrive within 3-5 business days.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Action required: Update your account information to avoid service interruption.,respond,urgent,"('ignore', 'neutral')",ignore,neutral,False,False
+Welcome to our community! We're excited to have you on board.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Apologies for the inconvenience caused. We are working to resolve the issue.,respond,apologetic,"('ignore', 'neutral')",ignore,neutral,False,False
+Don't miss out on our exclusive sale! Up to 50% off on selected items.,notify,excited,"('ignore', 'neutral')",ignore,neutral,False,False
+Please confirm your attendance for the upcoming workshop by Friday.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your password has been successfully changed.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Important: Changes to our privacy policy effective from next month.,notify,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Thank you for your prompt response. We will get back to you shortly.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Congratulations on your promotion! Well deserved recognition for your hard work.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Final notice: Your account will be suspended if payment is not received within 48 hours.,respond,urgent,"('respond', 'polite')",respond,polite,True,False
+Season's greetings! Wishing you a joyful holiday season.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please find below the agenda for tomorrow's meeting.,notify,neutral,"('notify', 'neutral')",notify,neutral,True,True
+Your feedback is valuable to us. Please take a moment to complete our survey.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Alert: Unusual activity detected on your account. Please verify immediately.,respond,urgent,"('respond', 'urgent')",respond,urgent,True,True
+Thank you for choosing our services. We look forward to serving you again.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Important update: New features have been added to your account.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Sorry for the delay in response. We are addressing your concern as quickly as possible.,respond,apologetic,"('ignore', 'neutral')",ignore,neutral,False,False
+Join us for a webinar on the latest industry trends next week.,notify,excited,"('ignore', 'neutral')",ignore,neutral,False,False
+Please submit your project report by the end of this week.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your membership has been successfully activated.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Congratulations! You've won a gift card. Click here to claim your prize.,notify,excited,"('ignore', 'neutral')",ignore,neutral,False,False
+Reminder: Submit your timesheet by 5 PM today to ensure timely processing.,respond,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Thank you for your patience while we resolved the issue.,respond,apologetic,"('ignore', 'neutral')",ignore,neutral,False,False
+Important: Verify your email address to complete the registration process.,respond,urgent,"('ignore', 'neutral')",ignore,neutral,False,False
+Welcome aboard! We're thrilled to have you as part of our team.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please find the minutes of the last meeting attached for your reference.,notify,neutral,"('notify', 'neutral')",notify,neutral,True,True
+Your account balance is low. Please add funds to continue enjoying our services.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Thank you for your continued support. We value your partnership.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+"Alert: Your account password was changed recently. If this wasn't you, please contact support.",respond,urgent,"('ignore', 'neutral')",ignore,neutral,False,False
+Happy Holidays! May your season be filled with joy and laughter.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please review the updated terms and conditions attached.,notify,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your application is under review. We will notify you of the outcome soon.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Action needed: Complete your profile to access all features.,respond,urgent,"('ignore', 'neutral')",ignore,neutral,False,False
+Thank you for attending our event. We hope you had a great time!,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Important: Backup your data before the scheduled system upgrade.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Congratulations on completing your training program!,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please respond to this email to confirm your participation in the survey.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your recent transaction was successful. Thank you for your business.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Apologies for any confusion caused. Let us clarify the situation for you.,respond,apologetic,"('ignore', 'neutral')",ignore,neutral,False,False
+Don't forget to join our live Q&A session tomorrow at 3 PM.,notify,excited,"('ignore', 'neutral')",ignore,neutral,False,False
+Please provide your feedback on the new website design.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your account has been temporarily suspended due to suspicious activity.,notify,urgent,"('ignore', 'neutral')",ignore,neutral,False,False
+Thank you for your order! We appreciate your business.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Important: Update your software to the latest version for improved security.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Welcome to our newsletter! Stay tuned for the latest updates and offers.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please find the attached report for your review and comments.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your flight booking is confirmed. Have a pleasant journey!,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Alert: Multiple failed login attempts detected on your account.,respond,urgent,"('ignore', 'neutral')",ignore,neutral,False,False
+Thank you for your understanding during this maintenance period.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Important: Review your account settings to enhance security.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Congratulations! You have successfully completed the certification exam.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please RSVP for the upcoming company picnic by next Monday.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your recent payment has been processed successfully.,notify,neutral,"('respond', 'polite')",respond,polite,False,False
+Apologies for the technical difficulties experienced earlier. We are working to fix the issue.,respond,apologetic,"('ignore', 'neutral')",ignore,neutral,False,False
+Join our loyalty program and enjoy exclusive benefits and rewards.,notify,excited,"('ignore', 'neutral')",ignore,neutral,False,False
+Please complete the attached form and return it by the deadline.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your account has been upgraded to premium status. Enjoy the new features!,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Reminder: Your appointment is scheduled for tomorrow at 2 PM.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Thank you for your collaboration on this project. Looking forward to future endeavors.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Important: Your data privacy settings have been updated.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Congratulations on your recent achievement! Keep up the great work.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please address the issues highlighted in the attached document.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your subscription will expire soon. Renew now to continue enjoying our services.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Thank you for your inquiry. We will get back to you within 24 hours.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Alert: Suspicious login attempt detected. Please change your password immediately.,respond,urgent,"('respond', 'urgent')",respond,urgent,True,True
+Happy New Year! Wishing you success and happiness in the coming year.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please find the project timeline attached for your reference.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Your feedback has been successfully submitted. Thank you!,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Important: Ensure your contact information is up to date.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Congratulations! You have been promoted to the next level.,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please review the budget proposal and provide your approval.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your recent order has been delivered. We hope you enjoy your purchase!,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Apologies for the oversight. We will rectify the situation promptly.,respond,apologetic,"('ignore', 'neutral')",ignore,neutral,False,False
+Don't miss our upcoming webinar on digital marketing strategies.,notify,excited,"('ignore', 'neutral')",ignore,neutral,False,False
+Please complete your tax forms and submit them by the end of the month.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your account security is our priority. Please enable two-factor authentication.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Thank you for your loyalty. We look forward to serving you in the future.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Alert: Your account has been locked due to multiple failed login attempts.,respond,urgent,"('ignore', 'neutral')",ignore,neutral,False,False
+Season's greetings from all of us at [Company Name]!,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please find the updated project plan attached for your review.,notify,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Your application has been approved. Welcome aboard!,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Action required: Verify your identity to continue using our services.,respond,urgent,"('ignore', 'neutral')",ignore,neutral,False,False
+Thank you for your prompt attention to this matter.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Important: Scheduled system downtime on Saturday from 1 AM to 5 AM.,notify,,"('ignore', 'neutral')",ignore,neutral,False,False
+neutral,,,"('ignore', 'neutral')",ignore,neutral,False,False
+Congratulations on your successful project completion!,notify,cheerful,"('ignore', 'neutral')",ignore,neutral,False,False
+Please respond to the survey sent earlier to help us improve our services.,respond,formal,"('ignore', 'neutral')",ignore,neutral,False,False
+Your recent donation has been received. Thank you for your generosity.,notify,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Apologies for any inconvenience caused by the recent service disruption. We are working to restore normal operations.,respond,apologetic,"('ignore', 'neutral')",ignore,neutral,False,False
