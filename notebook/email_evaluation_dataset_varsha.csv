@@ -1,0 +1,105 @@
+email_text,expected_action,expected_tone
+"Reminder: Team meeting scheduled tomorrow at 10 AM in Conference Room B.",notify,neutral
+"Please find attached the invoice for last month's services. Kindly process the payment at the earliest.",respond,polite
+"Congratulations! You have been selected for the summer internship program.",notify,polite
+"Your subscription has been successfully renewed.",ignore,neutral
+"URGENT: Payment deadline missed. Immediate action required.",respond,urgent
+"Thank you for your feedback on our product. We appreciate your insights.",respond,polite
+"We regret to inform you that your application has not been successful.",notify,formal
+"Happy Birthday! Wishing you a wonderful year ahead.",notify,cheerful
+"Please review the attached document and provide your comments by end of day.",respond,formal
+"System maintenance scheduled for this weekend. Expect downtime from 2 AM to 4 AM.",notify,neutral
+"Your order has been shipped and is expected to arrive within 3-5 business days.",notify,neutral
+"Action required: Update your account information to avoid service interruption.",respond,urgent
+"Welcome to our community! We're excited to have you on board.",notify,cheerful
+"Apologies for the inconvenience caused. We are working to resolve the issue.",respond,apologetic
+"Don't miss out on our exclusive sale! Up to 50% off on selected items.",notify,excited
+"Please confirm your attendance for the upcoming workshop by Friday.",respond,formal
+"Your password has been successfully changed.",ignore,neutral
+"Important: Changes to our privacy policy effective from next month.",notify,formal
+"Thank you for your prompt response. We will get back to you shortly.",respond,polite
+"Congratulations on your promotion! Well deserved recognition for your hard work.",notify,cheerful
+"Final notice: Your account will be suspended if payment is not received within 48 hours.",respond,urgent
+"Season's greetings! Wishing you a joyful holiday season.",notify,cheerful
+"Please find below the agenda for tomorrow's meeting.",notify,neutral
+"Your feedback is valuable to us. Please take a moment to complete our survey.",respond,polite
+"Alert: Unusual activity detected on your account. Please verify immediately.",respond,urgent
+"Thank you for choosing our services. We look forward to serving you again.",respond,polite
+"Important update: New features have been added to your account.",notify,neutral
+"Sorry for the delay in response. We are addressing your concern as quickly as possible.",respond,apologetic
+"Join us for a webinar on the latest industry trends next week.",notify,excited
+"Please submit your project report by the end of this week.",respond,formal
+"Your membership has been successfully activated.",ignore,neutral
+"Congratulations! You've won a gift card. Click here to claim your prize.",notify,excited
+"Reminder: Submit your timesheet by 5 PM today to ensure timely processing.",respond,neutral
+"Thank you for your patience while we resolved the issue.",respond,apologetic
+"Important: Verify your email address to complete the registration process.",respond,urgent
+"Welcome aboard! We're thrilled to have you as part of our team.",notify,cheerful
+"Please find the minutes of the last meeting attached for your reference.",notify,neutral
+"Your account balance is low. Please add funds to continue enjoying our services.",notify,neutral
+"Thank you for your continued support. We value your partnership.",respond,polite
+"Alert: Your account password was changed recently. If this wasn't you, please contact support.",respond,urgent
+"Happy Holidays! May your season be filled with joy and laughter.",notify,cheerful
+"Please review the updated terms and conditions attached.",notify,formal
+"Your application is under review. We will notify you of the outcome soon.",notify,neutral
+"Action needed: Complete your profile to access all features.",respond,urgent
+"Thank you for attending our event. We hope you had a great time!",respond,polite
+"Important: Backup your data before the scheduled system upgrade.",notify,neutral
+"Congratulations on completing your training program!",notify,cheerful
+"Please respond to this email to confirm your participation in the survey.",respond,formal
+"Your recent transaction was successful. Thank you for your business.",notify,neutral
+"Apologies for any confusion caused. Let us clarify the situation for you.",respond,apologetic
+"Don't forget to join our live Q&A session tomorrow at 3 PM.",notify,excited
+"Please provide your feedback on the new website design.",respond,formal
+"Your account has been temporarily suspended due to suspicious activity.",notify,urgent
+"Thank you for your order! We appreciate your business.",respond,polite
+"Important: Update your software to the latest version for improved security.",notify,neutral
+"Welcome to our newsletter! Stay tuned for the latest updates and offers.",notify,cheerful
+"Please find the attached report for your review and comments.",respond,formal
+"Your flight booking is confirmed. Have a pleasant journey!",notify,cheerful
+"Alert: Multiple failed login attempts detected on your account.",respond,urgent
+"Thank you for your understanding during this maintenance period.",respond,polite
+"Important: Review your account settings to enhance security.",notify,neutral
+"Congratulations! You have successfully completed the certification exam.",notify,cheerful
+"Please RSVP for the upcoming company picnic by next Monday.",respond,formal
+"Your recent payment has been processed successfully.",notify,neutral
+"Apologies for the technical difficulties experienced earlier. We are working to fix the issue.",respond,apologetic
+"Join our loyalty program and enjoy exclusive benefits and rewards.",notify,excited
+"Please complete the attached form and return it by the deadline.",respond,formal
+"Your account has been upgraded to premium status. Enjoy the new features!",notify,cheerful
+"Reminder: Your appointment is scheduled for tomorrow at 2 PM.",notify,neutral
+"Thank you for your collaboration on this project. Looking forward to future endeavors.",respond,polite
+"Important: Your data privacy settings have been updated.",notify,neutral
+"Congratulations on your recent achievement! Keep up the great work.",notify,cheerful
+"Please address the issues highlighted in the attached document.",respond,formal
+"Your subscription will expire soon. Renew now to continue enjoying our services.",notify,neutral
+"Thank you for your inquiry. We will get back to you within 24 hours.",respond,polite
+"Alert: Suspicious login attempt detected. Please change your password immediately.",respond,urgent
+"Happy New Year! Wishing you success and happiness in the coming year.",notify,cheerful
+"Please find the project timeline attached for your reference.",notify,neutral
+"Your feedback has been successfully submitted. Thank you!",respond,polite
+"Important: Ensure your contact information is up to date.",notify,neutral
+"Congratulations! You have been promoted to the next level.",notify,cheerful
+"Please review the budget proposal and provide your approval.",respond,formal
+"Your recent order has been delivered. We hope you enjoy your purchase!",notify,cheerful
+"Apologies for the oversight. We will rectify the situation promptly.",respond,apologetic
+"Don't miss our upcoming webinar on digital marketing strategies.",notify,excited
+"Please complete your tax forms and submit them by the end of the month.",respond,formal
+"Your account security is our priority. Please enable two-factor authentication.",notify,neutral
+"Thank you for your loyalty. We look forward to serving you in the future.",respond,polite
+"Alert: Your account has been locked due to multiple failed login attempts.",respond,urgent
+"Season's greetings from all of us at [Company Name]!",notify,cheerful
+"Please find the updated project plan attached for your review.",notify,neutral
+"Your application has been approved. Welcome aboard!",notify,cheerful
+"Action required: Verify your identity to continue using our services.",respond,urgent
+"Thank you for your prompt attention to this matter.",respond,polite
+"Important: Scheduled system downtime on Saturday from 1 AM to 5 AM.",notify,
+neutral
+"Congratulations on your successful project completion!",notify,cheerful
+"Please respond to the survey sent earlier to help us improve our services.",respond,formal
+"Your recent donation has been received. Thank you for your generosity.",notify,polite
+"Apologies for any inconvenience caused by the recent service disruption. We are working to restore normal operations.",respond,apologetic
+
+
+
+
