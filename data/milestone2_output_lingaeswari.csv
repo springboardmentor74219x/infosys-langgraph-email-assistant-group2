@@ -1,0 +1,101 @@
+id,email_text,expected_action,expected_tone,predicted_action,predicted_tone,prediction,action_correct,tone_correct
+1,This is a reminder to attend the client discussion meeting on Monday at 4:30 PM. Venue: Google Meet.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+2,Please remember the project review meeting happening on Thursday at 10:30 AM via Google Meet.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+3,This is a reminder to attend the client discussion meeting on Friday at 2:00 PM. Venue: Conference Room 1.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+4,This is a reminder to attend the weekly update meeting on Thursday at 9:00 AM. Venue: Main Hall.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+5,This is a reminder to attend the team sync meeting on Friday at 3:00 PM. Venue: Main Hall.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+6,This is a reminder to attend the client discussion meeting on Friday at 9:00 AM. Venue: Google Meet.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+7,This is a reminder to attend the project review meeting on Tuesday at 9:00 AM. Venue: Conference Room 2.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+8,This is a reminder to attend the weekly update meeting on Wednesday at 2:00 PM. Venue: Main Hall.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+9,Please remember the planning session meeting happening on Tuesday at 10:30 AM via Main Hall.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+10,Reminder: The weekly update meeting is scheduled on Monday at 4:30 PM in Google Meet.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+11,Payment reminder: Your invoice INV-2000 amounting to INR 8000 must be paid within 5 days.,respond,urgent,review,neutral,"('review', 'neutral')",False,False
+12,"Dear Customer, invoice INV-2001 for INR 6500 is due in 2 days. Kindly complete the payment.",respond,urgent,review,neutral,"('review', 'neutral')",False,False
+13,Payment reminder: Your invoice INV-2002 amounting to INR 6500 must be paid within 2 days.,respond,urgent,review,neutral,"('review', 'neutral')",False,False
+14,"Dear Customer, invoice INV-2003 for INR 6500 is due in 2 days. Kindly complete the payment.",respond,urgent,review,neutral,"('review', 'neutral')",False,False
+15,"Dear Customer, invoice INV-2004 for INR 6500 is due in 3 days. Kindly complete the payment.",respond,urgent,review,neutral,"('review', 'neutral')",False,False
+16,Payment reminder: Your invoice INV-2005 amounting to INR 5000 must be paid within 3 days.,respond,urgent,review,neutral,"('review', 'neutral')",False,False
+17,"Dear Customer, invoice INV-2006 for INR 8000 is due in 2 days. Kindly complete the payment.",respond,urgent,review,neutral,"('review', 'neutral')",False,False
+18,"Dear Customer, invoice INV-2007 for INR 5000 is due in 2 days. Kindly complete the payment.",respond,urgent,review,neutral,"('review', 'neutral')",False,False
+19,Payment reminder: Your invoice INV-2008 amounting to INR 5000 must be paid within 2 days.,respond,urgent,review,neutral,"('review', 'neutral')",False,False
+20,Payment reminder: Your invoice INV-2009 amounting to INR 6500 must be paid within 5 days.,respond,urgent,review,neutral,"('review', 'neutral')",False,False
+21,"Dear Student, you have been shortlisted for the Research Internship. Please reply to confirm availability.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+22,"Dear Student, you have been shortlisted for the Summer Internship Program. Please reply to confirm availability.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+23,"Dear Student, you have been shortlisted for the Summer Internship Program. Please reply to confirm availability.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+24,Congratulations! You are selected for the Research Internship. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+25,Congratulations! You are selected for the Research Internship. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+26,Congratulations! You are selected for the Research Internship. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+27,Congratulations! You are selected for the Summer Internship Program. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+28,Congratulations! You are selected for the Research Internship. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+29,Congratulations! You are selected for the Summer Internship Program. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+30,Congratulations! You are selected for the Research Internship. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+31,"Hello, I would like information about pricing plans. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+32,Could you please clarify details regarding pricing plans?,respond,polite,review,neutral,"('review', 'neutral')",False,False
+33,"Hello, I would like information about course syllabus. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+34,"Hello, I would like information about course syllabus. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+35,Could you please clarify details regarding service availability?,respond,polite,review,neutral,"('review', 'neutral')",False,False
+36,Could you please clarify details regarding pricing plans?,respond,polite,review,neutral,"('review', 'neutral')",False,False
+37,Could you please clarify details regarding service availability?,respond,polite,review,neutral,"('review', 'neutral')",False,False
+38,"Hello, I would like information about pricing plans. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+39,"Hello, I would like information about service availability. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+40,"Hello, I would like information about service availability. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+41,This email is to inform you about recent updates. No action is required.,ignore,neutral,review,neutral,"('review', 'neutral')",False,True
+42,This email is to inform you about recent updates. No action is required.,ignore,neutral,review,neutral,"('review', 'neutral')",False,True
+43,This email is to inform you about recent updates. No action is required.,ignore,neutral,review,neutral,"('review', 'neutral')",False,True
+44,Thank you for participating in the event. This message is for your reference only.,ignore,neutral,ignore,polite,"('ignore', 'polite')",True,False
+45,This email is to inform you about recent updates. No action is required.,ignore,neutral,review,neutral,"('review', 'neutral')",False,True
+46,Thank you for participating in the event. This message is for your reference only.,ignore,neutral,ignore,polite,"('ignore', 'polite')",True,False
+47,This email is to inform you about recent updates. No action is required.,ignore,neutral,review,neutral,"('review', 'neutral')",False,True
+48,Thank you for participating in the event. This message is for your reference only.,ignore,neutral,ignore,polite,"('ignore', 'polite')",True,False
+49,Thank you for participating in the event. This message is for your reference only.,ignore,neutral,ignore,polite,"('ignore', 'polite')",True,False
+50,Thank you for participating in the event. This message is for your reference only.,ignore,neutral,ignore,polite,"('ignore', 'polite')",True,False
+51,This is a reminder to attend the client discussion meeting on Monday at 4:30 PM. Venue: Google Meet.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+52,Please remember the project review meeting happening on Thursday at 10:30 AM via Google Meet.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+53,This is a reminder to attend the client discussion meeting on Friday at 2:00 PM. Venue: Conference Room 1.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+54,This is a reminder to attend the weekly update meeting on Thursday at 9:00 AM. Venue: Main Hall.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+55,This is a reminder to attend the team sync meeting on Friday at 3:00 PM. Venue: Main Hall.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+56,This is a reminder to attend the client discussion meeting on Friday at 9:00 AM. Venue: Google Meet.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+57,This is a reminder to attend the project review meeting on Tuesday at 9:00 AM. Venue: Conference Room 2.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+58,This is a reminder to attend the weekly update meeting on Wednesday at 2:00 PM. Venue: Main Hall.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+59,Please remember the planning session meeting happening on Tuesday at 10:30 AM via Main Hall.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+60,Reminder: The weekly update meeting is scheduled on Monday at 4:30 PM in Google Meet.,notify,neutral,review,neutral,"('review', 'neutral')",False,True
+61,Payment reminder: Your invoice INV-2000 amounting to INR 8000 must be paid within 5 days.,respond,urgent,review,neutral,"('review', 'neutral')",False,False
+62,"Dear Customer, invoice INV-2001 for INR 6500 is due in 2 days. Kindly complete the payment.",respond,urgent,review,neutral,"('review', 'neutral')",False,False
+63,Payment reminder: Your invoice INV-2002 amounting to INR 6500 must be paid within 2 days.,respond,urgent,review,neutral,"('review', 'neutral')",False,False
+64,"Dear Customer, invoice INV-2003 for INR 6500 is due in 2 days. Kindly complete the payment.",respond,urgent,review,neutral,"('review', 'neutral')",False,False
+65,"Dear Customer, invoice INV-2004 for INR 6500 is due in 3 days. Kindly complete the payment.",respond,urgent,review,neutral,"('review', 'neutral')",False,False
+66,Payment reminder: Your invoice INV-2005 amounting to INR 5000 must be paid within 3 days.,respond,urgent,review,neutral,"('review', 'neutral')",False,False
+67,"Dear Customer, invoice INV-2006 for INR 8000 is due in 2 days. Kindly complete the payment.",respond,urgent,review,neutral,"('review', 'neutral')",False,False
+68,"Dear Customer, invoice INV-2007 for INR 5000 is due in 2 days. Kindly complete the payment.",respond,urgent,review,neutral,"('review', 'neutral')",False,False
+69,Payment reminder: Your invoice INV-2008 amounting to INR 5000 must be paid within 2 days.,respond,urgent,review,neutral,"('review', 'neutral')",False,False
+70,Payment reminder: Your invoice INV-2009 amounting to INR 6500 must be paid within 5 days.,respond,urgent,review,neutral,"('review', 'neutral')",False,False
+71,"Dear Student, you have been shortlisted for the Research Internship. Please reply to confirm availability.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+72,"Dear Student, you have been shortlisted for the Summer Internship Program. Please reply to confirm availability.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+73,"Dear Student, you have been shortlisted for the Summer Internship Program. Please reply to confirm availability.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+74,Congratulations! You are selected for the Research Internship. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+75,Congratulations! You are selected for the Research Internship. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+76,Congratulations! You are selected for the Research Internship. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+77,Congratulations! You are selected for the Summer Internship Program. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+78,Congratulations! You are selected for the Research Internship. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+79,Congratulations! You are selected for the Summer Internship Program. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+80,Congratulations! You are selected for the Research Internship. Kindly confirm your participation.,respond,polite,review,neutral,"('review', 'neutral')",False,False
+81,"Hello, I would like information about pricing plans. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+82,Could you please clarify details regarding pricing plans?,respond,polite,review,neutral,"('review', 'neutral')",False,False
+83,"Hello, I would like information about course syllabus. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+84,"Hello, I would like information about course syllabus. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+85,Could you please clarify details regarding service availability?,respond,polite,review,neutral,"('review', 'neutral')",False,False
+86,Could you please clarify details regarding pricing plans?,respond,polite,review,neutral,"('review', 'neutral')",False,False
+87,Could you please clarify details regarding service availability?,respond,polite,review,neutral,"('review', 'neutral')",False,False
+88,"Hello, I would like information about pricing plans. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+89,"Hello, I would like information about service availability. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+90,"Hello, I would like information about service availability. Please let me know.",respond,polite,review,neutral,"('review', 'neutral')",False,False
+91,This email is to inform you about recent updates. No action is required.,ignore,neutral,review,neutral,"('review', 'neutral')",False,True
+92,This email is to inform you about recent updates. No action is required.,ignore,neutral,review,neutral,"('review', 'neutral')",False,True
+93,This email is to inform you about recent updates. No action is required.,ignore,neutral,review,neutral,"('review', 'neutral')",False,True
+94,Thank you for participating in the event. This message is for your reference only.,ignore,neutral,ignore,polite,"('ignore', 'polite')",True,False
+95,This email is to inform you about recent updates. No action is required.,ignore,neutral,review,neutral,"('review', 'neutral')",False,True
+96,Thank you for participating in the event. This message is for your reference only.,ignore,neutral,ignore,polite,"('ignore', 'polite')",True,False
+97,This email is to inform you about recent updates. No action is required.,ignore,neutral,review,neutral,"('review', 'neutral')",False,True
+98,Thank you for participating in the event. This message is for your reference only.,ignore,neutral,ignore,polite,"('ignore', 'polite')",True,False
+99,Thank you for participating in the event. This message is for your reference only.,ignore,neutral,ignore,polite,"('ignore', 'polite')",True,False
+100,Thank you for participating in the event. This message is for your reference only.,ignore,neutral,ignore,polite,"('ignore', 'polite')",True,False

@@ -1,0 +1,14 @@
+1. Which type of emails were hardest to classify?
+Emails with mixed intent (e.g., reminder + request, 
+or informational emails with an implicit action) 
+were the hardest to classify.
+
+2. Why did your rules fail in some cases?
+Rule-based logic failed when emails used different wording, 
+indirect language, or overlapping keywords, 
+which the if / elif / else conditions could not fully capture.
+
+3. How could an LLM improve this process?
+An LLM can understand context, intent, and semantics, 
+allowing it to correctly classify emails even when phrasing varies or 
+intent is implicit, reducing dependency on rigid rules.
