@@ -1,0 +1,101 @@
+email_text,expected_action,expected_tone,clean_text,predicted_action,predicted_tone,action_correct,tone_correct
+"Hi Theertha, this is a reminder about our team meeting scheduled for tomorrow at 10 AM.",notify,neutral,hi theertha this is a reminder about our team meeting scheduled for tomorrow at am,notify,neutral,True,True
+Reminder: Project review meeting today at 4 PM. Please be on time.,notify,urgent,reminder project review meeting today at pm please be on time,notify,polite,True,False
+This is a gentle reminder for our scheduled call on Friday at 2 PM.,notify,polite,this is a gentle reminder for our scheduled call on friday at pm,notify,neutral,True,False
+Our weekly sync-up meeting has been scheduled for Monday at 11 AM.,notify,neutral,our weekly syncup meeting has been scheduled for monday at am,notify,neutral,True,True
+Please remember to attend the client meeting tomorrow morning.,notify,urgent,please remember to attend the client meeting tomorrow morning,notify,polite,True,False
+Just a reminder about the department meeting this afternoon.,notify,neutral,just a reminder about the department meeting this afternoon,notify,neutral,True,True
+Reminder to join the Zoom meeting at 3 PM today.,notify,urgent,reminder to join the zoom meeting at pm today,notify,neutral,True,False
+This email is to remind you of the academic review meeting tomorrow.,notify,polite,this email is to remind you of the academic review meeting tomorrow,notify,neutral,True,False
+Kind reminder about the mentor discussion scheduled this evening.,notify,polite,kind reminder about the mentor discussion scheduled this evening,notify,neutral,True,False
+Our meeting has been rescheduled to Thursday at 1 PM.,notify,neutral,our meeting has been rescheduled to thursday at pm,notify,neutral,True,True
+Reminder: Orientation meeting for interns tomorrow.,notify,neutral,reminder orientation meeting for interns tomorrow,notify,neutral,True,True
+This is to remind you about the presentation review meeting.,notify,urgent,this is to remind you about the presentation review meeting,notify,neutral,True,False
+Please attend the planning meeting scheduled for next week.,notify,neutral,please attend the planning meeting scheduled for next week,notify,polite,True,False
+Reminder for today’s stand-up meeting at 9:30 AM.,notify,urgent,reminder for todays standup meeting at am,notify,neutral,True,False
+Team meeting reminder for Friday afternoon.,notify,neutral,team meeting reminder for friday afternoon,notify,neutral,True,True
+Gentle reminder regarding tomorrow’s faculty meeting.,notify,polite,gentle reminder regarding tomorrows faculty meeting,notify,neutral,True,False
+Reminder to join the online session at 6 PM.,notify,neutral,reminder to join the online session at pm,notify,neutral,True,True
+Meeting reminder: Internship briefing tomorrow morning.,notify,neutral,meeting reminder internship briefing tomorrow morning,notify,neutral,True,True
+This is a reminder for the evaluation meeting scheduled today.,notify,urgent,this is a reminder for the evaluation meeting scheduled today,notify,neutral,True,False
+Please do not forget the project meeting tomorrow.,notify,urgent,please do not forget the project meeting tomorrow,notify,polite,True,False
+Please find attached the invoice for the services provided last month.,respond,polite,please find attached the invoice for the services provided last month,respond,polite,True,True
+This is a reminder to complete the pending payment by Friday.,respond,urgent,this is a reminder to complete the pending payment by friday,respond,neutral,True,False
+Kindly process the invoice shared earlier.,respond,polite,kindly process the invoice shared earlier,respond,polite,True,True
+Your payment is overdue. Please clear the balance immediately.,respond,urgent,your payment is overdue please clear the balance immediately,respond,urgent,True,True
+Attached is the invoice for your recent purchase.,respond,neutral,attached is the invoice for your recent purchase,respond,neutral,True,True
+Please confirm once the payment has been processed.,respond,polite,please confirm once the payment has been processed,respond,polite,True,True
+Final reminder regarding the outstanding invoice.,respond,urgent,final reminder regarding the outstanding invoice,respond,urgent,True,True
+Payment confirmation required for the attached bill.,respond,neutral,payment confirmation required for the attached bill,respond,neutral,True,True
+Your subscription payment is due tomorrow.,respond,urgent,your subscription payment is due tomorrow,respond,neutral,True,False
+Invoice for internship registration fees attached.,respond,polite,invoice for internship registration fees attached,respond,neutral,True,False
+Please clear the pending amount at the earliest.,respond,urgent,please clear the pending amount at the earliest,notify,polite,False,False
+This email contains the invoice for last week’s services.,respond,neutral,this email contains the invoice for last weeks services,respond,neutral,True,True
+Payment request for event registration.,respond,polite,payment request for event registration,respond,neutral,True,False
+Kindly acknowledge receipt of the invoice.,respond,polite,kindly acknowledge receipt of the invoice,respond,polite,True,True
+Outstanding payment notice for your account.,respond,urgent,outstanding payment notice for your account,respond,neutral,True,False
+Invoice shared for your reference.,respond,neutral,invoice shared for your reference,respond,neutral,True,True
+Please process the attached payment request.,respond,polite,please process the attached payment request,respond,polite,True,True
+Immediate action required: unpaid invoice.,respond,urgent,immediate action required unpaid invoice,respond,neutral,True,False
+Your bill is now available for payment.,respond,neutral,your bill is now available for payment,respond,neutral,True,True
+Reminder to settle the pending payment.,respond,urgent,reminder to settle the pending payment,respond,neutral,True,False
+Congratulations! You have been shortlisted for the internship.,notify,polite,congratulations you have been shortlisted for the internship,notify,polite,True,True
+Please submit your assignment by tomorrow.,respond,urgent,please submit your assignment by tomorrow,respond,polite,True,False
+Your application has been successfully received.,notify,neutral,your application has been successfully received,notify,neutral,True,True
+Kindly share your availability for the interview.,respond,polite,kindly share your availability for the interview,respond,polite,True,True
+Internship joining details are attached.,notify,neutral,internship joining details are attached,notify,neutral,True,True
+Reminder to upload your project report.,respond,urgent,reminder to upload your project report,notify,neutral,False,False
+You are invited for a technical interview.,notify,polite,you are invited for a technical interview,notify,neutral,True,False
+Please confirm your participation in the workshop.,respond,polite,please confirm your participation in the workshop,respond,polite,True,True
+Academic documents required for verification.,respond,urgent,academic documents required for verification,notify,neutral,False,False
+Your semester results have been published.,notify,neutral,your semester results have been published,notify,neutral,True,True
+Orientation program details for interns.,notify,neutral,orientation program details for interns,notify,neutral,True,True
+Please revise and resubmit your assignment.,respond,urgent,please revise and resubmit your assignment,respond,polite,True,False
+Selection status update for internship program.,notify,neutral,selection status update for internship program,notify,neutral,True,True
+Faculty feedback on your project submission.,notify,polite,faculty feedback on your project submission,notify,neutral,True,False
+Reminder to register for the exam.,respond,urgent,reminder to register for the exam,notify,neutral,False,False
+Certificate distribution details.,notify,neutral,certificate distribution details,notify,neutral,True,True
+Please submit the consent form.,respond,polite,please submit the consent form,respond,polite,True,True
+Your internship completion letter is attached.,notify,polite,your internship completion letter is attached,notify,neutral,True,False
+Academic schedule updated.,notify,neutral,academic schedule updated,notify,neutral,True,True
+Final call for internship confirmation.,respond,urgent,final call for internship confirmation,respond,urgent,True,True
+Can you share the meeting notes?,respond,polite,can you share the meeting notes,respond,neutral,True,False
+Please let me know the project deadline.,respond,neutral,please let me know the project deadline,notify,polite,False,False
+Could you clarify the assignment requirements?,respond,polite,could you clarify the assignment requirements,respond,neutral,True,False
+Is the office open tomorrow?,respond,neutral,is the office open tomorrow,notify,neutral,False,True
+Can you guide me on the internship process?,respond,polite,can you guide me on the internship process,notify,neutral,False,False
+What is the submission format?,respond,neutral,what is the submission format,notify,neutral,False,True
+Please confirm the venue details.,respond,neutral,please confirm the venue details,respond,polite,True,False
+Can you help me reset my login credentials?,respond,urgent,can you help me reset my login credentials,notify,neutral,False,False
+Who should I contact for further details?,respond,neutral,who should i contact for further details,notify,neutral,False,True
+Can we reschedule our call?,respond,polite,can we reschedule our call,notify,neutral,False,False
+Is there any update on the project status?,respond,neutral,is there any update on the project status,notify,neutral,False,True
+Please advise on next steps.,respond,polite,please advise on next steps,notify,polite,False,True
+Can you share the reference materials?,respond,neutral,can you share the reference materials,respond,neutral,True,True
+What time does the session start?,respond,neutral,what time does the session start,notify,neutral,False,True
+Can you approve my request?,respond,polite,can you approve my request,respond,neutral,True,False
+Please confirm receipt of my email.,respond,neutral,please confirm receipt of my email,respond,polite,True,False
+Is attendance mandatory?,respond,neutral,is attendance mandatory,notify,neutral,False,True
+Can I get an extension?,respond,urgent,can i get an extension,notify,neutral,False,False
+Please clarify the instructions.,respond,neutral,please clarify the instructions,respond,polite,True,False
+Who is the point of contact?,respond,neutral,who is the point of contact,notify,neutral,False,True
+Your password was successfully changed.,ignore,neutral,your password was successfully changed,notify,neutral,False,True
+This is a system-generated confirmation email.,ignore,neutral,this is a systemgenerated confirmation email,respond,neutral,False,True
+Thank you for subscribing to our newsletter.,ignore,neutral,thank you for subscribing to our newsletter,ignore,neutral,True,True
+Your account was logged in from a new device.,notify,urgent,your account was logged in from a new device,notify,neutral,True,False
+Weekly newsletter: Tech updates.,ignore,neutral,weekly newsletter tech updates,ignore,neutral,True,True
+Your profile has been updated successfully.,ignore,neutral,your profile has been updated successfully,notify,neutral,False,True
+System maintenance scheduled tonight.,notify,neutral,system maintenance scheduled tonight,notify,neutral,True,True
+Advertisement: New course offerings.,ignore,neutral,advertisement new course offerings,ignore,neutral,True,True
+Auto-reply: Out of office.,ignore,neutral,autoreply out of office,ignore,neutral,True,True
+Security alert notification.,notify,urgent,security alert notification,notify,neutral,True,False
+Promotional email: Discount offers.,ignore,neutral,promotional email discount offers,ignore,neutral,True,True
+Your download is ready.,notify,neutral,your download is ready,notify,neutral,True,True
+Survey feedback request.,ignore,neutral,survey feedback request,notify,neutral,False,True
+Reminder: Update your profile.,notify,neutral,reminder update your profile,notify,neutral,True,True
+Automated email confirmation.,ignore,neutral,automated email confirmation,respond,neutral,False,True
+Terms and conditions updated.,notify,neutral,terms and conditions updated,notify,neutral,True,True
+Email delivery notification.,ignore,neutral,email delivery notification,notify,neutral,False,True
+System alert resolved.,notify,neutral,system alert resolved,notify,neutral,True,True
+Marketing campaign update.,ignore,neutral,marketing campaign update,notify,neutral,False,True
+Subscription renewal notice.,notify,urgent,subscription renewal notice,notify,neutral,True,False
