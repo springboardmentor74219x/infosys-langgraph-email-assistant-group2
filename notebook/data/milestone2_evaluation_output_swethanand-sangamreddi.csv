@@ -1,0 +1,100 @@
+email_text,expected_action,expected_tone
+"Hi Swetha, this is a reminder about the team meeting scheduled tomorrow at 10 AM.",notify,polite
+Please confirm your availability for the project discussion this afternoon.,respond,polite
+The meeting scheduled for today has been postponed to next week.,notify,neutral
+This is a reminder to submit the weekly report by EOD.,notify,urgent
+Kindly join the review call at 3 PM using the shared meeting link.,notify,polite
+Your presence is required for the client meeting tomorrow.,respond,urgent
+The agenda for tomorrow’s meeting has been shared.,notify,neutral
+Please let us know if you can attend the rescheduled meeting.,respond,polite
+This is an automated reminder for your upcoming meeting.,notify,neutral
+The meeting minutes have been uploaded for your reference.,ignore,neutral
+Please find attached the invoice for the services rendered.,respond,polite
+Payment for invoice #4582 is overdue. Kindly process it immediately.,respond,urgent
+Your payment has been successfully received. Thank you.,ignore,neutral
+Attached is the invoice for last month’s subscription.,respond,polite
+This is a reminder to clear the pending payment before Friday.,respond,urgent
+The billing address has been updated successfully.,notify,neutral
+Invoice correction request has been received.,notify,neutral
+Your refund has been initiated and will reflect in 5 days.,notify,neutral
+Please verify the attached invoice details.,respond,polite
+Payment confirmation for your recent transaction.,ignore,neutral
+Congratulations! You have been shortlisted for the internship interview.,respond,polite
+Please submit your internship completion certificate.,respond,polite
+This email is to inform you about the change in academic calendar.,notify,neutral
+Your assignment submission has been received.,ignore,neutral
+Kindly confirm your availability for campus placement training.,respond,polite
+Semester examination timetable has been released.,notify,neutral
+Please upload your project synopsis by tonight.,respond,urgent
+This is to inform you about the internal assessment schedule.,notify,neutral
+Your internship offer letter is attached.,respond,polite
+Final year project guidelines have been updated.,notify,neutral
+Can you share the updated document by today?,respond,polite
+Please clarify the issue reported in the previous email.,respond,polite
+Thank you for reaching out. We will get back to you shortly.,ignore,neutral
+This email is regarding your recent support request.,notify,neutral
+Please provide additional details to proceed further.,respond,polite
+Your query has been forwarded to the concerned department.,notify,neutral
+This is a follow-up on the issue raised earlier.,respond,polite
+We are currently reviewing your request.,notify,neutral
+Thank you for your feedback.,ignore,neutral
+Your concern has been noted.,notify,neutral
+Your subscription has been renewed successfully.,ignore,neutral
+No action is required from your side.,ignore,neutral
+This is an automated system notification.,ignore,neutral
+Policy updates have been applied effective immediately.,notify,neutral
+System maintenance is scheduled for tonight.,notify,neutral
+Your password was changed successfully.,notify,neutral
+Account login detected from a new device.,notify,urgent
+This email is for information purposes only.,ignore,neutral
+Your request has been processed under reference ID 90321.,notify,neutral
+Changes have been made to internal workflow settings.,notify,neutral
+Please review and approve the document.,respond,polite
+Deadline for submission is today.,respond,urgent
+Reminder: action pending on your end.,respond,urgent
+Kindly acknowledge receipt of this email.,respond,polite
+FYI: Updated version attached.,ignore,neutral
+Please schedule a call to discuss this further.,respond,polite
+Meeting link updated. Please check.,notify,neutral
+Your response is awaited.,respond,urgent
+Requesting confirmation at the earliest.,respond,urgent
+This mail is to keep you informed.,ignore,neutral
+Please review the attached presentation before the client call.,respond,polite
+The deadline for profile update has been extended to next Monday.,notify,neutral
+Your leave request has been approved.,notify,neutral
+Reminder: training session starts at 9 AM tomorrow.,notify,polite
+Kindly submit the signed document at the earliest.,respond,urgent
+We noticed unusual activity on your account. Please verify.,respond,urgent
+System upgrade completed successfully.,notify,neutral
+Your ticket has been resolved and closed.,ignore,neutral
+Scheduled maintenance may affect service availability.,notify,neutral
+No response is required for this notification.,ignore,neutral
+Please confirm receipt of the courier package.,respond,polite
+The courier has been dispatched and is on the way.,notify,neutral
+Delivery attempt was unsuccessful. Please reschedule.,respond,polite
+Your package has been delivered successfully.,ignore,neutral
+Address verification is required to proceed.,respond,urgent
+Internal audit will be conducted this week.,notify,neutral
+Please cooperate with the audit team if contacted.,notify,polite
+Updated compliance guidelines are attached for reference.,notify,neutral
+Failure to comply may result in access restriction.,notify,urgent
+This message is confidential and intended for information only.,ignore,neutral
+Please share your feedback on the recent workshop.,respond,polite
+Workshop attendance certificate has been issued.,notify,neutral
+Registration for the upcoming webinar is now open.,notify,neutral
+Seats are limited. Register immediately.,respond,urgent
+Thank you for attending the webinar.,ignore,neutral
+Your request is currently under review.,notify,neutral
+Additional verification documents are required.,respond,polite
+Request rejected due to incomplete information.,notify,neutral
+You may reapply after correcting the details.,notify,neutral
+This concludes the communication regarding your request.,ignore,neutral
+Please update your emergency contact details in the portal.,respond,polite
+Your access to the shared drive has been granted.,notify,neutral
+Access request pending manager approval.,notify,neutral
+Please complete the mandatory compliance quiz today.,respond,urgent
+Compliance quiz submission recorded successfully.,ignore,neutral
+Reminder: timesheet submission is due by 6 PM.,notify,urgent
+Timesheet has been approved.,notify,neutral
+Late submission may affect payroll processing.,notify,urgent
+This is a system-generated reminder.,ignore,neutral
