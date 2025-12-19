@@ -1,0 +1,101 @@
+email_text,expected_action,expected_tone
+"Hi Theertha, this is a reminder about our team meeting scheduled for tomorrow at 10 AM.",notify,neutral
+Reminder: Project review meeting today at 4 PM. Please be on time.,notify,urgent
+This is a gentle reminder for our scheduled call on Friday at 2 PM.,notify,polite
+Our weekly sync-up meeting has been scheduled for Monday at 11 AM.,notify,neutral
+Please remember to attend the client meeting tomorrow morning.,notify,urgent
+Just a reminder about the department meeting this afternoon.,notify,neutral
+Reminder to join the Zoom meeting at 3 PM today.,notify,urgent
+This email is to remind you of the academic review meeting tomorrow.,notify,polite
+Kind reminder about the mentor discussion scheduled this evening.,notify,polite
+Our meeting has been rescheduled to Thursday at 1 PM.,notify,neutral
+Reminder: Orientation meeting for interns tomorrow.,notify,neutral
+This is to remind you about the presentation review meeting.,notify,urgent
+Please attend the planning meeting scheduled for next week.,notify,neutral
+Reminder for today’s stand-up meeting at 9:30 AM.,notify,urgent
+Team meeting reminder for Friday afternoon.,notify,neutral
+Gentle reminder regarding tomorrow’s faculty meeting.,notify,polite
+Reminder to join the online session at 6 PM.,notify,neutral
+Meeting reminder: Internship briefing tomorrow morning.,notify,neutral
+This is a reminder for the evaluation meeting scheduled today.,notify,urgent
+Please do not forget the project meeting tomorrow.,notify,urgent
+Please find attached the invoice for the services provided last month.,respond,polite
+This is a reminder to complete the pending payment by Friday.,respond,urgent
+Kindly process the invoice shared earlier.,respond,polite
+Your payment is overdue. Please clear the balance immediately.,respond,urgent
+Attached is the invoice for your recent purchase.,respond,neutral
+Please confirm once the payment has been processed.,respond,polite
+Final reminder regarding the outstanding invoice.,respond,urgent
+Payment confirmation required for the attached bill.,respond,neutral
+Your subscription payment is due tomorrow.,respond,urgent
+Invoice for internship registration fees attached.,respond,polite
+Please clear the pending amount at the earliest.,respond,urgent
+This email contains the invoice for last week’s services.,respond,neutral
+Payment request for event registration.,respond,polite
+Kindly acknowledge receipt of the invoice.,respond,polite
+Outstanding payment notice for your account.,respond,urgent
+Invoice shared for your reference.,respond,neutral
+Please process the attached payment request.,respond,polite
+Immediate action required: unpaid invoice.,respond,urgent
+Your bill is now available for payment.,respond,neutral
+Reminder to settle the pending payment.,respond,urgent
+Congratulations! You have been shortlisted for the internship.,notify,polite
+Please submit your assignment by tomorrow.,respond,urgent
+Your application has been successfully received.,notify,neutral
+Kindly share your availability for the interview.,respond,polite
+Internship joining details are attached.,notify,neutral
+Reminder to upload your project report.,respond,urgent
+You are invited for a technical interview.,notify,polite
+Please confirm your participation in the workshop.,respond,polite
+Academic documents required for verification.,respond,urgent
+Your semester results have been published.,notify,neutral
+Orientation program details for interns.,notify,neutral
+Please revise and resubmit your assignment.,respond,urgent
+Selection status update for internship program.,notify,neutral
+Faculty feedback on your project submission.,notify,polite
+Reminder to register for the exam.,respond,urgent
+Certificate distribution details.,notify,neutral
+Please submit the consent form.,respond,polite
+Your internship completion letter is attached.,notify,polite
+Academic schedule updated.,notify,neutral
+Final call for internship confirmation.,respond,urgent
+Can you share the meeting notes?,respond,polite
+Please let me know the project deadline.,respond,neutral
+Could you clarify the assignment requirements?,respond,polite
+Is the office open tomorrow?,respond,neutral
+Can you guide me on the internship process?,respond,polite
+What is the submission format?,respond,neutral
+Please confirm the venue details.,respond,neutral
+Can you help me reset my login credentials?,respond,urgent
+Who should I contact for further details?,respond,neutral
+Can we reschedule our call?,respond,polite
+Is there any update on the project status?,respond,neutral
+Please advise on next steps.,respond,polite
+Can you share the reference materials?,respond,neutral
+What time does the session start?,respond,neutral
+Can you approve my request?,respond,polite
+Please confirm receipt of my email.,respond,neutral
+Is attendance mandatory?,respond,neutral
+Can I get an extension?,respond,urgent
+Please clarify the instructions.,respond,neutral
+Who is the point of contact?,respond,neutral
+Your password was successfully changed.,ignore,neutral
+This is a system-generated confirmation email.,ignore,neutral
+Thank you for subscribing to our newsletter.,ignore,neutral
+Your account was logged in from a new device.,notify,urgent
+Weekly newsletter: Tech updates.,ignore,neutral
+Your profile has been updated successfully.,ignore,neutral
+System maintenance scheduled tonight.,notify,neutral
+Advertisement: New course offerings.,ignore,neutral
+Auto-reply: Out of office.,ignore,neutral
+Security alert notification.,notify,urgent
+Promotional email: Discount offers.,ignore,neutral
+Your download is ready.,notify,neutral
+Survey feedback request.,ignore,neutral
+Reminder: Update your profile.,notify,neutral
+Automated email confirmation.,ignore,neutral
+Terms and conditions updated.,notify,neutral
+Email delivery notification.,ignore,neutral
+System alert resolved.,notify,neutral
+Marketing campaign update.,ignore,neutral
+Subscription renewal notice.,notify,urgent
