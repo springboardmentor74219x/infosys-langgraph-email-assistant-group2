@@ -1,0 +1,76 @@
+email_text,expected_action,expected_tone,clean_email,predicted_action,predicted_tone,action_correct,tone_correct
+Reminder: Project review meeting scheduled tomorrow at 11 AM.,notify,neutral,reminder project review meeting scheduled tomorrow at 11 am,respond,neutral,False,True
+Please find attached the invoice for your August subscription. Payment due by Sept 5.,respond,urgent,please find attached the invoice for your august subscription payment due by sept 5,respond,neutral,True,False
+Thank you for registering for our webinar. No further action is required.,ignore,polite,thank you for registering for our webinar no further action is required,ignore,polite,True,True
+Can you please share the updated design document by today?,respond,urgent,can you please share the updated design document by today,respond,neutral,True,False
+This is to inform you that the office will remain closed on Friday.,notify,neutral,this is to inform you that the office will remain closed on friday,respond,neutral,False,True
+Your OTP for account login is 482913. Do not share it with anyone.,notify,urgent,your otp for account login is 482913 do not share it with anyone,respond,neutral,False,False
+We noticed unusual activity on your account. Please confirm if this was you.,respond,urgent,we noticed unusual activity on your account please confirm if this was you,respond,neutral,True,False
+Monthly newsletter: Top tech trends you should know.,ignore,neutral,monthly newsletter top tech trends you should know,respond,neutral,False,True
+Your interview has been scheduled for Monday at 10 AM. Please confirm.,respond,neutral,your interview has been scheduled for monday at 10 am please confirm,respond,neutral,True,True
+Reminder: Assignment submission deadline is tomorrow.,notify,urgent,reminder assignment submission deadline is tomorrow,notify,urgent,True,True
+Thank you for your payment. This email is for confirmation only.,ignore,polite,thank you for your payment this email is for confirmation only,ignore,polite,True,True
+Please review the attached contract and share your approval.,respond,neutral,please review the attached contract and share your approval,respond,neutral,True,True
+Team lunch planned this Friday at 1 PM.,notify,polite,team lunch planned this friday at 1 pm,respond,neutral,False,False
+Your password was changed successfully.,notify,neutral,your password was changed successfully,respond,neutral,False,True
+Limited-time offer! Get 50% off on premium plans.,ignore,neutral,limitedtime offer get 50 off on premium plans,respond,neutral,False,True
+Can we reschedule our meeting to Thursday afternoon?,respond,polite,can we reschedule our meeting to thursday afternoon,respond,neutral,True,False
+This email is to acknowledge receipt of your application.,ignore,neutral,this email is to acknowledge receipt of your application,respond,neutral,False,True
+Server maintenance scheduled tonight from 12 AM to 2 AM.,notify,neutral,server maintenance scheduled tonight from 12 am to 2 am,respond,neutral,False,True
+Urgent: Action required to avoid service disruption.,respond,urgent,urgent action required to avoid service disruption,notify,urgent,False,True
+Thank you for reaching out. Our team will get back to you shortly.,ignore,polite,thank you for reaching out our team will get back to you shortly,ignore,polite,True,True
+Please submit your internship documents by end of this week.,respond,neutral,please submit your internship documents by end of this week,notify,urgent,False,False
+Your flight ticket has been booked successfully.,notify,neutral,your flight ticket has been booked successfully,respond,neutral,False,True
+Reminder to update your timesheet before EOD.,notify,urgent,reminder to update your timesheet before eod,respond,neutral,False,False
+Congratulations! You have been selected for the next round.,notify,polite,congratulations you have been selected for the next round,respond,neutral,False,False
+Your order has been delivered. We hope you enjoy your purchase.,ignore,polite,your order has been delivered we hope you enjoy your purchase,respond,neutral,False,False
+Can you clarify your availability for next week?,respond,neutral,can you clarify your availability for next week,respond,neutral,True,True
+Security alert: New login detected from a different device.,notify,urgent,security alert new login detected from a different device,respond,neutral,False,False
+Join us for the annual company townhall tomorrow.,notify,neutral,join us for the annual company townhall tomorrow,respond,neutral,False,True
+This is a promotional email about our new product launch.,ignore,neutral,this is a promotional email about our new product launch,respond,neutral,False,True
+Please approve the budget request submitted yesterday.,respond,urgent,please approve the budget request submitted yesterday,notify,urgent,False,True
+Thank you for attending the meeting today.,ignore,polite,thank you for attending the meeting today,ignore,polite,True,True
+Your bank statement for August is now available.,notify,neutral,your bank statement for august is now available,respond,neutral,False,True
+Reminder: Fee payment deadline is today.,notify,urgent,reminder fee payment deadline is today,notify,urgent,True,True
+Could you please review my resume and share feedback?,respond,polite,could you please review my resume and share feedback,respond,neutral,True,False
+Your application status has been updated.,notify,neutral,your application status has been updated,respond,neutral,False,True
+Flash sale starts now! Don’t miss out.,ignore,urgent,flash sale starts now dont miss out,respond,neutral,False,False
+Please confirm your attendance for the workshop.,respond,neutral,please confirm your attendance for the workshop,respond,neutral,True,True
+Daily report attached for your reference.,notify,neutral,daily report attached for your reference,respond,neutral,False,True
+This email confirms your leave request has been approved.,notify,polite,this email confirms your leave request has been approved,respond,neutral,False,False
+Update required: Please verify your contact details.,respond,neutral,update required please verify your contact details,respond,neutral,True,True
+Thank you for your interest in our services.,ignore,polite,thank you for your interest in our services,ignore,polite,True,True
+Meeting agenda for tomorrow’s discussion.,notify,neutral,meeting agenda for tomorrows discussion,respond,neutral,False,True
+Your internet bill is overdue. Please pay immediately.,respond,urgent,your internet bill is overdue please pay immediately,respond,neutral,True,False
+Reminder: Complete the compliance training today.,notify,urgent,reminder complete the compliance training today,respond,neutral,False,False
+Can you send the final version of the presentation?,respond,neutral,can you send the final version of the presentation,respond,neutral,True,True
+System update completed successfully.,ignore,neutral,system update completed successfully,respond,neutral,False,True
+You are invited to join the mentorship program.,notify,polite,you are invited to join the mentorship program,respond,neutral,False,False
+Please respond with your preferred interview slot.,respond,neutral,please respond with your preferred interview slot,respond,neutral,True,True
+Weekly summary: Tasks completed and pending.,notify,neutral,weekly summary tasks completed and pending,respond,neutral,False,True
+This email is for informational purposes only.,ignore,neutral,this email is for informational purposes only,respond,neutral,False,True
+Urgent: Submit documents to avoid cancellation.,respond,urgent,urgent submit documents to avoid cancellation,notify,urgent,False,True
+Thank you for your feedback. We appreciate it.,ignore,polite,thank you for your feedback we appreciate it,ignore,polite,True,True
+Your exam schedule has been released.,notify,neutral,your exam schedule has been released,respond,neutral,False,True
+Can you help me with access to the repository?,respond,polite,can you help me with access to the repository,respond,neutral,True,False
+New company policy update attached.,notify,neutral,new company policy update attached,respond,neutral,False,True
+Reminder: Client call in 30 minutes.,notify,urgent,reminder client call in 30 minutes,respond,neutral,False,False
+Exclusive invite to premium members only.,ignore,polite,exclusive invite to premium members only,respond,neutral,False,False
+Please review and sign the NDA.,respond,urgent,please review and sign the nda,respond,neutral,True,False
+Your attendance has been marked for today.,ignore,neutral,your attendance has been marked for today,respond,neutral,False,True
+Action required: Update your KYC details.,respond,urgent,action required update your kyc details,respond,neutral,True,False
+Team outing details shared below.,notify,polite,team outing details shared below,respond,neutral,False,False
+Thank you for completing the survey.,ignore,polite,thank you for completing the survey,ignore,polite,True,True
+Can you confirm receipt of this email?,respond,neutral,can you confirm receipt of this email,respond,neutral,True,True
+Reminder: Sprint demo scheduled today.,notify,neutral,reminder sprint demo scheduled today,respond,neutral,False,True
+Your subscription will expire tomorrow.,notify,urgent,your subscription will expire tomorrow,respond,neutral,False,False
+General announcement: Parking rules updated.,notify,neutral,general announcement parking rules updated,respond,neutral,False,True
+Please share your feedback on the draft.,respond,polite,please share your feedback on the draft,respond,neutral,True,False
+This is an automated email. Please do not reply.,ignore,neutral,this is an automated email please do not reply,respond,neutral,False,True
+Urgent meeting scheduled in 1 hour.,notify,urgent,urgent meeting scheduled in 1 hour,notify,urgent,True,True
+Your request has been successfully processed.,ignore,neutral,your request has been successfully processed,respond,neutral,False,True
+Can you join the call now? It’s urgent.,respond,urgent,can you join the call now its urgent,notify,urgent,False,True
+Monthly performance report available.,notify,neutral,monthly performance report available,respond,neutral,False,True
+Thank you for your cooperation.,ignore,polite,thank you for your cooperation,ignore,polite,True,True
+Final reminder: Submit your assignment today.,notify,urgent,final reminder submit your assignment today,notify,urgent,True,True
+Please let me know if you have any questions.,respond,polite,please let me know if you have any questions,respond,neutral,True,False
