@@ -1,0 +1,11 @@
+email_text,expected_action,expected_tone
+Please attend the project status meeting tomorrow at 10 AM,respond,polite
+Your internship completion certificate is ready for download,respond,polite
+Kindly submit your assignment by end of day today,respond,neutral
+This is a reminder to clear the pending invoice by Friday,respond,urgent
+Thank you for applying. We will get back to you shortly,respond,polite
+Huge discount sale on electronics this weekend,ignore,neutral
+You have been unsubscribed from promotional emails,ignore,neutral
+Limited time offer! Buy one get one free,ignore,neutral
+Congratulations! You have won a shopping voucher,ignore,neutral
+Security alert: suspicious login attempt detected,notify,urgent
