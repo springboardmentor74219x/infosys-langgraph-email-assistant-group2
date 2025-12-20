@@ -1,0 +1,101 @@
+email_text,expected_action,expected_tone,clean_text,assistant_output,predicted_action,predicted_tone,action_correct,tone_correct
+Reminder: The project review meeting is scheduled tomorrow at 10 AM.,respond,polite,reminder the project review meeting is scheduled tomorrow at am,"('respond', 'neutral')",respond,neutral,True,False
+Your electricity bill for August is due by 25th. Please make the payment.,respond,urgent,your electricity bill for august is due by th please make the payment,"('respond', 'neutral')",respond,neutral,True,False
+Newsletter: Top career tips for engineering students.,ignore,neutral,newsletter top career tips for engineering students,"('respond', 'neutral')",respond,neutral,False,True
+Server CPU usage has crossed 90%. Immediate attention required.,notify,urgent,server cpu usage has crossed immediate attention required,"('respond', 'neutral')",respond,neutral,False,False
+"Hi, can you please share the updated project documentation?",respond,polite,hi can you please share the updated project documentation,"('respond', 'neutral')",respond,neutral,True,False
+Your order #4321 has been delivered successfully.,ignore,neutral,your order has been delivered successfully,"('respond', 'neutral')",respond,neutral,False,True
+Final reminder: Internship report submission deadline is today.,respond,urgent,final reminder internship report submission deadline is today,"('notify', 'urgent')",notify,urgent,False,True
+Congratulations! You have won a gift voucher. Click to claim.,ignore,neutral,congratulations you have won a gift voucher click to claim,"('respond', 'neutral')",respond,neutral,False,True
+Please approve the purchase request raised yesterday.,notify,polite,please approve the purchase request raised yesterday,"('respond', 'neutral')",respond,neutral,False,False
+Daily news digest No action required.,ignore,neutral,daily news digest no action required,"('respond', 'neutral')",respond,neutral,False,True
+The client has requested changes to the UI design.,notify,polite,the client has requested changes to the ui design,"('respond', 'neutral')",respond,neutral,False,False
+Meeting postponed to Friday at 3 PM.,notify,neutral,meeting postponed to friday at pm,"('respond', 'neutral')",respond,neutral,False,True
+Your mobile recharge was successful.,ignore,neutral,your mobile recharge was successful,"('respond', 'neutral')",respond,neutral,False,True
+Submit your assignment on LMS before midnight.,respond,urgent,submit your assignment on lms before midnight,"('notify', 'urgent')",notify,urgent,False,True
+Reminder to complete mandatory cybersecurity training.,respond,polite,reminder to complete mandatory cybersecurity training,"('respond', 'neutral')",respond,neutral,True,False
+Weekly progress report attached for your review.,respond,polite,weekly progress report attached for your review,"('respond', 'neutral')",respond,neutral,True,False
+Your account password was changed successfully.,notify,neutral,your account password was changed successfully,"('respond', 'neutral')",respond,neutral,False,True
+Invitation to attend the tech webinar tomorrow.,respond,polite,invitation to attend the tech webinar tomorrow,"('respond', 'neutral')",respond,neutral,True,False
+System maintenance scheduled tonight from 11 PM.,notify,neutral,system maintenance scheduled tonight from pm,"('respond', 'neutral')",respond,neutral,False,True
+Discount sale on electronics Limited period offer.,ignore,neutral,discount sale on electronics limited period offer,"('respond', 'neutral')",respond,neutral,False,True
+Please confirm your availability for the interview.,respond,polite,please confirm your availability for the interview,"('respond', 'neutral')",respond,neutral,True,False
+Library books are overdue. Fine applicable.,respond,urgent,library books are overdue fine applicable,"('respond', 'neutral')",respond,neutral,True,False
+Team lunch planned this Friday.,ignore,neutral,team lunch planned this friday,"('respond', 'neutral')",respond,neutral,False,True
+Payment failed. Retry immediately to avoid service interruption.,respond,urgent,payment failed retry immediately to avoid service interruption,"('respond', 'neutral')",respond,neutral,True,False
+New policy update: Work from home guidelines.,notify,neutral,new policy update work from home guidelines,"('respond', 'neutral')",respond,neutral,False,True
+Monthly salary has been credited to your account.,ignore,neutral,monthly salary has been credited to your account,"('respond', 'neutral')",respond,neutral,False,True
+Client escalation: Issue not resolved within SLA.,notify,urgent,client escalation issue not resolved within sla,"('respond', 'neutral')",respond,neutral,False,False
+Reminder: Fill semester feedback form.,respond,polite,reminder fill semester feedback form,"('respond', 'neutral')",respond,neutral,True,False
+Your subscription will expire tomorrow.,respond,urgent,your subscription will expire tomorrow,"('respond', 'neutral')",respond,neutral,True,False
+Spam alert: Unusual login detected.,notify,urgent,spam alert unusual login detected,"('respond', 'neutral')",respond,neutral,False,False
+Thank you for contacting customer support.,ignore,neutral,thank you for contacting customer support,"('ignore', 'polite')",ignore,polite,True,False
+Urgent: Production server is down.,notify,urgent,urgent production server is down,"('notify', 'urgent')",notify,urgent,True,True
+Meeting minutes from today's call.,respond,polite,meeting minutes from todays call,"('respond', 'neutral')",respond,neutral,True,False
+Join us for the annual cultural fest.,ignore,neutral,join us for the annual cultural fest,"('respond', 'neutral')",respond,neutral,False,True
+Your exam hall ticket is now available.,respond,polite,your exam hall ticket is now available,"('respond', 'neutral')",respond,neutral,True,False
+Reminder: Fee payment deadline today.,respond,urgent,reminder fee payment deadline today,"('notify', 'urgent')",notify,urgent,False,True
+Security alert: Multiple failed login attempts.,notify,urgent,security alert multiple failed login attempts,"('respond', 'neutral')",respond,neutral,False,False
+Survey request: Share your feedback.,ignore,neutral,survey request share your feedback,"('respond', 'neutral')",respond,neutral,False,True
+Please review and sign the attached agreement.,respond,polite,please review and sign the attached agreement,"('respond', 'neutral')",respond,neutral,True,False
+Reminder: Stand-up meeting in 15 minutes.,notify,urgent,reminder standup meeting in minutes,"('respond', 'neutral')",respond,neutral,False,False
+Your food order has been dispatched.,ignore,neutral,your food order has been dispatched,"('respond', 'neutral')",respond,neutral,False,True
+Client requested an urgent call today.,notify,urgent,client requested an urgent call today,"('notify', 'urgent')",notify,urgent,True,True
+Welcome to the internship program.,ignore,polite,welcome to the internship program,"('respond', 'neutral')",respond,neutral,False,False
+Final notice: Account will be suspended.,respond,urgent,final notice account will be suspended,"('respond', 'neutral')",respond,neutral,True,False
+Please verify your email address.,respond,polite,please verify your email address,"('respond', 'neutral')",respond,neutral,True,False
+Weekly newsletter from the alumni association.,ignore,neutral,weekly newsletter from the alumni association,"('respond', 'neutral')",respond,neutral,False,True
+Project deadline extended by two days.,notify,neutral,project deadline extended by two days,"('notify', 'urgent')",notify,urgent,True,False
+Immediate action required: Compliance violation detected.,notify,urgent,immediate action required compliance violation detected,"('respond', 'neutral')",respond,neutral,False,False
+Your refund has been processed.,ignore,neutral,your refund has been processed,"('respond', 'neutral')",respond,neutral,False,True
+Meeting room booking confirmed.,ignore,neutral,meeting room booking confirmed,"('respond', 'neutral')",respond,neutral,False,True
+Request approval for leave on Monday.,respond,polite,request approval for leave on monday,"('respond', 'neutral')",respond,neutral,True,False
+System alert: Disk space running low.,notify,urgent,system alert disk space running low,"('respond', 'neutral')",respond,neutral,False,False
+Thank you for attending the workshop.,ignore,polite,thank you for attending the workshop,"('ignore', 'polite')",ignore,polite,True,True
+Urgent reminder: Client demo in one hour.,notify,urgent,urgent reminder client demo in one hour,"('notify', 'urgent')",notify,urgent,True,True
+Your OTP for transaction verification.,respond,urgent,your otp for transaction verification,"('respond', 'neutral')",respond,neutral,True,False
+Office will remain closed tomorrow.,notify,neutral,office will remain closed tomorrow,"('respond', 'neutral')",respond,neutral,False,True
+Please update your contact details.,respond,polite,please update your contact details,"('respond', 'neutral')",respond,neutral,True,False
+Reminder: Training completion pending.,respond,polite,reminder training completion pending,"('respond', 'neutral')",respond,neutral,True,False
+Job application status update.,notify,neutral,job application status update,"('respond', 'neutral')",respond,neutral,False,True
+Security patch deployment scheduled.,notify,neutral,security patch deployment scheduled,"('respond', 'neutral')",respond,neutral,False,True
+Event invitation: Hackathon registration open.,ignore,polite,event invitation hackathon registration open,"('respond', 'neutral')",respond,neutral,False,False
+Payment confirmation for invoice #8891.,ignore,neutral,payment confirmation for invoice,"('respond', 'neutral')",respond,neutral,False,True
+Urgent: Data breach suspected.,notify,urgent,urgent data breach suspected,"('notify', 'urgent')",notify,urgent,True,True
+Team outing photos shared.,ignore,neutral,team outing photos shared,"('respond', 'neutral')",respond,neutral,False,True
+Please submit timesheet before EOD.,respond,urgent,please submit timesheet before eod,"('notify', 'urgent')",notify,urgent,False,True
+Your cloud usage exceeded the free limit.,notify,urgent,your cloud usage exceeded the free limit,"('respond', 'neutral')",respond,neutral,False,False
+Holiday announcement for next week.,notify,neutral,holiday announcement for next week,"('respond', 'neutral')",respond,neutral,False,True
+Feedback requested for recent purchase.,ignore,neutral,feedback requested for recent purchase,"('respond', 'neutral')",respond,neutral,False,True
+Client meeting agenda attached.,respond,polite,client meeting agenda attached,"('respond', 'neutral')",respond,neutral,True,False
+Reminder: Insurance renewal due.,respond,urgent,reminder insurance renewal due,"('respond', 'neutral')",respond,neutral,True,False
+System reboot scheduled in 30 minutes.,notify,urgent,system reboot scheduled in minutes,"('respond', 'neutral')",respond,neutral,False,False
+Training session recording available.,ignore,neutral,training session recording available,"('respond', 'neutral')",respond,neutral,False,True
+Immediate response required: Legal notice received.,notify,urgent,immediate response required legal notice received,"('respond', 'neutral')",respond,neutral,False,False
+Thank you for your payment.,ignore,polite,thank you for your payment,"('ignore', 'polite')",ignore,polite,True,True
+Reminder: Update project status tracker.,respond,polite,reminder update project status tracker,"('respond', 'neutral')",respond,neutral,True,False
+Application shortlisted for next round.,notify,polite,application shortlisted for next round,"('respond', 'neutral')",respond,neutral,False,False
+Server backup completed successfully.,ignore,neutral,server backup completed successfully,"('respond', 'neutral')",respond,neutral,False,True
+Alert: Unauthorized access attempt blocked.,notify,urgent,alert unauthorized access attempt blocked,"('respond', 'neutral')",respond,neutral,False,False
+Monthly performance review meeting invite.,respond,polite,monthly performance review meeting invite,"('respond', 'neutral')",respond,neutral,True,False
+Meeting rescheduled to Friday at 3 PM. Please confirm availability.,respond,polite,meeting rescheduled to friday at pm please confirm availability,"('respond', 'neutral')",respond,neutral,True,False
+Action required: Update your KYC details to avoid service interruption.,respond,urgent,action required update your kyc details to avoid service interruption,"('respond', 'neutral')",respond,neutral,True,False
+Weekly newsletter: Learn Python data analysis tips.,ignore,neutral,weekly newsletter learn python data analysis tips,"('respond', 'neutral')",respond,neutral,False,True
+Alert: Unusual login detected on your account.,notify,urgent,alert unusual login detected on your account,"('respond', 'neutral')",respond,neutral,False,False
+Can you review the attached document and share feedback?,respond,polite,can you review the attached document and share feedback,"('respond', 'neutral')",respond,neutral,True,False
+System maintenance scheduled tonight from 12 AM to 2 AM.,ignore,neutral,system maintenance scheduled tonight from am to am,"('respond', 'neutral')",respond,neutral,False,True
+Your package delivery has been delayed due to weather conditions.,respond,polite,your package delivery has been delayed due to weather conditions,"('respond', 'neutral')",respond,neutral,True,False
+Security warning: Multiple failed login attempts detected.,notify,urgent,security warning multiple failed login attempts detected,"('respond', 'neutral')",respond,neutral,False,False
+Invitation to attend the AI webinar this Saturday.,ignore,neutral,invitation to attend the ai webinar this saturday,"('respond', 'neutral')",respond,neutral,False,True
+Please submit your timesheet by EOD today.,respond,urgent,please submit your timesheet by eod today,"('notify', 'urgent')",notify,urgent,False,True
+Reminder: Complete mandatory compliance training.,respond,polite,reminder complete mandatory compliance training,"('respond', 'neutral')",respond,neutral,True,False
+Database connection failure detected on production server.,notify,urgent,database connection failure detected on production server,"('respond', 'neutral')",respond,neutral,False,False
+Happy Holidays! Wishing you a great year ahead.,ignore,neutral,happy holidays wishing you a great year ahead,"('respond', 'neutral')",respond,neutral,False,True
+Kindly approve the purchase request raised yesterday.,respond,polite,kindly approve the purchase request raised yesterday,"('respond', 'neutral')",respond,neutral,True,False
+Critical: Disk space usage exceeded 95%.,notify,urgent,critical disk space usage exceeded,"('respond', 'neutral')",respond,neutral,False,False
+Monthly performance report is now available.,respond,neutral,monthly performance report is now available,"('respond', 'neutral')",respond,neutral,True,True
+Special offer: Get 50% off on premium subscription.,ignore,neutral,special offer get off on premium subscription,"('respond', 'neutral')",respond,neutral,False,True
+Client escalation: Immediate resolution required.,notify,urgent,client escalation immediate resolution required,"('respond', 'neutral')",respond,neutral,False,False
+Please find the revised project timeline attached.,respond,polite,please find the revised project timeline attached,"('respond', 'neutral')",respond,neutral,True,False
+Scheduled power shutdown in your area tomorrow.,respond,urgent,scheduled power shutdown in your area tomorrow,"('respond', 'neutral')",respond,neutral,True,False
+Reminder to update your password for security reasons.,respond,polite,reminder to update your password for security reasons,"('respond', 'neutral')",respond,neutral,True,False
