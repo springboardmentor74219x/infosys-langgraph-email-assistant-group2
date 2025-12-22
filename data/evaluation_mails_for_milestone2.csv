@@ -16,7 +16,7 @@ email_text,expected_action,expected_tone
 "Meeting rescheduled: The daily standup has been moved to 11:30 AM to accommodate the client call.",notify,neutral
 "Attached is the syllabus for the upcoming semester. Please read through it before the first class.",notify,neutral
 "I am writing to inquire about open research assistant positions in your lab for the upcoming fall semester.",respond,polite
-"Payment Overdue: Your invoice #8821 is 5 days past due. Please settle this immediately to avoid service interruption.",respond,urgent
+"Payment Overdue: Your invoice is 5 days past due. Please settle this immediately to avoid service interruption.",respond,urgent
 "Quick question - do we have the updated API documentation link? The old one seems broken.",respond,neutral
 "FYI, I have pushed the latest code changes to the 'feature-login' branch.",notify,neutral
 "Join us for the annual hackathon! Register now to win exciting prizes.",ignore,polite
@@ -58,7 +58,7 @@ email_text,expected_action,expected_tone
 "Receipt for your recent ride with Uber. Total: $15.40.",notify,neutral
 "Don't miss out! The webinar on 'Future of AI' starts in 1 hour.",notify,urgent
 "I'm running 10 minutes late for the standup. Please start without me.",notify,neutral
-"Can you provide an ETA for the bug fix ticket #404?",respond,neutral
+"Can you provide an ETA for the bug fix ticket ?",respond,neutral
 "Your password was changed successfully. If this wasn't you, contact support.",notify,urgent
 "Newsletter: This week's top coding challenges and hackathons.",ignore,neutral
 "Feedback requested: How was your recent support experience with us?",ignore,polite
@@ -71,7 +71,7 @@ email_text,expected_action,expected_tone
 "Security Alert: A sign-in attempt was blocked from an unknown location.",respond,urgent
 "Reminder: Peer review feedback is due by EOD tomorrow.",notify,urgent
 "Is the team lunch still happening at the Italian place?",respond,neutral
-"Your order #5566 has been shipped and will arrive by Wednesday.",notify,neutral
+"Your order has been shipped and will arrive by Wednesday.",notify,neutral
 "Please complete the mandatory compliance training by the end of the month.",respond,neutral
 "Hi, just checking in on the status of my refund request sent 3 days ago.",respond,polite
 "Looking for a roommate? Check out these listings near campus.",ignore,neutral
@@ -88,9 +88,9 @@ email_text,expected_action,expected_tone
 "Just a heads up, I'll be working remotely tomorrow.",notify,neutral
 "Who is responsible for updating the README file? It's quite outdated.",respond,neutral
 "Exclusive deal for you: Buy one get one free on all courses!",ignore,neutral
-"Please approve the purchase order #9090 for the new monitors.",respond,urgent
+"Please approve the purchase order for the new monitors.",respond,urgent
 "Hi, I think we missed a corner case in the logic for user validation.",respond,neutral
-"Your ticket #7788 has been resolved. We are closing this request.",notify,neutral
+"Your ticket has been resolved. We are closing this request.",notify,neutral
 "Reminder: Quarterly goals submission deadline is approaching.",notify,urgent
 "Can you forward me the contact details of the vendor we discussed?",respond,polite
 "The build failed on the CI/CD pipeline. Please check the logs.",notify,urgent

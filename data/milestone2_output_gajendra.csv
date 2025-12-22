@@ -1,0 +1,82 @@
+email_text,expected_action,expected_tone,clean_text,predicted_action,predicted_tone,correct_action,correct_tone
+"Hi team, just a reminder that the Q3 strategy meeting is starting in 15 minutes in Room 302.",notify,urgent,hi team just a reminder that the q3 strategy meeting is starting in 15 minutes in room 302,respond,neutral,False,False
+"Dear Student, your internship application for the Summer 2025 batch has been received. We will review it shortly.",notify,polite,dear student your internship application for the summer 2025 batch has been received we will review it shortly,respond,neutral,False,False
+Attached is the invoice for the web development services provided in November. Please acknowledge receipt.,respond,polite,attached is the invoice for the web development services provided in november please acknowledge receipt,respond,neutral,True,False
+Congratulations! You have been selected for the final round of interviews for the SDE Intern role at TechCorp.,respond,polite,congratulations you have been selected for the final round of interviews for the sde intern role at techcorp,respond,neutral,True,False
+The server will be undergoing scheduled maintenance this Saturday from 2 AM to 4 AM UTC. No action is required.,notify,neutral,the server will be undergoing scheduled maintenance this saturday from 2 am to 4 am utc no action is required,respond,neutral,False,True
+Can you please send me the lecture notes from yesterday's Data Structures class? I missed the session.,respond,polite,can you please send me the lecture notes from yesterday s data structures class i missed the session,respond,neutral,True,False
+Weekly Newsletter: Top 10 trends in AI and Machine Learning for this week.,ignore,neutral,weekly newsletter top 10 trends in ai and machine learning for this week,respond,neutral,False,True
+Please confirm your attendance for the upcoming workshop by replying to this email by EOD.,respond,urgent,please confirm your attendance for the upcoming workshop by replying to this email by eod,respond,neutral,True,False
+Your payment of $50.00 for subscription renewal was successful. Thank you for your business.,notify,polite,your payment of 50 00 for subscription renewal was successful thank you for your business,ignore,polite,False,True
+"Hi, I wanted to follow up on my previous email regarding the project deadline extension. Is it approved?",respond,polite,hi i wanted to follow up on my previous email regarding the project deadline extension is it approved,notify,urgent,False,False
+Limited time offer! Get 50% off on all electronics this weekend only.,ignore,neutral,limited time offer get 50 off on all electronics this weekend only,respond,neutral,False,True
+"Professor, could you please clarify the requirements for the final project submission? The guidelines are slightly ambiguous.",respond,polite,professor could you please clarify the requirements for the final project submission the guidelines are slightly ambiguous,respond,neutral,True,False
+Meeting rescheduled: The daily standup has been moved to 11:30 AM to accommodate the client call.,notify,neutral,meeting rescheduled the daily standup has been moved to 11 30 am to accommodate the client call,respond,neutral,False,True
+Attached is the syllabus for the upcoming semester. Please read through it before the first class.,notify,neutral,attached is the syllabus for the upcoming semester please read through it before the first class,respond,neutral,False,True
+I am writing to inquire about open research assistant positions in your lab for the upcoming fall semester.,respond,polite,i am writing to inquire about open research assistant positions in your lab for the upcoming fall semester,respond,neutral,True,False
+Payment Overdue: Your invoice is 5 days past due. Please settle this immediately to avoid service interruption.,respond,urgent,payment overdue your invoice is 5 days past due please settle this immediately to avoid service interruption,respond,neutral,True,False
+"FYI, I have pushed the latest code changes to the 'feature-login' branch.",notify,neutral,fyi i have pushed the latest code changes to the feature login branch,respond,neutral,False,True
+Join us for the annual hackathon! Register now to win exciting prizes.,ignore,polite,join us for the annual hackathon register now to win exciting prizes,respond,neutral,False,False
+Your library book 'Introduction to Algorithms' is due tomorrow. Please renew or return it.,notify,urgent,your library book introduction to algorithms is due tomorrow please renew or return it,respond,neutral,False,False
+"Dear Customer, we noticed a new login to your account from an unrecognized device. Was this you?",respond,urgent,dear customer we noticed a new login to your account from an unrecognized device was this you,respond,neutral,True,False
+Happy Birthday! Wishing you a fantastic year ahead from the HR team.,respond,polite,happy birthday wishing you a fantastic year ahead from the hr team,respond,neutral,True,False
+Could you review the attached PR when you get a chance? I've fixed the bug in the login module.,respond,polite,could you review the attached pr when you get a chance i ve fixed the bug in the login module,respond,neutral,True,False
+Automatic Reply: I am currently out of the office with no access to email. I will respond upon my return.,ignore,neutral,automatic reply i am currently out of the office with no access to email i will respond upon my return,respond,neutral,False,True
+Please find the minutes of the meeting attached for your reference.,notify,neutral,please find the minutes of the meeting attached for your reference,respond,neutral,False,True
+Reminder: Your dental appointment is scheduled for tomorrow at 10:00 AM.,notify,neutral,reminder your dental appointment is scheduled for tomorrow at 10 00 am,respond,neutral,False,True
+"Hi, I noticed a typo in the documentation on page 42. Should I open a PR to fix it?",respond,polite,hi i noticed a typo in the documentation on page 42 should i open a pr to fix it,respond,neutral,True,False
+Alert: High CPU usage detected on instance i-098234. Immediate investigation required.,notify,urgent,alert high cpu usage detected on instance i 098234 immediate investigation required,respond,neutral,False,False
+Your monthly statement for the internet bill is now available for viewing.,notify,neutral,your monthly statement for the internet bill is now available for viewing,respond,neutral,False,True
+Invitation: End of Year Office Party at the Rooftop Lounge.,respond,polite,invitation end of year office party at the rooftop lounge,respond,neutral,True,False
+Your application for the Machine Learning Workshop has been approved.,notify,polite,your application for the machine learning workshop has been approved,respond,neutral,False,False
+Did you get a chance to look at the budget proposal I sent last week?,respond,polite,did you get a chance to look at the budget proposal i sent last week,respond,neutral,True,False
+Warning: Your cloud storage is 95% full. Upgrade now to avoid data loss.,respond,urgent,warning your cloud storage is 95 full upgrade now to avoid data loss,respond,neutral,True,False
+Great news! Your paper has been accepted for presentation at the conference.,respond,polite,great news your paper has been accepted for presentation at the conference,respond,neutral,True,False
+Please disregard the previous email. It was sent in error.,ignore,neutral,please disregard the previous email it was sent in error,respond,neutral,False,True
+Can you send me the Zoom link for the 2 PM call? I can't find it in my calendar.,respond,urgent,can you send me the zoom link for the 2 pm call i can t find it in my calendar,respond,neutral,True,False
+Weekly digest: 5 new articles on React performance optimization.,ignore,neutral,weekly digest 5 new articles on react performance optimization,respond,neutral,False,True
+Action Required: Please verify your email address to complete the registration.,respond,urgent,action required please verify your email address to complete the registration,respond,neutral,True,False
+"Hi Professor, I am struggling with the assignment due on Monday. Can I come to your office hours?",respond,polite,hi professor i am struggling with the assignment due on monday can i come to your office hours,respond,neutral,True,False
+The package with tracking ID #XYZ123 has been delivered to your front porch.,notify,neutral,the package with tracking id xyz123 has been delivered to your front porch,respond,neutral,False,True
+Update: The office Wi-Fi password has been changed to 'SecureNet2025'.,notify,neutral,update the office wi fi password has been changed to securenet2025,respond,neutral,False,True
+Congratulations! You've won a $10 gift card. Click here to claim.,ignore,neutral,congratulations you ve won a 10 gift card click here to claim,respond,neutral,False,True
+Please submit your travel expense report by Friday for reimbursement processing.,respond,urgent,please submit your travel expense report by friday for reimbursement processing,notify,urgent,False,True
+FYI: The cafeteria will be closed for cleaning between 3 PM and 4 PM today.,notify,neutral,fyi the cafeteria will be closed for cleaning between 3 pm and 4 pm today,respond,neutral,False,True
+Request for Leave: I would like to take next Monday off for personal reasons.,respond,polite,request for leave i would like to take next monday off for personal reasons,respond,neutral,True,False
+Your free trial is ending in 3 days. We hope you enjoyed the service.,notify,neutral,your free trial is ending in 3 days we hope you enjoyed the service,respond,neutral,False,True
+Could you please review the attached contract and sign on page 3?,respond,polite,could you please review the attached contract and sign on page 3,respond,neutral,True,False
+System Update: We have successfully patched the security vulnerability reported yesterday.,notify,neutral,system update we have successfully patched the security vulnerability reported yesterday,respond,neutral,False,True
+Receipt for your recent ride with Uber. Total: $15.40.,notify,neutral,receipt for your recent ride with uber total 15 40,respond,neutral,False,True
+Don't miss out! The webinar on 'Future of AI' starts in 1 hour.,notify,urgent,don t miss out the webinar on future of ai starts in 1 hour,respond,neutral,False,False
+I'm running 10 minutes late for the standup. Please start without me.,notify,neutral,i m running 10 minutes late for the standup please start without me,respond,neutral,False,True
+"Your password was changed successfully. If this wasn't you, contact support.",notify,urgent,your password was changed successfully if this wasn t you contact support,respond,neutral,False,False
+Newsletter: This week's top coding challenges and hackathons.,ignore,neutral,newsletter this week s top coding challenges and hackathons,respond,neutral,False,True
+Feedback requested: How was your recent support experience with us?,ignore,polite,feedback requested how was your recent support experience with us,respond,neutral,False,False
+Urgent: The client is asking for the updated slide deck. Please send it ASAP.,respond,urgent,urgent the client is asking for the updated slide deck please send it asap,notify,urgent,False,True
+"Hi, do you know who is the point of contact for the new marketing campaign?",respond,polite,hi do you know who is the point of contact for the new marketing campaign,respond,neutral,True,False
+Your ride has arrived. Please meet the driver at the pickup point.,notify,urgent,your ride has arrived please meet the driver at the pickup point,respond,neutral,False,False
+Semester Results: The grades for the Fall semester have been published on the portal.,notify,urgent,semester results the grades for the fall semester have been published on the portal,respond,neutral,False,False
+Can we push the design review to next Tuesday? I have a conflict.,respond,polite,can we push the design review to next tuesday i have a conflict,respond,neutral,True,False
+Security Alert: A sign-in attempt was blocked from an unknown location.,respond,urgent,security alert a sign in attempt was blocked from an unknown location,respond,neutral,True,False
+Reminder: Peer review feedback is due by EOD tomorrow.,notify,urgent,reminder peer review feedback is due by eod tomorrow,respond,neutral,False,False
+Your order has been shipped and will arrive by Wednesday.,notify,neutral,your order has been shipped and will arrive by wednesday,respond,neutral,False,True
+"Hi, just checking in on the status of my refund request sent 3 days ago.",respond,polite,hi just checking in on the status of my refund request sent 3 days ago,respond,neutral,True,False
+Looking for a roommate? Check out these listings near campus.,ignore,neutral,looking for a roommate check out these listings near campus,respond,neutral,False,True
+The meeting room has been changed from Room A to Room B.,notify,urgent,the meeting room has been changed from room a to room b,respond,neutral,False,False
+Thank you for your donation. Here is your tax-deductible receipt.,notify,polite,thank you for your donation here is your tax deductible receipt,ignore,polite,False,True
+Scheduled Downtime: The payment gateway will be unavailable for 30 mins tonight.,notify,neutral,scheduled downtime the payment gateway will be unavailable for 30 mins tonight,respond,neutral,False,True
+Final Call: Register for the coding contest before registration closes.,respond,urgent,final call register for the coding contest before registration closes,respond,neutral,True,False
+Attached is the updated project timeline reflecting the recent delays.,notify,neutral,attached is the updated project timeline reflecting the recent delays,respond,neutral,False,True
+Could you please share the access keys for the test environment?,respond,polite,could you please share the access keys for the test environment,respond,neutral,True,False
+Welcome to the team! We are excited to have you on board.,respond,polite,welcome to the team we are excited to have you on board,respond,neutral,True,False
+Your subscription payment failed. Please update your payment method.,respond,urgent,your subscription payment failed please update your payment method,respond,neutral,True,False
+"Just a heads up, I'll be working remotely tomorrow.",notify,neutral,just a heads up i ll be working remotely tomorrow,respond,neutral,False,True
+Exclusive deal for you: Buy one get one free on all courses!,ignore,neutral,exclusive deal for you buy one get one free on all courses,respond,neutral,False,True
+Please approve the purchase order for the new monitors.,respond,urgent,please approve the purchase order for the new monitors,respond,neutral,True,False
+Your ticket has been resolved. We are closing this request.,notify,neutral,your ticket has been resolved we are closing this request,respond,neutral,False,True
+Can you forward me the contact details of the vendor we discussed?,respond,polite,can you forward me the contact details of the vendor we discussed,respond,neutral,True,False
+The build failed on the CI/CD pipeline. Please check the logs.,notify,urgent,the build failed on the ci cd pipeline please check the logs,respond,neutral,False,False
+Lunch is on me today! Meet me in the lobby at 12:30.,respond,polite,lunch is on me today meet me in the lobby at 12 30,respond,neutral,True,False
+Survey: Help us improve our campus facilities by answering 3 questions.,ignore,neutral,survey help us improve our campus facilities by answering 3 questions,respond,neutral,False,True
+Notice: The elevator maintenance is scheduled for this weekend.,notify,neutral,notice the elevator maintenance is scheduled for this weekend,respond,neutral,False,True
+I've updated the Trello board with the latest tasks for the sprint.,notify,neutral,i ve updated the trello board with the latest tasks for the sprint,respond,neutral,False,True
