@@ -1,0 +1,99 @@
+email_text,expected_action,expected_tone
+Reminder: Team meeting scheduled tomorrow at 10 AM in conference room A.,respond,polite
+Your electricity bill payment is overdue. Please pay immediately to avoid disconnection.,notify,urgent
+Congratulations! You have won a gift voucher. Click here to claim.,ignore,neutral
+Please find attached the internship offer letter. Kindly confirm acceptance.,respond,polite
+System alert: Multiple failed login attempts detected on your account.,notify,urgent
+Weekly newsletter: Top tech news of the week.,ignore,neutral
+Can you please share the project status update by today?,respond,polite
+Your order has been shipped and will arrive by Friday.,respond,neutral
+Security notice: Password change required within 24 hours.,notify,urgent
+Promotional email: Big sale this weekend!,ignore,neutral
+Invitation: Join the company webinar on AI trends next Monday.,respond,polite
+Your subscription for streaming service expires tomorrow.,notify,urgent
+Reminder: Submit your expense report by end of week.,respond,neutral
+Holiday greeting from CEO: Wishing everyone a happy new year!,ignore,polite
+Please review the attached contract and provide feedback.,respond,polite
+Your password will expire in 3 days. Change it now.,notify,urgent
+Invitation: Participate in the customer satisfaction survey.,respond,neutral
+Your flight booking has been confirmed for 25th December.,respond,neutral
+Urgent: Security breach detected in your cloud account.,notify,urgent
+Monthly performance report is attached for your review.,respond,neutral
+Reminder: Doctor's appointment scheduled on Friday at 3 PM.,respond,polite
+System maintenance scheduled tonight from 12 AM to 2 AM.,notify,neutral
+Congratulations! You have been shortlisted for the interview.,respond,polite
+Your credit card statement is ready for download.,notify,neutral
+Newsletter: Latest research papers in machine learning.,ignore,neutral
+Please update your contact information in HR records.,respond,neutral
+Alert: Unusual login from a new device detected.,notify,urgent
+Reminder: Submit project proposal by Monday noon.,respond,polite
+Your package has been delayed due to weather conditions.,notify,neutral
+Invitation: Attend the online coding workshop tomorrow.,respond,polite
+Weekly digest: Top trending articles in technology.,ignore,neutral
+Your bank account statement is available for download.,notify,neutral
+Reminder: Team outing scheduled for Friday evening.,respond,polite
+Urgent: Final notice for unpaid utility bill.,notify,urgent
+Promotion: Buy one get one free offer valid till Sunday!,ignore,neutral
+Please confirm your attendance for the board meeting.,respond,polite
+Security alert: Unrecognized device tried to access your account.,notify,urgent
+Newsletter: Upcoming events in your area this week.,ignore,neutral
+Reminder: Quarterly tax filing deadline approaching.,notify,urgent
+Your job application has been received and is under review.,respond,neutral
+System update required: Restart your computer to install updates.,notify,neutral
+Invitation: Join our alumni networking session this Saturday.,respond,polite
+Alert: Suspicious activity detected on your social media account.,notify,urgent
+Weekly report: Sales performance and targets overview.,respond,neutral
+Reminder: Complete the online training module by Friday.,respond,polite
+Your hotel booking confirmation for 20th December.,respond,neutral
+Promotion: Limited-time offer on electronics!,ignore,neutral
+Security warning: Antivirus subscription has expired.,notify,urgent
+Invitation: Attend the virtual conference on renewable energy.,respond,polite
+Newsletter: Healthy recipes and tips for this month.,ignore,neutral
+Reminder: Parent-teacher meeting scheduled on Wednesday.,respond,polite
+Alert: Overdraft limit reached in your bank account.,notify,urgent
+Your feedback is requested on the new software rollout.,respond,neutral
+Congratulations! You are selected for the scholarship program.,respond,polite
+System downtime alert: Website will be unavailable tonight.,notify,neutral
+Reminder: Client presentation tomorrow at 11 AM.,respond,polite
+Your insurance premium payment is due next week.,notify,urgent
+Promotion: Extra 20% discount for premium members!,ignore,neutral
+Please approve the leave request submitted by your team member.,respond,neutral
+Security alert: Suspicious IP attempted login to your account.,notify,urgent
+Invitation: Join the fitness challenge starting Monday.,respond,polite
+Newsletter: Upcoming tech gadgets review.,ignore,neutral
+Reminder: Team-building workshop on Thursday.,respond,polite
+Alert: Fraudulent transaction detected on your account.,notify,urgent
+Your course registration is confirmed for the next semester.,respond,neutral
+Congratulations! Your article has been published in the magazine.,respond,polite
+System alert: Backup completed successfully.,ignore,neutral
+Reminder: Pay membership fees before the end of month.,notify,urgent
+Your delivery is scheduled between 2 PM to 5 PM tomorrow.,respond,neutral
+Promotion: Special discount on travel packages!,ignore,neutral
+Alert: Critical security patch available. Install immediately.,notify,urgent
+Invitation: Webinar on personal finance management.,respond,polite
+Weekly digest: Industry news highlights.,ignore,neutral
+Reminder: Submission deadline for creative writing contest.,respond,polite
+Your subscription renewal is due next week.,notify,urgent
+Promotion: Exclusive offer for loyal customers!,ignore,neutral
+Security notice: Multi-factor authentication setup required.,notify,urgent
+Invitation: Participate in charity fundraising event.,respond,polite
+Newsletter: Top 10 productivity apps for professionals.,ignore,neutral
+Reminder: Submit expense reimbursement by Friday.,respond,polite
+Alert: Your account has been temporarily suspended.,notify,urgent
+Your ticket booking confirmation for the concert.,respond,neutral
+Promotion: Weekend flash sale on clothing items!,ignore,neutral
+System notification: Disk space running low.,notify,urgent
+Invitation: Attend online workshop on digital marketing.,respond,polite
+Newsletter: Monthly updates from the tech community.,ignore,neutral
+Reminder: Complete your profile information on the portal.,respond,polite
+Alert: Unauthorized access detected in your email account.,notify,urgent
+Your order delivery has been rescheduled to next Monday.,respond,neutral
+Promotion: Special cashback offer for online purchases!,ignore,neutral
+Security alert: Change your password immediately.,notify,urgent
+Invitation: Join our weekly virtual coffee chat.,respond,polite
+Weekly roundup: Popular articles and videos.,ignore,neutral
+Reminder: Doctor's appointment on Friday at 2 PM.,respond,polite
+Alert: Low account balance in your bank account.,notify,urgent
+Your flight ticket has been issued and is ready for download.,respond,neutral
+Promotion: End of season sale - up to 50% off!,ignore,neutral
+System update: New features available in your software.,notify,neutral
