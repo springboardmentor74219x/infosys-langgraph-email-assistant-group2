@@ -1,0 +1,101 @@
+email_id,email_text,expected_action,expected_tone,predicted_action,predicted_tone,action_correct,tone_correct
+E001,Quick reminder about today’s client call. Agenda is attached.,notify,neutral,respond,neutral,False,True
+E002,"Hi, our meeting has been moved to 3 PM today. Let me know if this causes any issue.",notify,polite,respond,neutral,False,False
+E003,Calendar invite shared for next Monday’s discussion. No reply needed.,ignore,neutral,respond,neutral,False,True
+E004,Reminder: Project sync tomorrow at 10 AM. Please join the Teams call on time.,notify,neutral,respond,polite,False,False
+E005,Reminder: Project sync tomorrow at 10 AM. Please join the Teams call on time.,notify,neutral,respond,polite,False,False
+E006,Weekly standup scheduled as usual. See you there.,ignore,neutral,respond,neutral,False,True
+E007,Reminder: Project sync tomorrow at 10 AM. Please join the Teams call on time.,notify,neutral,respond,polite,False,False
+E008,Quick reminder about today’s client call. Agenda is attached.,notify,neutral,respond,neutral,False,True
+E009,Weekly standup scheduled as usual. See you there.,ignore,neutral,respond,neutral,False,True
+E010,Reminder: Project sync tomorrow at 10 AM. Please join the Teams call on time.,notify,neutral,respond,polite,False,False
+E011,Weekly standup scheduled as usual. See you there.,ignore,neutral,respond,neutral,False,True
+E012,"Hi, our meeting has been moved to 3 PM today. Let me know if this causes any issue.",notify,polite,respond,neutral,False,False
+E013,Reminder: Project sync tomorrow at 10 AM. Please join the Teams call on time.,notify,neutral,respond,polite,False,False
+E014,Reminder: Project sync tomorrow at 10 AM. Please join the Teams call on time.,notify,neutral,respond,polite,False,False
+E015,Calendar invite shared for next Monday’s discussion. No reply needed.,ignore,neutral,respond,neutral,False,True
+E016,Calendar invite shared for next Monday’s discussion. No reply needed.,ignore,neutral,respond,neutral,False,True
+E017,Reminder: Project sync tomorrow at 10 AM. Please join the Teams call on time.,notify,neutral,respond,polite,False,False
+E018,"Hi, our meeting has been moved to 3 PM today. Let me know if this causes any issue.",notify,polite,respond,neutral,False,False
+E019,Reminder: Project sync tomorrow at 10 AM. Please join the Teams call on time.,notify,neutral,respond,polite,False,False
+E020,Weekly standup scheduled as usual. See you there.,ignore,neutral,respond,neutral,False,True
+E021,Attached is the invoice for recent services. Let us know if you have questions.,notify,neutral,respond,neutral,False,True
+E022,Invoice #4589 has been generated. Kindly process the payment by end of day.,notify,urgent,notify,urgent,True,True
+E023,Thank you for your payment. This email is for confirmation only.,ignore,polite,respond,neutral,False,False
+E024,Invoice #4589 has been generated. Kindly process the payment by end of day.,notify,urgent,notify,urgent,True,True
+E025,This is a reminder regarding the pending invoice. Please confirm once paid.,notify,polite,respond,polite,False,True
+E026,Thank you for your payment. This email is for confirmation only.,ignore,polite,respond,neutral,False,False
+E027,Invoice #4589 has been generated. Kindly process the payment by end of day.,notify,urgent,notify,urgent,True,True
+E028,Thank you for your payment. This email is for confirmation only.,ignore,polite,respond,neutral,False,False
+E029,Thank you for your payment. This email is for confirmation only.,ignore,polite,respond,neutral,False,False
+E030,Attached is the invoice for recent services. Let us know if you have questions.,notify,neutral,respond,neutral,False,True
+E031,Invoice #4589 has been generated. Kindly process the payment by end of day.,notify,urgent,notify,urgent,True,True
+E032,This is a reminder regarding the pending invoice. Please confirm once paid.,notify,polite,respond,polite,False,True
+E033,Invoice #4589 has been generated. Kindly process the payment by end of day.,notify,urgent,notify,urgent,True,True
+E034,Thank you for your payment. This email is for confirmation only.,ignore,polite,respond,neutral,False,False
+E035,This is a reminder regarding the pending invoice. Please confirm once paid.,notify,polite,respond,polite,False,True
+E036,Payment for last month is still pending. Immediate attention required.,notify,urgent,notify,urgent,True,True
+E037,Attached is the invoice for recent services. Let us know if you have questions.,notify,neutral,respond,neutral,False,True
+E038,This is a reminder regarding the pending invoice. Please confirm once paid.,notify,polite,respond,polite,False,True
+E039,Thank you for your payment. This email is for confirmation only.,ignore,polite,respond,neutral,False,False
+E040,Invoice #4589 has been generated. Kindly process the payment by end of day.,notify,urgent,notify,urgent,True,True
+E041,Please confirm acceptance of the internship offer at the earliest.,respond,urgent,respond,polite,True,False
+E042,This is a reminder to submit your academic documents by tomorrow.,notify,urgent,respond,neutral,False,False
+E043,Please confirm acceptance of the internship offer at the earliest.,respond,urgent,respond,polite,True,False
+E044,Your internship application has been shortlisted. Further steps will be shared soon.,notify,neutral,respond,neutral,False,True
+E045,We would like to invite you for an internship interview this week. Please reply with your availability.,respond,polite,respond,polite,True,True
+E046,Please confirm acceptance of the internship offer at the earliest.,respond,urgent,respond,polite,True,False
+E047,Please confirm acceptance of the internship offer at the earliest.,respond,urgent,respond,polite,True,False
+E048,Your internship application has been shortlisted. Further steps will be shared soon.,notify,neutral,respond,neutral,False,True
+E049,This is a reminder to submit your academic documents by tomorrow.,notify,urgent,respond,neutral,False,False
+E050,We would like to invite you for an internship interview this week. Please reply with your availability.,respond,polite,respond,polite,True,True
+E051,Please confirm acceptance of the internship offer at the earliest.,respond,urgent,respond,polite,True,False
+E052,We would like to invite you for an internship interview this week. Please reply with your availability.,respond,polite,respond,polite,True,True
+E053,Please confirm acceptance of the internship offer at the earliest.,respond,urgent,respond,polite,True,False
+E054,We would like to invite you for an internship interview this week. Please reply with your availability.,respond,polite,respond,polite,True,True
+E055,Please confirm acceptance of the internship offer at the earliest.,respond,urgent,respond,polite,True,False
+E056,Your internship application has been shortlisted. Further steps will be shared soon.,notify,neutral,respond,neutral,False,True
+E057,Congratulations on being selected for the internship program.,notify,polite,respond,neutral,False,False
+E058,Please confirm acceptance of the internship offer at the earliest.,respond,urgent,respond,polite,True,False
+E059,Congratulations on being selected for the internship program.,notify,polite,respond,neutral,False,False
+E060,This is a reminder to submit your academic documents by tomorrow.,notify,urgent,respond,neutral,False,False
+E061,Can you clarify the requirements mentioned in the document?,respond,polite,respond,neutral,True,False
+E062,Need more information about the next steps.,respond,neutral,respond,neutral,True,True
+E063,Can you clarify the requirements mentioned in the document?,respond,polite,respond,neutral,True,False
+E064,Following up to check the status of my previous request.,respond,neutral,respond,neutral,True,True
+E065,Following up to check the status of my previous request.,respond,neutral,respond,neutral,True,True
+E066,I had a question regarding yesterday’s discussion.,respond,neutral,respond,neutral,True,True
+E067,I had a question regarding yesterday’s discussion.,respond,neutral,respond,neutral,True,True
+E068,I had a question regarding yesterday’s discussion.,respond,neutral,respond,neutral,True,True
+E069,Could you please share the updated project timeline?,respond,polite,respond,polite,True,True
+E070,Need more information about the next steps.,respond,neutral,respond,neutral,True,True
+E071,Following up to check the status of my previous request.,respond,neutral,respond,neutral,True,True
+E072,Need more information about the next steps.,respond,neutral,respond,neutral,True,True
+E073,Can you clarify the requirements mentioned in the document?,respond,polite,respond,neutral,True,False
+E074,Following up to check the status of my previous request.,respond,neutral,respond,neutral,True,True
+E075,Can you clarify the requirements mentioned in the document?,respond,polite,respond,neutral,True,False
+E076,Following up to check the status of my previous request.,respond,neutral,respond,neutral,True,True
+E077,Need more information about the next steps.,respond,neutral,respond,neutral,True,True
+E078,Could you please share the updated project timeline?,respond,polite,respond,polite,True,True
+E079,Could you please share the updated project timeline?,respond,polite,respond,polite,True,True
+E080,Need more information about the next steps.,respond,neutral,respond,neutral,True,True
+E081,This is an automated notification. No action is required.,ignore,neutral,respond,neutral,False,True
+E082,FYI: System maintenance scheduled this weekend.,ignore,neutral,ignore,neutral,True,True
+E083,Sharing this document for your reference.,ignore,neutral,respond,neutral,False,True
+E084,FYI: System maintenance scheduled this weekend.,ignore,neutral,ignore,neutral,True,True
+E085,This is an automated notification. No action is required.,ignore,neutral,respond,neutral,False,True
+E086,This is an automated notification. No action is required.,ignore,neutral,respond,neutral,False,True
+E087,Monthly newsletter: company updates and announcements.,ignore,neutral,respond,neutral,False,True
+E088,Monthly newsletter: company updates and announcements.,ignore,neutral,respond,neutral,False,True
+E089,Weekly digest of internal updates.,ignore,neutral,respond,neutral,False,True
+E090,Weekly digest of internal updates.,ignore,neutral,respond,neutral,False,True
+E091,Sharing this document for your reference.,ignore,neutral,respond,neutral,False,True
+E092,Sharing this document for your reference.,ignore,neutral,respond,neutral,False,True
+E093,Sharing this document for your reference.,ignore,neutral,respond,neutral,False,True
+E094,Weekly digest of internal updates.,ignore,neutral,respond,neutral,False,True
+E095,This is an automated notification. No action is required.,ignore,neutral,respond,neutral,False,True
+E096,Weekly digest of internal updates.,ignore,neutral,respond,neutral,False,True
+E097,This is an automated notification. No action is required.,ignore,neutral,respond,neutral,False,True
+E098,Monthly newsletter: company updates and announcements.,ignore,neutral,respond,neutral,False,True
+E099,Monthly newsletter: company updates and announcements.,ignore,neutral,respond,neutral,False,True
+E100,Sharing this document for your reference.,ignore,neutral,respond,neutral,False,True
