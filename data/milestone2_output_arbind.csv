@@ -1,0 +1,99 @@
+email_text,expected_action,expected_tone,assistant_output,predicted_action,predicted_tone,action_correct,tone_correct
+Reminder: Team meeting scheduled tomorrow at 10 AM in conference room A.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Your electricity bill payment is overdue. Please pay immediately to avoid disconnection.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Congratulations! You have won a gift voucher. Click here to claim.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Please find attached the internship offer letter. Kindly confirm acceptance.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+System alert: Multiple failed login attempts detected on your account.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Weekly newsletter: Top tech news of the week.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Can you please share the project status update by today?,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Your order has been shipped and will arrive by Friday.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Security notice: Password change required within 24 hours.,notify,urgent,"('respond', 'polite')",respond,polite,False,False
+Promotional email: Big sale this weekend!,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Invitation: Join the company webinar on AI trends next Monday.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Your subscription for streaming service expires tomorrow.,notify,urgent,"('respond', 'polite')",respond,polite,False,False
+Reminder: Submit your expense report by end of week.,respond,neutral,"('notify', 'urgent')",notify,urgent,False,False
+Holiday greeting from CEO: Wishing everyone a happy new year!,ignore,polite,"('respond', 'polite')",respond,polite,False,True
+Please review the attached contract and provide feedback.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Your password will expire in 3 days. Change it now.,notify,urgent,"('respond', 'polite')",respond,polite,False,False
+Invitation: Participate in the customer satisfaction survey.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Your flight booking has been confirmed for 25th December.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Urgent: Security breach detected in your cloud account.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Monthly performance report is attached for your review.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Reminder: Doctor's appointment scheduled on Friday at 3 PM.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+System maintenance scheduled tonight from 12 AM to 2 AM.,notify,neutral,"('respond', 'polite')",respond,polite,False,False
+Congratulations! You have been shortlisted for the interview.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+Your credit card statement is ready for download.,notify,neutral,"('respond', 'polite')",respond,polite,False,False
+Newsletter: Latest research papers in machine learning.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Please update your contact information in HR records.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Alert: Unusual login from a new device detected.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Reminder: Submit project proposal by Monday noon.,respond,polite,"('notify', 'urgent')",notify,urgent,False,False
+Your package has been delayed due to weather conditions.,notify,neutral,"('respond', 'polite')",respond,polite,False,False
+Invitation: Attend the online coding workshop tomorrow.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Weekly digest: Top trending articles in technology.,ignore,neutral,"('respond', 'polite')",respond,polite,False,False
+Your bank account statement is available for download.,notify,neutral,"('respond', 'polite')",respond,polite,False,False
+Reminder: Team outing scheduled for Friday evening.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Urgent: Final notice for unpaid utility bill.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Promotion: Buy one get one free offer valid till Sunday!,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Please confirm your attendance for the board meeting.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Security alert: Unrecognized device tried to access your account.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Newsletter: Upcoming events in your area this week.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Reminder: Quarterly tax filing deadline approaching.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Your job application has been received and is under review.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+System update required: Restart your computer to install updates.,notify,neutral,"('respond', 'polite')",respond,polite,False,False
+Invitation: Join our alumni networking session this Saturday.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Alert: Suspicious activity detected on your social media account.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Weekly report: Sales performance and targets overview.,respond,neutral,"('ignore', 'neutral')",ignore,neutral,False,True
+Reminder: Complete the online training module by Friday.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Your hotel booking confirmation for 20th December.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Promotion: Limited-time offer on electronics!,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Security warning: Antivirus subscription has expired.,notify,urgent,"('respond', 'polite')",respond,polite,False,False
+Invitation: Attend the virtual conference on renewable energy.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Newsletter: Healthy recipes and tips for this month.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Reminder: Parent-teacher meeting scheduled on Wednesday.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Alert: Overdraft limit reached in your bank account.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Your feedback is requested on the new software rollout.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Congratulations! You are selected for the scholarship program.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+System downtime alert: Website will be unavailable tonight.,notify,neutral,"('notify', 'urgent')",notify,urgent,True,False
+Reminder: Client presentation tomorrow at 11 AM.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Your insurance premium payment is due next week.,notify,urgent,"('respond', 'polite')",respond,polite,False,False
+Promotion: Extra 20% discount for premium members!,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Please approve the leave request submitted by your team member.,respond,neutral,"('notify', 'urgent')",notify,urgent,False,False
+Security alert: Suspicious IP attempted login to your account.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Invitation: Join the fitness challenge starting Monday.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Newsletter: Upcoming tech gadgets review.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Reminder: Team-building workshop on Thursday.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Alert: Fraudulent transaction detected on your account.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Your course registration is confirmed for the next semester.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Congratulations! Your article has been published in the magazine.,respond,polite,"('ignore', 'neutral')",ignore,neutral,False,False
+System alert: Backup completed successfully.,ignore,neutral,"('notify', 'urgent')",notify,urgent,False,False
+Reminder: Pay membership fees before the end of month.,notify,urgent,"('respond', 'polite')",respond,polite,False,False
+Your delivery is scheduled between 2 PM to 5 PM tomorrow.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Promotion: Special discount on travel packages!,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Alert: Critical security patch available. Install immediately.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Invitation: Webinar on personal finance management.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Weekly digest: Industry news highlights.,ignore,neutral,"('respond', 'polite')",respond,polite,False,False
+Reminder: Submission deadline for creative writing contest.,respond,polite,"('notify', 'urgent')",notify,urgent,False,False
+Your subscription renewal is due next week.,notify,urgent,"('respond', 'polite')",respond,polite,False,False
+Promotion: Exclusive offer for loyal customers!,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Security notice: Multi-factor authentication setup required.,notify,urgent,"('respond', 'polite')",respond,polite,False,False
+Invitation: Participate in charity fundraising event.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Newsletter: Top 10 productivity apps for professionals.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Reminder: Submit expense reimbursement by Friday.,respond,polite,"('notify', 'urgent')",notify,urgent,False,False
+Alert: Your account has been temporarily suspended.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Your ticket booking confirmation for the concert.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Promotion: Weekend flash sale on clothing items!,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+System notification: Disk space running low.,notify,urgent,"('respond', 'polite')",respond,polite,False,False
+Invitation: Attend online workshop on digital marketing.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Newsletter: Monthly updates from the tech community.,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Reminder: Complete your profile information on the portal.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Alert: Unauthorized access detected in your email account.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Your order delivery has been rescheduled to next Monday.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Promotion: Special cashback offer for online purchases!,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+Security alert: Change your password immediately.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Invitation: Join our weekly virtual coffee chat.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Weekly roundup: Popular articles and videos.,ignore,neutral,"('respond', 'polite')",respond,polite,False,False
+Reminder: Doctor's appointment on Friday at 2 PM.,respond,polite,"('respond', 'polite')",respond,polite,True,True
+Alert: Low account balance in your bank account.,notify,urgent,"('notify', 'urgent')",notify,urgent,True,True
+Your flight ticket has been issued and is ready for download.,respond,neutral,"('respond', 'polite')",respond,polite,True,False
+Promotion: End of season sale - up to 50% off!,ignore,neutral,"('ignore', 'neutral')",ignore,neutral,True,True
+System update: New features available in your software.,notify,neutral,"('respond', 'polite')",respond,polite,False,False
