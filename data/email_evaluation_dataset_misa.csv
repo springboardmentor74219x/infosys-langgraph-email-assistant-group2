@@ -1,4 +1,4 @@
-id,email_text,ideal_intent,ideal_tone
+id,body,ideal_intent,ideal_tone
 1,Reminder: This is a gentle reminder about the project review meeting scheduled tomorrow at 10:00 AM in Conference Room 1. Please be on time.,notify,neutral
 2,Reminder: This is a gentle reminder about the project review meeting scheduled tomorrow at 10:00 AM in Conference Room 2. Please be on time.,notify,neutral
 3,Reminder: This is a gentle reminder about the project review meeting scheduled tomorrow at 10:00 AM in Conference Room 3. Please be on time.,notify,neutral
