@@ -1,76 +1,201 @@
-email_text,expected_action,expected_tone,clean_email,predicted_action,predicted_tone,action_correct,tone_correct
-Reminder: Project review meeting scheduled tomorrow at 11 AM.,notify,neutral,reminder project review meeting scheduled tomorrow at 11 am,respond,neutral,False,True
-Please find attached the invoice for your August subscription. Payment due by Sept 5.,respond,urgent,please find attached the invoice for your august subscription payment due by sept 5,respond,neutral,True,False
-Thank you for registering for our webinar. No further action is required.,ignore,polite,thank you for registering for our webinar no further action is required,ignore,polite,True,True
-Can you please share the updated design document by today?,respond,urgent,can you please share the updated design document by today,respond,neutral,True,False
-This is to inform you that the office will remain closed on Friday.,notify,neutral,this is to inform you that the office will remain closed on friday,respond,neutral,False,True
-Your OTP for account login is 482913. Do not share it with anyone.,notify,urgent,your otp for account login is 482913 do not share it with anyone,respond,neutral,False,False
-We noticed unusual activity on your account. Please confirm if this was you.,respond,urgent,we noticed unusual activity on your account please confirm if this was you,respond,neutral,True,False
-Monthly newsletter: Top tech trends you should know.,ignore,neutral,monthly newsletter top tech trends you should know,respond,neutral,False,True
-Your interview has been scheduled for Monday at 10 AM. Please confirm.,respond,neutral,your interview has been scheduled for monday at 10 am please confirm,respond,neutral,True,True
-Reminder: Assignment submission deadline is tomorrow.,notify,urgent,reminder assignment submission deadline is tomorrow,notify,urgent,True,True
-Thank you for your payment. This email is for confirmation only.,ignore,polite,thank you for your payment this email is for confirmation only,ignore,polite,True,True
-Please review the attached contract and share your approval.,respond,neutral,please review the attached contract and share your approval,respond,neutral,True,True
-Team lunch planned this Friday at 1 PM.,notify,polite,team lunch planned this friday at 1 pm,respond,neutral,False,False
-Your password was changed successfully.,notify,neutral,your password was changed successfully,respond,neutral,False,True
-Limited-time offer! Get 50% off on premium plans.,ignore,neutral,limitedtime offer get 50 off on premium plans,respond,neutral,False,True
-Can we reschedule our meeting to Thursday afternoon?,respond,polite,can we reschedule our meeting to thursday afternoon,respond,neutral,True,False
-This email is to acknowledge receipt of your application.,ignore,neutral,this email is to acknowledge receipt of your application,respond,neutral,False,True
-Server maintenance scheduled tonight from 12 AM to 2 AM.,notify,neutral,server maintenance scheduled tonight from 12 am to 2 am,respond,neutral,False,True
-Urgent: Action required to avoid service disruption.,respond,urgent,urgent action required to avoid service disruption,notify,urgent,False,True
-Thank you for reaching out. Our team will get back to you shortly.,ignore,polite,thank you for reaching out our team will get back to you shortly,ignore,polite,True,True
-Please submit your internship documents by end of this week.,respond,neutral,please submit your internship documents by end of this week,notify,urgent,False,False
-Your flight ticket has been booked successfully.,notify,neutral,your flight ticket has been booked successfully,respond,neutral,False,True
-Reminder to update your timesheet before EOD.,notify,urgent,reminder to update your timesheet before eod,respond,neutral,False,False
-Congratulations! You have been selected for the next round.,notify,polite,congratulations you have been selected for the next round,respond,neutral,False,False
-Your order has been delivered. We hope you enjoy your purchase.,ignore,polite,your order has been delivered we hope you enjoy your purchase,respond,neutral,False,False
-Can you clarify your availability for next week?,respond,neutral,can you clarify your availability for next week,respond,neutral,True,True
-Security alert: New login detected from a different device.,notify,urgent,security alert new login detected from a different device,respond,neutral,False,False
-Join us for the annual company townhall tomorrow.,notify,neutral,join us for the annual company townhall tomorrow,respond,neutral,False,True
-This is a promotional email about our new product launch.,ignore,neutral,this is a promotional email about our new product launch,respond,neutral,False,True
-Please approve the budget request submitted yesterday.,respond,urgent,please approve the budget request submitted yesterday,notify,urgent,False,True
-Thank you for attending the meeting today.,ignore,polite,thank you for attending the meeting today,ignore,polite,True,True
-Your bank statement for August is now available.,notify,neutral,your bank statement for august is now available,respond,neutral,False,True
-Reminder: Fee payment deadline is today.,notify,urgent,reminder fee payment deadline is today,notify,urgent,True,True
-Could you please review my resume and share feedback?,respond,polite,could you please review my resume and share feedback,respond,neutral,True,False
-Your application status has been updated.,notify,neutral,your application status has been updated,respond,neutral,False,True
-Flash sale starts now! Don’t miss out.,ignore,urgent,flash sale starts now dont miss out,respond,neutral,False,False
-Please confirm your attendance for the workshop.,respond,neutral,please confirm your attendance for the workshop,respond,neutral,True,True
-Daily report attached for your reference.,notify,neutral,daily report attached for your reference,respond,neutral,False,True
-This email confirms your leave request has been approved.,notify,polite,this email confirms your leave request has been approved,respond,neutral,False,False
-Update required: Please verify your contact details.,respond,neutral,update required please verify your contact details,respond,neutral,True,True
-Thank you for your interest in our services.,ignore,polite,thank you for your interest in our services,ignore,polite,True,True
-Meeting agenda for tomorrow’s discussion.,notify,neutral,meeting agenda for tomorrows discussion,respond,neutral,False,True
-Your internet bill is overdue. Please pay immediately.,respond,urgent,your internet bill is overdue please pay immediately,respond,neutral,True,False
-Reminder: Complete the compliance training today.,notify,urgent,reminder complete the compliance training today,respond,neutral,False,False
-Can you send the final version of the presentation?,respond,neutral,can you send the final version of the presentation,respond,neutral,True,True
-System update completed successfully.,ignore,neutral,system update completed successfully,respond,neutral,False,True
-You are invited to join the mentorship program.,notify,polite,you are invited to join the mentorship program,respond,neutral,False,False
-Please respond with your preferred interview slot.,respond,neutral,please respond with your preferred interview slot,respond,neutral,True,True
-Weekly summary: Tasks completed and pending.,notify,neutral,weekly summary tasks completed and pending,respond,neutral,False,True
-This email is for informational purposes only.,ignore,neutral,this email is for informational purposes only,respond,neutral,False,True
-Urgent: Submit documents to avoid cancellation.,respond,urgent,urgent submit documents to avoid cancellation,notify,urgent,False,True
-Thank you for your feedback. We appreciate it.,ignore,polite,thank you for your feedback we appreciate it,ignore,polite,True,True
-Your exam schedule has been released.,notify,neutral,your exam schedule has been released,respond,neutral,False,True
-Can you help me with access to the repository?,respond,polite,can you help me with access to the repository,respond,neutral,True,False
-New company policy update attached.,notify,neutral,new company policy update attached,respond,neutral,False,True
-Reminder: Client call in 30 minutes.,notify,urgent,reminder client call in 30 minutes,respond,neutral,False,False
-Exclusive invite to premium members only.,ignore,polite,exclusive invite to premium members only,respond,neutral,False,False
-Please review and sign the NDA.,respond,urgent,please review and sign the nda,respond,neutral,True,False
-Your attendance has been marked for today.,ignore,neutral,your attendance has been marked for today,respond,neutral,False,True
-Action required: Update your KYC details.,respond,urgent,action required update your kyc details,respond,neutral,True,False
-Team outing details shared below.,notify,polite,team outing details shared below,respond,neutral,False,False
-Thank you for completing the survey.,ignore,polite,thank you for completing the survey,ignore,polite,True,True
-Can you confirm receipt of this email?,respond,neutral,can you confirm receipt of this email,respond,neutral,True,True
-Reminder: Sprint demo scheduled today.,notify,neutral,reminder sprint demo scheduled today,respond,neutral,False,True
-Your subscription will expire tomorrow.,notify,urgent,your subscription will expire tomorrow,respond,neutral,False,False
-General announcement: Parking rules updated.,notify,neutral,general announcement parking rules updated,respond,neutral,False,True
-Please share your feedback on the draft.,respond,polite,please share your feedback on the draft,respond,neutral,True,False
-This is an automated email. Please do not reply.,ignore,neutral,this is an automated email please do not reply,respond,neutral,False,True
-Urgent meeting scheduled in 1 hour.,notify,urgent,urgent meeting scheduled in 1 hour,notify,urgent,True,True
-Your request has been successfully processed.,ignore,neutral,your request has been successfully processed,respond,neutral,False,True
-Can you join the call now? It’s urgent.,respond,urgent,can you join the call now its urgent,notify,urgent,False,True
-Monthly performance report available.,notify,neutral,monthly performance report available,respond,neutral,False,True
-Thank you for your cooperation.,ignore,polite,thank you for your cooperation,ignore,polite,True,True
-Final reminder: Submit your assignment today.,notify,urgent,final reminder submit your assignment today,notify,urgent,True,True
-Please let me know if you have any questions.,respond,polite,please let me know if you have any questions,respond,neutral,True,False
+id,sender,subject,body,priority,triage_label,ideal_intent,ideal_tone,predicted_intent,predicted_tone,intent_correct,tone_correct
+1,alerts@bank.com,Password Reset Request,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,low,notify_human,respond,neutral,respond,neutral,True,True
+2,alerts@bank.com,Congratulations! You've Won,Your invoice of INR 25515.09 is due on 2025-12-12. Please pay to avoid late fees.,low,respond,respond,neutral,respond,neutral,True,True
+3,no-reply@service.com,Promotion: Big Sale,Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,low,ignore,respond,neutral,respond,neutral,True,True
+4,sales@shop.com,Monthly Report,"Hello team, please find the attached weekly report and action items for the project.",medium,respond,respond,neutral,respond,neutral,True,True
+5,no-reply@service.com,Survey,"Hello team, please find the attached weekly report and action items for the project.",low,respond,respond,neutral,respond,neutral,True,True
+6,alerts@bank.com,Unusual Login Attempt,Your invoice of INR 38766.88 is due on 2025-12-14. Please pay to avoid late fees.,low,notify_human,respond,neutral,respond,neutral,True,True
+7,hr@company.com,Project Update,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
+8,sales@shop.com,Project Update,Your order #6313 has been shipped and is expected to deliver by 2026-01-10.,medium,respond,respond,neutral,respond,neutral,True,True
+9,security@bank.com,Account Suspended,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",high,notify_human,notify_human,neutral,respond,neutral,False,True
+10,boss@company.com,Monthly Report,Your invoice of INR 32944.21 is due on 2025-12-24. Please pay to avoid late fees.,low,respond,respond,neutral,respond,neutral,True,True
+11,support@cloud.com,Survey,Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.,high,respond,respond,neutral,respond,neutral,True,True
+12,news@techblog.com,Policy Update,Your order #3621 has been shipped and is expected to deliver by 2025-12-13.,medium,respond,respond,neutral,respond,neutral,True,True
+13,teamlead@company.com,Subscription Renewal,"Hello team, please find the attached weekly report and action items for the project.",medium,respond,respond,neutral,respond,neutral,True,True
+14,alerts@bank.com,Survey,Reminder: The client meeting is scheduled at 10:30 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+15,security@bank.com,Security Alert,Please complete the mandatory training module before the deadline.,medium,notify_human,notify_human,urgent,notify,urgent,False,True
+16,news@techblog.com,Payment Overdue,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,notify_human,ignore,neutral,respond,neutral,False,True
+17,alerts@bank.com,Payment Overdue,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,medium,notify_human,respond,neutral,respond,neutral,True,True
+18,support@cloud.com,Meeting Agenda,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",medium,ignore,ignore,neutral,respond,neutral,False,True
+19,teamlead@company.com,Congratulations! You've Won,Please complete the mandatory training module before the deadline.,high,respond,notify_human,urgent,notify,urgent,False,True
+20,hr@company.com,Welcome to Service,Please complete the mandatory training module before the deadline.,low,respond,notify_human,urgent,notify,urgent,False,True
+21,support@cloud.com,Account Suspended,Notice: Your account will be locked unless verification is completed.,high,notify_human,notify_human,urgent,respond,neutral,False,False
+22,hr@company.com,Weekly Newsletter,Please complete the mandatory training module before the deadline.,low,ignore,notify_human,urgent,notify,urgent,False,True
+23,boss@company.com,Promotion: Big Sale,Your order #2545 has been shipped and is expected to deliver by 2025-12-27.,low,ignore,respond,neutral,respond,neutral,True,True
+24,teamlead@company.com,Payment Overdue,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+25,hr@company.com,Invoice Due,Your invoice of INR 9983.71 is due on 2025-12-29. Please pay to avoid late fees.,low,respond,respond,neutral,respond,neutral,True,True
+26,no-reply@service.com,Account Suspended,"Hello team, please find the attached weekly report and action items for the project.",medium,notify_human,respond,neutral,respond,neutral,True,True
+27,support@cloud.com,Password Reset Request,"Hello team, please find the attached weekly report and action items for the project.",low,notify_human,respond,neutral,respond,neutral,True,True
+28,sales@shop.com,Event Invitation,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",low,notify_human,notify_human,neutral,respond,neutral,False,True
+29,support@cloud.com,Action Required,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,ignore,ignore,neutral,respond,neutral,False,True
+30,boss@company.com,Action Required,Please complete the mandatory training module before the deadline.,low,respond,notify_human,urgent,notify,urgent,False,True
+31,news@techblog.com,Weekly Newsletter,Notice: Your account will be locked unless verification is completed.,high,notify_human,notify_human,urgent,respond,neutral,False,False
+32,boss@company.com,Account Suspended,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+33,orders@ecom.com,Congratulations! You've Won,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
+34,alerts@bank.com,Password Reset Request,Your order #9808 has been shipped and is expected to deliver by 2025-12-30.,low,notify_human,respond,neutral,respond,neutral,True,True
+35,orders@ecom.com,Meeting Agenda,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
+36,support@cloud.com,Order Shipped,Notice: Your account will be locked unless verification is completed.,high,notify_human,notify_human,urgent,respond,neutral,False,False
+37,alerts@bank.com,Meeting Agenda,Reminder: The client meeting is scheduled at 17:00 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+38,sales@shop.com,Monthly Report,Your invoice of INR 34531.11 is due on 2026-01-08. Please pay to avoid late fees.,high,respond,respond,neutral,respond,neutral,True,True
+39,security@bank.com,Weekly Newsletter,Security alert: multiple failed login attempts were recorded on your account.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+40,orders@ecom.com,Project Update,Your order #2832 has been shipped and is expected to deliver by 2025-12-25.,low,respond,respond,neutral,respond,neutral,True,True
+41,news@techblog.com,Survey,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",low,notify_human,notify_human,neutral,respond,neutral,False,True
+42,orders@ecom.com,Payment Overdue,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",medium,notify_human,notify_human,neutral,respond,neutral,False,True
+43,teamlead@company.com,Subscription Renewal,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,ignore,ignore,neutral,respond,neutral,False,True
+44,hr@company.com,System Maintenance,Your invoice of INR 13706.88 is due on 2026-01-06. Please pay to avoid late fees.,medium,respond,respond,neutral,respond,neutral,True,True
+45,sales@shop.com,Congratulations! You've Won,Your order #1387 has been shipped and is expected to deliver by 2026-01-07.,medium,respond,respond,neutral,respond,neutral,True,True
+46,teamlead@company.com,Monthly Report,Reminder: The client meeting is scheduled at 13:30 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+47,support@cloud.com,Monthly Report,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",low,notify_human,notify_human,neutral,respond,neutral,False,True
+48,teamlead@company.com,Payment Overdue,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,notify_human,ignore,neutral,respond,neutral,False,True
+49,teamlead@company.com,Password Reset Request,Please complete the mandatory training module before the deadline.,low,notify_human,notify_human,urgent,notify,urgent,False,True
+50,hr@company.com,Subscription Renewal,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
+51,orders@ecom.com,Survey,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,ignore,ignore,neutral,respond,neutral,False,True
+52,security@bank.com,Order Shipped,Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+53,sales@shop.com,Policy Update,Your order #5649 has been shipped and is expected to deliver by 2026-01-06.,low,respond,respond,neutral,respond,neutral,True,True
+54,boss@company.com,Monthly Report,"Hello team, please find the attached weekly report and action items for the project.",medium,respond,respond,neutral,respond,neutral,True,True
+55,news@techblog.com,Password Reset Request,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",medium,notify_human,notify_human,neutral,respond,neutral,False,True
+56,boss@company.com,Congratulations! You've Won,Security alert: multiple failed login attempts were recorded on your account.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+57,sales@shop.com,Project Update,Please complete the mandatory training module before the deadline.,low,respond,notify_human,urgent,notify,urgent,False,True
+58,no-reply@service.com,Policy Update,Please complete the mandatory training module before the deadline.,low,respond,notify_human,urgent,notify,urgent,False,True
+59,news@techblog.com,Action Required,Your order #4919 has been shipped and is expected to deliver by 2025-12-19.,low,respond,respond,neutral,respond,neutral,True,True
+60,alerts@bank.com,Order Shipped,Your invoice of INR 13949.9 is due on 2025-12-22. Please pay to avoid late fees.,low,respond,respond,neutral,respond,neutral,True,True
+61,teamlead@company.com,Meeting Agenda,Your invoice of INR 3679.33 is due on 2025-12-25. Please pay to avoid late fees.,low,respond,respond,neutral,respond,neutral,True,True
+62,teamlead@company.com,Event Invitation,Notice: Your account will be locked unless verification is completed.,high,notify_human,notify_human,urgent,respond,neutral,False,False
+63,orders@ecom.com,Event Invitation,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+64,teamlead@company.com,Action Required,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",high,notify_human,notify_human,neutral,respond,neutral,False,True
+65,boss@company.com,Survey,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",low,notify_human,notify_human,neutral,respond,neutral,False,True
+66,no-reply@service.com,Project Update,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",low,notify_human,notify_human,neutral,respond,neutral,False,True
+67,teamlead@company.com,Security Alert,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+68,hr@company.com,Account Suspended,"Hello team, please find the attached weekly report and action items for the project.",low,notify_human,respond,neutral,respond,neutral,True,True
+69,security@bank.com,Subscription Renewal,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",medium,ignore,ignore,neutral,respond,neutral,False,True
+70,hr@company.com,Project Update,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+71,security@bank.com,Order Shipped,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+72,sales@shop.com,Invoice Due,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+73,hr@company.com,Weekly Newsletter,Please complete the mandatory training module before the deadline.,low,ignore,notify_human,urgent,notify,urgent,False,True
+74,hr@company.com,Welcome to Service,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",medium,ignore,ignore,neutral,respond,neutral,False,True
+75,no-reply@service.com,System Maintenance,Notice: Your account will be locked unless verification is completed.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+76,sales@shop.com,Welcome to Service,Notice: Your account will be locked unless verification is completed.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+77,news@techblog.com,Action Required,Your invoice of INR 18063.84 is due on 2025-12-20. Please pay to avoid late fees.,low,respond,respond,neutral,respond,neutral,True,True
+78,support@cloud.com,Congratulations! You've Won,"Hello team, please find the attached weekly report and action items for the project.",medium,respond,respond,neutral,respond,neutral,True,True
+79,no-reply@service.com,Welcome to Service,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",medium,notify_human,notify_human,neutral,respond,neutral,False,True
+80,hr@company.com,Action Required,Please complete the mandatory training module before the deadline.,medium,respond,notify_human,urgent,notify,urgent,False,True
+81,orders@ecom.com,Order Shipped,Reminder: The client meeting is scheduled at 12:30 tomorrow. Prepare your slides.,medium,respond,respond,neutral,respond,neutral,True,True
+82,news@techblog.com,Congratulations! You've Won,Your invoice of INR 37060.93 is due on 2025-12-20. Please pay to avoid late fees.,medium,respond,respond,neutral,respond,neutral,True,True
+83,orders@ecom.com,Account Suspended,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,notify_human,ignore,neutral,respond,neutral,False,True
+84,security@bank.com,Survey,Reminder: The client meeting is scheduled at 16:00 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+85,no-reply@service.com,Action Required,Your order #2869 has been shipped and is expected to deliver by 2025-12-13.,medium,respond,respond,neutral,respond,neutral,True,True
+86,teamlead@company.com,Action Required,"Hello team, please find the attached weekly report and action items for the project.",medium,respond,respond,neutral,respond,neutral,True,True
+87,orders@ecom.com,Weekly Newsletter,Your invoice of INR 6363.35 is due on 2026-01-05. Please pay to avoid late fees.,low,ignore,respond,neutral,respond,neutral,True,True
+88,no-reply@service.com,Order Shipped,Notice: Your account will be locked unless verification is completed.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+89,orders@ecom.com,Weekly Newsletter,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,ignore,ignore,neutral,respond,neutral,False,True
+90,boss@company.com,Action Required,Reminder: The client meeting is scheduled at 13:30 tomorrow. Prepare your slides.,medium,respond,respond,neutral,respond,neutral,True,True
+91,orders@ecom.com,Promotion: Big Sale,Your invoice of INR 21544.38 is due on 2025-12-29. Please pay to avoid late fees.,medium,ignore,respond,neutral,respond,neutral,True,True
+92,alerts@bank.com,Unusual Login Attempt,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,notify_human,ignore,neutral,respond,neutral,False,True
+93,orders@ecom.com,Event Invitation,Reminder: The client meeting is scheduled at 16:00 tomorrow. Prepare your slides.,medium,respond,respond,neutral,respond,neutral,True,True
+94,hr@company.com,Subscription Renewal,Reminder: The client meeting is scheduled at 9:30 tomorrow. Prepare your slides.,medium,respond,respond,neutral,respond,neutral,True,True
+95,news@techblog.com,Action Required,Please complete the mandatory training module before the deadline.,medium,respond,notify_human,urgent,notify,urgent,False,True
+96,no-reply@service.com,Weekly Newsletter,Your order #3634 has been shipped and is expected to deliver by 2025-12-22.,low,ignore,respond,neutral,respond,neutral,True,True
+97,no-reply@service.com,Order Shipped,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+98,hr@company.com,Invoice Due,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+99,support@cloud.com,Payment Overdue,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+100,news@techblog.com,Order Shipped,Your order #4920 has been shipped and is expected to deliver by 2025-12-27.,medium,respond,respond,neutral,respond,neutral,True,True
+101,orders@ecom.com,Survey,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",high,notify_human,notify_human,neutral,respond,neutral,False,True
+102,news@techblog.com,Action Required,Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+103,support@cloud.com,Meeting Agenda,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+104,teamlead@company.com,Monthly Report,Please complete the mandatory training module before the deadline.,medium,respond,notify_human,urgent,notify,urgent,False,True
+105,no-reply@service.com,Survey,Your order #8460 has been shipped and is expected to deliver by 2025-12-29.,high,respond,respond,neutral,respond,neutral,True,True
+106,sales@shop.com,Account Suspended,Notice: Your account will be locked unless verification is completed.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+107,teamlead@company.com,Event Invitation,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",medium,ignore,ignore,neutral,respond,neutral,False,True
+108,no-reply@service.com,Invoice Due,Please complete the mandatory training module before the deadline.,low,respond,notify_human,urgent,notify,urgent,False,True
+109,orders@ecom.com,Monthly Report,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+110,hr@company.com,Action Required,Please complete the mandatory training module before the deadline.,medium,respond,notify_human,urgent,notify,urgent,False,True
+111,teamlead@company.com,Invoice Due,"Hello team, please find the attached weekly report and action items for the project.",low,respond,respond,neutral,respond,neutral,True,True
+112,security@bank.com,Order Shipped,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
+113,alerts@bank.com,Subscription Renewal,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+114,orders@ecom.com,Welcome to Service,Reminder: The client meeting is scheduled at 16:30 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+115,no-reply@service.com,Payment Overdue,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+116,teamlead@company.com,Action Required,"Hello team, please find the attached weekly report and action items for the project.",low,respond,respond,neutral,respond,neutral,True,True
+117,teamlead@company.com,Security Alert,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",medium,notify_human,notify_human,neutral,respond,neutral,False,True
+118,sales@shop.com,Subscription Renewal,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,high,ignore,ignore,neutral,respond,neutral,False,True
+119,security@bank.com,Order Shipped,Your order #5835 has been shipped and is expected to deliver by 2025-12-23.,low,respond,respond,neutral,respond,neutral,True,True
+120,teamlead@company.com,Project Update,Your invoice of INR 7041.91 is due on 2025-12-29. Please pay to avoid late fees.,low,respond,respond,neutral,respond,neutral,True,True
+121,no-reply@service.com,Order Shipped,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,medium,ignore,ignore,neutral,respond,neutral,False,True
+122,teamlead@company.com,Survey,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
+123,hr@company.com,Security Alert,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+124,boss@company.com,Survey,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,medium,ignore,ignore,neutral,respond,neutral,False,True
+125,alerts@bank.com,Meeting Agenda,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",low,notify_human,notify_human,neutral,respond,neutral,False,True
+126,support@cloud.com,Meeting Agenda,Security alert: multiple failed login attempts were recorded on your account.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+127,alerts@bank.com,Action Required,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+128,sales@shop.com,Payment Overdue,"Hello team, please find the attached weekly report and action items for the project.",low,notify_human,respond,neutral,respond,neutral,True,True
+129,sales@shop.com,Invoice Due,Your order #6464 has been shipped and is expected to deliver by 2025-12-18.,low,respond,respond,neutral,respond,neutral,True,True
+130,news@techblog.com,Promotion: Big Sale,Your invoice of INR 3896.2 is due on 2026-01-05. Please pay to avoid late fees.,medium,ignore,respond,neutral,respond,neutral,True,True
+131,sales@shop.com,Monthly Report,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",high,ignore,ignore,neutral,respond,neutral,False,True
+132,support@cloud.com,Security Alert,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,notify_human,ignore,neutral,respond,neutral,False,True
+133,sales@shop.com,Promotion: Big Sale,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
+134,alerts@bank.com,Action Required,Your order #9254 has been shipped and is expected to deliver by 2025-12-28.,low,respond,respond,neutral,respond,neutral,True,True
+135,boss@company.com,Unusual Login Attempt,Please complete the mandatory training module before the deadline.,medium,notify_human,notify_human,urgent,notify,urgent,False,True
+136,teamlead@company.com,Invoice Due,Your order #6277 has been shipped and is expected to deliver by 2025-12-26.,medium,respond,respond,neutral,respond,neutral,True,True
+137,alerts@bank.com,Meeting Agenda,Reminder: The client meeting is scheduled at 17:30 tomorrow. Prepare your slides.,high,respond,respond,neutral,respond,neutral,True,True
+138,support@cloud.com,Order Shipped,Your order #4522 has been shipped and is expected to deliver by 2025-12-25.,low,respond,respond,neutral,respond,neutral,True,True
+139,sales@shop.com,System Maintenance,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
+140,orders@ecom.com,Payment Overdue,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,notify_human,ignore,neutral,respond,neutral,False,True
+141,alerts@bank.com,Payment Overdue,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,notify_human,ignore,neutral,respond,neutral,False,True
+142,teamlead@company.com,Unusual Login Attempt,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,medium,notify_human,respond,neutral,respond,neutral,True,True
+143,sales@shop.com,Invoice Due,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,medium,ignore,ignore,neutral,respond,neutral,False,True
+144,support@cloud.com,Subscription Renewal,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+145,orders@ecom.com,Monthly Report,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
+146,security@bank.com,Weekly Newsletter,Please complete the mandatory training module before the deadline.,low,ignore,notify_human,urgent,notify,urgent,False,True
+147,hr@company.com,Promotion: Big Sale,Notice: Your account will be locked unless verification is completed.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+148,orders@ecom.com,Welcome to Service,Security alert: multiple failed login attempts were recorded on your account.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+149,alerts@bank.com,Payment Overdue,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+150,boss@company.com,Unusual Login Attempt,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",low,notify_human,notify_human,neutral,respond,neutral,False,True
+151,security@bank.com,Action Required,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+152,hr@company.com,Weekly Newsletter,Security alert: multiple failed login attempts were recorded on your account.,high,notify_human,notify_human,urgent,respond,neutral,False,False
+153,hr@company.com,Promotion: Big Sale,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+154,hr@company.com,Project Update,Notice: Your account will be locked unless verification is completed.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+155,sales@shop.com,System Maintenance,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+156,news@techblog.com,Weekly Newsletter,Please complete the mandatory training module before the deadline.,low,ignore,notify_human,urgent,notify,urgent,False,True
+157,news@techblog.com,Account Suspended,"Hello team, please find the attached weekly report and action items for the project.",low,notify_human,respond,neutral,respond,neutral,True,True
+158,no-reply@service.com,Welcome to Service,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+159,no-reply@service.com,Welcome to Service,Reminder: The client meeting is scheduled at 9:30 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+160,no-reply@service.com,Welcome to Service,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",medium,notify_human,notify_human,neutral,respond,neutral,False,True
+161,support@cloud.com,Event Invitation,Your order #4084 has been shipped and is expected to deliver by 2026-01-06.,low,respond,respond,neutral,respond,neutral,True,True
+162,no-reply@service.com,Policy Update,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,ignore,ignore,neutral,respond,neutral,False,True
+163,news@techblog.com,Unusual Login Attempt,Your invoice of INR 35527.27 is due on 2025-12-26. Please pay to avoid late fees.,low,notify_human,respond,neutral,respond,neutral,True,True
+164,orders@ecom.com,Event Invitation,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+165,support@cloud.com,Event Invitation,Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+166,news@techblog.com,Payment Overdue,Reminder: The client meeting is scheduled at 15:00 tomorrow. Prepare your slides.,low,notify_human,respond,neutral,respond,neutral,True,True
+167,teamlead@company.com,Monthly Report,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,ignore,ignore,neutral,respond,neutral,False,True
+168,security@bank.com,Payment Overdue,Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,low,notify_human,respond,neutral,respond,neutral,True,True
+169,news@techblog.com,Meeting Agenda,"Hello team, please find the attached weekly report and action items for the project.",medium,respond,respond,neutral,respond,neutral,True,True
+170,boss@company.com,Meeting Agenda,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+171,hr@company.com,Account Suspended,Your order #9749 has been shipped and is expected to deliver by 2026-01-05.,low,notify_human,respond,neutral,respond,neutral,True,True
+172,no-reply@service.com,Congratulations! You've Won,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,medium,ignore,ignore,neutral,respond,neutral,False,True
+173,support@cloud.com,Policy Update,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+174,no-reply@service.com,Payment Overdue,Please complete the mandatory training module before the deadline.,low,notify_human,notify_human,urgent,notify,urgent,False,True
+175,news@techblog.com,Security Alert,Your order #4637 has been shipped and is expected to deliver by 2025-12-16.,medium,notify_human,respond,neutral,respond,neutral,True,True
+176,hr@company.com,Password Reset Request,Security alert: multiple failed login attempts were recorded on your account.,high,notify_human,notify_human,urgent,respond,neutral,False,False
+177,hr@company.com,Account Suspended,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",low,notify_human,notify_human,neutral,respond,neutral,False,True
+178,no-reply@service.com,Meeting Agenda,Your order #5193 has been shipped and is expected to deliver by 2025-12-12.,low,respond,respond,neutral,respond,neutral,True,True
+179,news@techblog.com,Survey,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+180,sales@shop.com,System Maintenance,Notice: Your account will be locked unless verification is completed.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+181,news@techblog.com,Order Shipped,Security alert: multiple failed login attempts were recorded on your account.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+182,alerts@bank.com,Policy Update,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,medium,ignore,ignore,neutral,respond,neutral,False,True
+183,security@bank.com,Event Invitation,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
+184,alerts@bank.com,Promotion: Big Sale,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,medium,ignore,ignore,neutral,respond,neutral,False,True
+185,no-reply@service.com,Action Required,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,ignore,ignore,neutral,respond,neutral,False,True
+186,sales@shop.com,Unusual Login Attempt,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,notify_human,ignore,neutral,respond,neutral,False,True
+187,sales@shop.com,Order Shipped,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,medium,ignore,ignore,neutral,respond,neutral,False,True
+188,teamlead@company.com,Event Invitation,Your order #9129 has been shipped and is expected to deliver by 2025-12-24.,medium,respond,respond,neutral,respond,neutral,True,True
+189,hr@company.com,Policy Update,Reminder: The client meeting is scheduled at 15:00 tomorrow. Prepare your slides.,medium,respond,respond,neutral,respond,neutral,True,True
+190,news@techblog.com,Survey,Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,low,respond,respond,neutral,respond,neutral,True,True
+191,teamlead@company.com,Project Update,Your order #5498 has been shipped and is expected to deliver by 2025-12-13.,medium,respond,respond,neutral,respond,neutral,True,True
+192,security@bank.com,Weekly Newsletter,Security alert: multiple failed login attempts were recorded on your account.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+193,no-reply@service.com,Unusual Login Attempt,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",high,notify_human,ignore,neutral,respond,neutral,False,True
+194,security@bank.com,Subscription Renewal,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",low,ignore,ignore,neutral,respond,neutral,False,True
+195,support@cloud.com,Payment Overdue,Security alert: multiple failed login attempts were recorded on your account.,medium,notify_human,notify_human,urgent,respond,neutral,False,False
+196,no-reply@service.com,Policy Update,Security alert: multiple failed login attempts were recorded on your account.,low,notify_human,notify_human,urgent,respond,neutral,False,False
+197,boss@company.com,Order Shipped,Your order #3828 has been shipped and is expected to deliver by 2025-12-16.,medium,respond,respond,neutral,respond,neutral,True,True
+198,no-reply@service.com,Weekly Newsletter,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,medium,ignore,ignore,neutral,respond,neutral,False,True
+199,news@techblog.com,Payment Overdue,Please complete the mandatory training module before the deadline.,low,notify_human,notify_human,urgent,notify,urgent,False,True
+200,support@cloud.com,Promotion: Big Sale,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,low,ignore,ignore,neutral,respond,neutral,False,True
