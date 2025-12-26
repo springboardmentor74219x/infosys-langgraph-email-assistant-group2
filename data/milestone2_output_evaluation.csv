@@ -1,0 +1,101 @@
+email_text,expected_action,expected_tone,clean_text,predicted_action_test,predicted_action,predicted_tone,action_correct,tone_correct
+Reminder: Client meeting scheduled for Jan 10 at 11 AM. Please confirm your availability.,respond,polite,reminder client meeting scheduled for jan 10 at 11 am please confirm your availability,respond,respond,polite,True,True
+Your invoice INV-1023 is due on Jan 5. Kindly make the payment to avoid late fees.,respond,urgent,your invoice inv1023 is due on jan 5 kindly make the payment to avoid late fees,respond,respond,polite,True,False
+We are pleased to inform you that your internship application has been shortlisted.,respond,polite,we are pleased to inform you that your internship application has been shortlisted,respond,respond,polite,True,True
+Happy New Year! Wishing you success and good health.,ignore,neutral,happy new year wishing you success and good health,ignore,ignore,neutral,True,True
+Please find attached the minutes of yesterday’s meeting for your reference.,ignore,neutral,please find attached the minutes of yesterdays meeting for your reference,respond,respond,polite,False,False
+Reminder: Submit your assignment by tonight 11:59 PM.,notify,urgent,reminder submit your assignment by tonight 1159 pm,respond,respond,neutral,False,False
+Can you share the updated project timeline by EOD today?,respond,polite,can you share the updated project timeline by eod today,respond,respond,neutral,True,False
+Your payment has been successfully received. Thank you.,ignore,neutral,your payment has been successfully received thank you,respond,respond,polite,False,False
+We noticed unusual login activity on your account.,notify,urgent,we noticed unusual login activity on your account,notify_human,notify_human,neutral,False,False
+Invitation to attend the alumni networking event this Saturday.,respond,polite,invitation to attend the alumni networking event this saturday,respond,respond,neutral,True,False
+The office will remain closed on Monday due to a public holiday.,notify,neutral,the office will remain closed on monday due to a public holiday,respond,respond,neutral,False,True
+Please review the attached contract and share your feedback.,respond,polite,please review the attached contract and share your feedback,respond,respond,polite,True,True
+Your internship completion certificate is now available for download.,notify,neutral,your internship completion certificate is now available for download,respond,respond,neutral,False,True
+Reminder: Library books are due for return tomorrow.,notify,urgent,reminder library books are due for return tomorrow,respond,respond,neutral,False,False
+Thank you for attending the workshop. We value your participation.,ignore,neutral,thank you for attending the workshop we value your participation,respond,respond,polite,False,False
+Can we reschedule our call to next week?,respond,polite,can we reschedule our call to next week,respond,respond,neutral,True,False
+Your exam hall ticket has been released.,notify,neutral,your exam hall ticket has been released,respond,respond,neutral,False,True
+Weekly newsletter: Top tech updates you may like.,ignore,neutral,weekly newsletter top tech updates you may like,ignore,ignore,neutral,True,True
+Payment failed due to insufficient balance. Please retry.,notify,urgent,payment failed due to insufficient balance please retry,respond,respond,polite,False,False
+Please submit your timesheet for this week.,respond,polite,please submit your timesheet for this week,respond,respond,polite,True,True
+Meeting postponed to Friday due to unforeseen circumstances.,notify,neutral,meeting postponed to friday due to unforeseen circumstances,respond,respond,neutral,False,True
+We have updated our privacy policy.,ignore,neutral,we have updated our privacy policy,respond,respond,neutral,False,True
+Requesting approval for leave on Jan 12.,respond,polite,requesting approval for leave on jan 12,respond,respond,neutral,True,False
+Your resume has been received successfully.,ignore,neutral,your resume has been received successfully,respond,respond,neutral,False,True
+Urgent: Server downtime expected tonight from 12–2 AM.,notify,urgent,urgent server downtime expected tonight from 122 am,respond,respond,urgent,False,True
+Please confirm your participation in the hackathon.,respond,polite,please confirm your participation in the hackathon,respond,respond,polite,True,True
+Invoice reminder: Outstanding amount pending for 30 days.,respond,urgent,invoice reminder outstanding amount pending for 30 days,respond,respond,neutral,True,False
+General announcement: New cafeteria menu launched.,ignore,neutral,general announcement new cafeteria menu launched,respond,respond,neutral,False,True
+Your OTP for account verification is 456789.,notify,urgent,your otp for account verification is 456789,respond,respond,neutral,False,False
+Can you guide me regarding the project submission format?,respond,polite,can you guide me regarding the project submission format,respond,respond,neutral,True,False
+Meeting agenda for tomorrow attached.,notify,neutral,meeting agenda for tomorrow attached,respond,respond,neutral,False,True
+Thank you for your feedback. We appreciate it.,ignore,neutral,thank you for your feedback we appreciate it,respond,respond,polite,False,False
+Please update your contact details in the portal.,respond,polite,please update your contact details in the portal,respond,respond,polite,True,True
+Reminder: Fee payment deadline is today.,notify,urgent,reminder fee payment deadline is today,respond,respond,urgent,False,True
+Your GitHub pull request has been merged.,notify,neutral,your github pull request has been merged,respond,respond,neutral,False,True
+Congratulations! You have cleared the first interview round.,notify,polite,congratulations you have cleared the first interview round,ignore,ignore,neutral,False,False
+Spam promotion: Buy one get one free now!,ignore,neutral,spam promotion buy one get one free now,ignore,ignore,neutral,True,True
+Please acknowledge receipt of this email.,respond,polite,please acknowledge receipt of this email,respond,respond,polite,True,True
+System maintenance scheduled this weekend.,notify,neutral,system maintenance scheduled this weekend,respond,respond,neutral,False,True
+Your class has been canceled today.,notify,neutral,your class has been canceled today,respond,respond,neutral,False,True
+Can you share the notes from yesterday’s lecture?,respond,polite,can you share the notes from yesterdays lecture,respond,respond,neutral,True,False
+Invoice paid successfully. No further action required.,ignore,neutral,invoice paid successfully no further action required,respond,respond,urgent,False,False
+Reminder: Team stand-up at 9:30 AM daily.,notify,neutral,reminder team standup at 930 am daily,respond,respond,neutral,False,True
+Your application status has been updated.,notify,neutral,your application status has been updated,respond,respond,neutral,False,True
+Please complete the attached survey.,respond,polite,please complete the attached survey,respond,respond,polite,True,True
+We could not deliver your package. Update address.,notify,urgent,we could not deliver your package update address,respond,respond,neutral,False,False
+Meeting follow-up: Action items assigned.,respond,polite,meeting followup action items assigned,respond,respond,neutral,True,False
+Greetings from the HR team.,ignore,neutral,greetings from the hr team,ignore,ignore,neutral,True,True
+Urgent: Submit documents for background verification.,respond,urgent,urgent submit documents for background verification,respond,respond,urgent,True,True
+Your password was changed successfully.,notify,neutral,your password was changed successfully,notify_human,notify_human,neutral,False,True
+Reminder: Online assessment link expires today.,notify,urgent,reminder online assessment link expires today,respond,respond,neutral,False,False
+Can you mentor a junior for the next sprint?,respond,polite,can you mentor a junior for the next sprint,respond,respond,neutral,True,False
+Monthly performance report attached.,ignore,neutral,monthly performance report attached,respond,respond,neutral,False,True
+Please confirm receipt of stipend.,respond,polite,please confirm receipt of stipend,respond,respond,polite,True,True
+Event reminder: Webinar starts in 30 minutes.,notify,urgent,event reminder webinar starts in 30 minutes,respond,respond,neutral,False,False
+Your seat has been confirmed for the exam.,notify,neutral,your seat has been confirmed for the exam,respond,respond,neutral,False,True
+FYI: Office Wi-Fi password changed.,notify,neutral,fyi office wifi password changed,notify_human,notify_human,neutral,False,True
+Kindly review and approve the budget proposal.,respond,polite,kindly review and approve the budget proposal,respond,respond,polite,True,True
+No-reply: System generated confirmation email.,ignore,neutral,noreply system generated confirmation email,respond,respond,neutral,False,True
+Urgent meeting requested by management today.,notify,urgent,urgent meeting requested by management today,respond,respond,urgent,False,True
+Please update your availability calendar.,respond,polite,please update your availability calendar,respond,respond,polite,True,True
+Internship orientation schedule shared.,notify,neutral,internship orientation schedule shared,respond,respond,neutral,False,True
+Thank you for your patience.,ignore,neutral,thank you for your patience,respond,respond,polite,False,False
+Reminder: Assignment resubmission window closes today.,notify,urgent,reminder assignment resubmission window closes today,respond,respond,neutral,False,False
+Could you clarify the requirements for Milestone 2?,respond,polite,could you clarify the requirements for milestone 2,respond,respond,neutral,True,False
+Invoice overdue: Immediate action required.,respond,urgent,invoice overdue immediate action required,respond,respond,urgent,True,True
+Weekly digest: Company news and updates.,ignore,neutral,weekly digest company news and updates,respond,respond,neutral,False,True
+Your offer letter is attached.,notify,polite,your offer letter is attached,ignore,ignore,neutral,False,False
+System alert: Storage limit almost reached.,notify,urgent,system alert storage limit almost reached,respond,respond,neutral,False,False
+Please verify your email address to continue.,notify,urgent,please verify your email address to continue,respond,respond,polite,False,False
+Meeting minutes approved by all members.,ignore,neutral,meeting minutes approved by all members,respond,respond,neutral,False,True
+Can you review my code before submission?,respond,polite,can you review my code before submission,respond,respond,neutral,True,False
+Holiday greetings from the team.,ignore,neutral,holiday greetings from the team,ignore,ignore,neutral,True,True
+Reminder: Internship report submission tomorrow.,notify,urgent,reminder internship report submission tomorrow,respond,respond,neutral,False,False
+Payment confirmation for your recent transaction.,ignore,neutral,payment confirmation for your recent transaction,respond,respond,neutral,False,True
+Requesting feedback on the draft presentation.,respond,polite,requesting feedback on the draft presentation,respond,respond,neutral,True,False
+Server issue resolved successfully.,notify,neutral,server issue resolved successfully,respond,respond,neutral,False,True
+Please respond with your preferred interview slot.,respond,polite,please respond with your preferred interview slot,respond,respond,polite,True,True
+General info: Campus map attached.,ignore,neutral,general info campus map attached,respond,respond,neutral,False,True
+Urgent notice: Exam venue changed.,notify,urgent,urgent notice exam venue changed,respond,respond,urgent,False,True
+Thanks for reaching out. We’ll get back soon.,ignore,neutral,thanks for reaching out well get back soon,respond,respond,neutral,False,True
+Action required: Update KYC documents.,respond,urgent,action required update kyc documents,respond,respond,urgent,True,True
+Meeting reminder: Project review at 4 PM today.,notify,urgent,meeting reminder project review at 4 pm today,respond,respond,neutral,False,False
+Newsletter unsubscribe confirmation.,ignore,neutral,newsletter unsubscribe confirmation,ignore,ignore,neutral,True,True
+Please submit your internship feedback form.,respond,polite,please submit your internship feedback form,respond,respond,polite,True,True
+System generated alert: Backup completed.,ignore,neutral,system generated alert backup completed,respond,respond,neutral,False,True
+Reminder: Submit NOC form by tomorrow.,notify,urgent,reminder submit noc form by tomorrow,respond,respond,neutral,False,False
+Meeting follow-up: Action items assigned.,respond,polite,meeting followup action items assigned,respond,respond,neutral,True,False
+Greetings from the HR team.,ignore,neutral,greetings from the hr team,ignore,ignore,neutral,True,True
+Urgent: Submit documents for background verification.,respond,urgent,urgent submit documents for background verification,respond,respond,urgent,True,True
+Your password was changed successfully.,notify,neutral,your password was changed successfully,notify_human,notify_human,neutral,False,True
+Reminder: Online assessment link expires today.,notify,urgent,reminder online assessment link expires today,respond,respond,neutral,False,False
+Can you mentor a junior for the next sprint?,respond,polite,can you mentor a junior for the next sprint,respond,respond,neutral,True,False
+Monthly performance report attached.,ignore,neutral,monthly performance report attached,respond,respond,neutral,False,True
+Your exam hall ticket has been released.,notify,neutral,your exam hall ticket has been released,respond,respond,neutral,False,True
+Weekly newsletter: Top tech updates you may like.,ignore,neutral,weekly newsletter top tech updates you may like,ignore,ignore,neutral,True,True
+Payment failed due to insufficient balance. Please retry.,notify,urgent,payment failed due to insufficient balance please retry,respond,respond,polite,False,False
+Please submit your timesheet for this week.,respond,polite,please submit your timesheet for this week,respond,respond,polite,True,True
+Meeting postponed to Friday due to unforeseen circumstances.,notify,neutral,meeting postponed to friday due to unforeseen circumstances,respond,respond,neutral,False,True
+We have updated our privacy policy.,ignore,neutral,we have updated our privacy policy,respond,respond,neutral,False,True
