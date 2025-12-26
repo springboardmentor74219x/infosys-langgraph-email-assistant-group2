@@ -1,7 +1,7 @@
 id,body,ideal_intent,ideal_tone
-1,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,respond,urgent
+1,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,notify,urgent
 2,Your invoice of INR 25515.09 is due on 2025-12-12. Please pay to avoid late fees.,respond,polite
-3,Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,respond,urgent
+3,Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,notify,urgent
 4,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
 5,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
 6,Your invoice of INR 38766.88 is due on 2025-12-14. Please pay to avoid late fees.,respond,polite
@@ -9,18 +9,18 @@ id,body,ideal_intent,ideal_tone
 8,Your order #6313 has been shipped and is expected to deliver by 2026-01-10.,ignore,neutral
 9,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",ignore,neutral
 10,Your invoice of INR 32944.21 is due on 2025-12-24. Please pay to avoid late fees.,respond,polite
-11,Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.,respond,urgent
+11,Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.,notify,urgent
 12,Your order #3621 has been shipped and is expected to deliver by 2025-12-13.,ignore,neutral
 13,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
-14,Reminder: The client meeting is scheduled at 10:30 tomorrow. Prepare your slides.,respond,urgent
-15,Please complete the mandatory training module before the deadline.,respond,urgent
+14,Reminder: The client meeting is scheduled at 10:30 tomorrow. Prepare your slides.,notify,urgent
+15,Please complete the mandatory training module before the deadline.,notify,urgent
 16,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
-17,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,respond,urgent
+17,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,notify,urgent
 18,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
-19,Please complete the mandatory training module before the deadline.,respond,urgent
-20,Please complete the mandatory training module before the deadline.,respond,urgent
+19,Please complete the mandatory training module before the deadline.,notify,urgent
+20,Please complete the mandatory training module before the deadline.,notify,urgent
 21,Notice: Your account will be locked unless verification is completed.,ignore,neutral
-22,Please complete the mandatory training module before the deadline.,respond,urgent
+22,Please complete the mandatory training module before the deadline.,notify,urgent
 23,Your order #2545 has been shipped and is expected to deliver by 2025-12-27.,ignore,neutral
 24,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
 25,Your invoice of INR 9983.71 is due on 2025-12-29. Please pay to avoid late fees.,respond,polite
@@ -28,14 +28,14 @@ id,body,ideal_intent,ideal_tone
 27,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
 28,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",ignore,neutral
 29,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
-30,Please complete the mandatory training module before the deadline.,respond,urgent
+30,Please complete the mandatory training module before the deadline.,notify,urgent
 31,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 32,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 33,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
 34,Your order #9808 has been shipped and is expected to deliver by 2025-12-30.,ignore,neutral
 35,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
 36,Notice: Your account will be locked unless verification is completed.,ignore,neutral
-37,Reminder: The client meeting is scheduled at 17:00 tomorrow. Prepare your slides.,respond,urgent
+37,Reminder: The client meeting is scheduled at 17:00 tomorrow. Prepare your slides.,notify,urgent
 38,Your invoice of INR 34531.11 is due on 2026-01-08. Please pay to avoid late fees.,respond,polite
 39,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
 40,Your order #2832 has been shipped and is expected to deliver by 2025-12-25.,ignore,neutral
@@ -44,19 +44,19 @@ id,body,ideal_intent,ideal_tone
 43,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
 44,Your invoice of INR 13706.88 is due on 2026-01-06. Please pay to avoid late fees.,respond,polite
 45,Your order #1387 has been shipped and is expected to deliver by 2026-01-07.,ignore,neutral
-46,Reminder: The client meeting is scheduled at 13:30 tomorrow. Prepare your slides.,respond,urgent
+46,Reminder: The client meeting is scheduled at 13:30 tomorrow. Prepare your slides.,notify,urgent
 47,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",ignore,neutral
 48,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
-49,Please complete the mandatory training module before the deadline.,respond,urgent
+49,Please complete the mandatory training module before the deadline.,notify,urgent
 50,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
 51,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
-52,Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,respond,urgent
+52,Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,notify,urgent
 53,Your order #5649 has been shipped and is expected to deliver by 2026-01-06.,ignore,neutral
 54,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
 55,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",ignore,neutral
 56,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
-57,Please complete the mandatory training module before the deadline.,respond,urgent
-58,Please complete the mandatory training module before the deadline.,respond,urgent
+57,Please complete the mandatory training module before the deadline.,notify,urgent
+58,Please complete the mandatory training module before the deadline.,notify,urgent
 59,Your order #4919 has been shipped and is expected to deliver by 2025-12-19.,ignore,neutral
 60,Your invoice of INR 13949.9 is due on 2025-12-22. Please pay to avoid late fees.,respond,polite
 61,Your invoice of INR 3679.33 is due on 2025-12-25. Please pay to avoid late fees.,respond,polite
@@ -70,49 +70,49 @@ id,body,ideal_intent,ideal_tone
 69,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
 70,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 71,Notice: Your account will be locked unless verification is completed.,ignore,neutral
-72,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,respond,urgent
-73,Please complete the mandatory training module before the deadline.,respond,urgent
+72,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,notify,urgent
+73,Please complete the mandatory training module before the deadline.,notify,urgent
 74,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
 75,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 76,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 77,Your invoice of INR 18063.84 is due on 2025-12-20. Please pay to avoid late fees.,respond,polite
 78,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
 79,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",ignore,neutral
-80,Please complete the mandatory training module before the deadline.,respond,urgent
-81,Reminder: The client meeting is scheduled at 12:30 tomorrow. Prepare your slides.,respond,urgent
+80,Please complete the mandatory training module before the deadline.,notify,urgent
+81,Reminder: The client meeting is scheduled at 12:30 tomorrow. Prepare your slides.,notify,urgent
 82,Your invoice of INR 37060.93 is due on 2025-12-20. Please pay to avoid late fees.,respond,polite
 83,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
-84,Reminder: The client meeting is scheduled at 16:00 tomorrow. Prepare your slides.,respond,urgent
+84,Reminder: The client meeting is scheduled at 16:00 tomorrow. Prepare your slides.,notify,urgent
 85,Your order #2869 has been shipped and is expected to deliver by 2025-12-13.,ignore,neutral
 86,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
 87,Your invoice of INR 6363.35 is due on 2026-01-05. Please pay to avoid late fees.,respond,polite
 88,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 89,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
-90,Reminder: The client meeting is scheduled at 13:30 tomorrow. Prepare your slides.,respond,urgent
+90,Reminder: The client meeting is scheduled at 13:30 tomorrow. Prepare your slides.,notify,urgent
 91,Your invoice of INR 21544.38 is due on 2025-12-29. Please pay to avoid late fees.,respond,polite
 92,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
-93,Reminder: The client meeting is scheduled at 16:00 tomorrow. Prepare your slides.,respond,urgent
-94,Reminder: The client meeting is scheduled at 9:30 tomorrow. Prepare your slides.,respond,urgent
-95,Please complete the mandatory training module before the deadline.,respond,urgent
+93,Reminder: The client meeting is scheduled at 16:00 tomorrow. Prepare your slides.,notify,urgent
+94,Reminder: The client meeting is scheduled at 9:30 tomorrow. Prepare your slides.,notify,urgent
+95,Please complete the mandatory training module before the deadline.,notify,urgent
 96,Your order #3634 has been shipped and is expected to deliver by 2025-12-22.,ignore,neutral
 97,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
 98,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
 99,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 100,Your order #4920 has been shipped and is expected to deliver by 2025-12-27.,ignore,neutral
 101,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",ignore,neutral
-102,Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.,respond,urgent
+102,Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.,notify,urgent
 103,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
-104,Please complete the mandatory training module before the deadline.,respond,urgent
+104,Please complete the mandatory training module before the deadline.,notify,urgent
 105,Your order #8460 has been shipped and is expected to deliver by 2025-12-29.,ignore,neutral
 106,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 107,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
-108,Please complete the mandatory training module before the deadline.,respond,urgent
+108,Please complete the mandatory training module before the deadline.,notify,urgent
 109,Notice: Your account will be locked unless verification is completed.,ignore,neutral
-110,Please complete the mandatory training module before the deadline.,respond,urgent
+110,Please complete the mandatory training module before the deadline.,notify,urgent
 111,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
 112,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
 113,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
-114,Reminder: The client meeting is scheduled at 16:30 tomorrow. Prepare your slides.,respond,urgent
+114,Reminder: The client meeting is scheduled at 16:30 tomorrow. Prepare your slides.,notify,urgent
 115,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 116,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
 117,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",ignore,neutral
@@ -133,18 +133,18 @@ id,body,ideal_intent,ideal_tone
 132,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
 133,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
 134,Your order #9254 has been shipped and is expected to deliver by 2025-12-28.,ignore,neutral
-135,Please complete the mandatory training module before the deadline.,respond,urgent
+135,Please complete the mandatory training module before the deadline.,notify,urgent
 136,Your order #6277 has been shipped and is expected to deliver by 2025-12-26.,ignore,neutral
-137,Reminder: The client meeting is scheduled at 17:30 tomorrow. Prepare your slides.,respond,urgent
+137,Reminder: The client meeting is scheduled at 17:30 tomorrow. Prepare your slides.,notify,urgent
 138,Your order #4522 has been shipped and is expected to deliver by 2025-12-25.,ignore,neutral
 139,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
 140,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
 141,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
-142,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,respond,urgent
+142,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,notify,urgent
 143,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
 144,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 145,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
-146,Please complete the mandatory training module before the deadline.,respond,urgent
+146,Please complete the mandatory training module before the deadline.,notify,urgent
 147,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 148,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
 149,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
@@ -154,25 +154,25 @@ id,body,ideal_intent,ideal_tone
 153,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
 154,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 155,Notice: Your account will be locked unless verification is completed.,ignore,neutral
-156,Please complete the mandatory training module before the deadline.,respond,urgent
+156,Please complete the mandatory training module before the deadline.,notify,urgent
 157,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
 158,Notice: Your account will be locked unless verification is completed.,ignore,neutral
-159,Reminder: The client meeting is scheduled at 9:30 tomorrow. Prepare your slides.,respond,urgent
+159,Reminder: The client meeting is scheduled at 9:30 tomorrow. Prepare your slides.,notify,urgent
 160,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",ignore,neutral
 161,Your order #4084 has been shipped and is expected to deliver by 2026-01-06.,ignore,neutral
 162,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
 163,Your invoice of INR 35527.27 is due on 2025-12-26. Please pay to avoid late fees.,respond,polite
 164,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
-165,Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,respond,urgent
-166,Reminder: The client meeting is scheduled at 15:00 tomorrow. Prepare your slides.,respond,urgent
+165,Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,notify,urgent
+166,Reminder: The client meeting is scheduled at 15:00 tomorrow. Prepare your slides.,notify,urgent
 167,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
-168,Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,respond,urgent
+168,Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,notify,urgent
 169,"Hello team, please find the attached weekly report and action items for the project.",respond,polite
 170,Notice: Your account will be locked unless verification is completed.,ignore,neutral
 171,Your order #9749 has been shipped and is expected to deliver by 2026-01-05.,ignore,neutral
 172,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
 173,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
-174,Please complete the mandatory training module before the deadline.,respond,urgent
+174,Please complete the mandatory training module before the deadline.,notify,urgent
 175,Your order #4637 has been shipped and is expected to deliver by 2025-12-16.,ignore,neutral
 176,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
 177,"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",ignore,neutral
@@ -187,8 +187,8 @@ id,body,ideal_intent,ideal_tone
 186,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
 187,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
 188,Your order #9129 has been shipped and is expected to deliver by 2025-12-24.,ignore,neutral
-189,Reminder: The client meeting is scheduled at 15:00 tomorrow. Prepare your slides.,respond,urgent
-190,Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,respond,urgent
+189,Reminder: The client meeting is scheduled at 15:00 tomorrow. Prepare your slides.,notify,urgent
+190,Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,notify,urgent
 191,Your order #5498 has been shipped and is expected to deliver by 2025-12-13.,ignore,neutral
 192,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
 193,"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",ignore,neutral
@@ -197,5 +197,5 @@ id,body,ideal_intent,ideal_tone
 196,Security alert: multiple failed login attempts were recorded on your account.,ignore,neutral
 197,Your order #3828 has been shipped and is expected to deliver by 2025-12-16.,ignore,neutral
 198,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
-199,Please complete the mandatory training module before the deadline.,respond,urgent
+199,Please complete the mandatory training module before the deadline.,notify,urgent
 200,Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,ignore,neutral
