@@ -1,0 +1,6 @@
+email_id,ai_action,final_action,hitl_status
+Notice: Your account will be locked unless verific,respond,respond,WAIT_FOR_HUMAN
+Your invoice of INR 37060.93 is due on 2025-12-20.,respond,respond,WAIT_FOR_HUMAN
+Your invoice of INR 3679.33 is due on 2025-12-25. ,respond,respond,WAIT_FOR_HUMAN
+"Dear user, we detected a login from a new device. ",notify,notify,AUTO_APPROVED
+Congratulations! You have been selected as a lucky,ignore,ignore,AUTO_APPROVED
