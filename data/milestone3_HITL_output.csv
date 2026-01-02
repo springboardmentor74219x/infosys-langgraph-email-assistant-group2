@@ -1,6 +1,6 @@
 email_snippet,ai_action,final_action,hitl_status
-Notice: Your account will be locked unless verific,respond,respond,Wait_for_Human
-Your order #9129 has been shipped and is expected ,respond,blocked,Wait_for_Human
 Please complete the mandatory training module befo,notify,notify,Auto_Approve
-Please complete the mandatory training module befo,notify,notify,Auto_Approve
-Security alert: multiple failed login attempts wer,respond,blocked,Wait_for_Human
+Your order #8460 has been shipped and is expected ,respond,respond,Wait_for_Human
+Your order #9254 has been shipped and is expected ,respond,blocked,Wait_for_Human
+"Hello team, please find the attached weekly report",respond,blocked,Wait_for_Human
+"Hello team, please find the attached weekly report",respond,blocked,Wait_for_Human
