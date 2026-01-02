@@ -1,0 +1,11 @@
+email,a1_action,final_action,hitl_status
+Please complete the mandatory training module befo,notify,notify,Auto_Approved
+Please complete the mandatory training module befo,notify,notify,Auto_Approved
+Reminder: The client meeting is scheduled at 16:00,respond,pending_human_review,Wait_For_Human
+Notice: Your account will be locked unless verific,respond,pending_human_review,Wait_For_Human
+Notice: Your account will be locked unless verific,respond,pending_human_review,Wait_For_Human
+Your order #2832 has been shipped and is expected ,respond,pending_human_review,Wait_For_Human
+Notice: Your account will be locked unless verific,respond,pending_human_review,Wait_For_Human
+Notice: Your account will be locked unless verific,respond,pending_human_review,Wait_For_Human
+"Hello team, please find the attached weekly report",respond,pending_human_review,Wait_For_Human
+Congratulations! You have been selected as a lucky,respond,pending_human_review,Wait_For_Human
