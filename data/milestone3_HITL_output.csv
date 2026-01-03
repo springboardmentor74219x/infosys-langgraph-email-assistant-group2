@@ -1,0 +1,6 @@
+email_snippet,ai_action,final_action,hitl_status
+"Hello team, please find the attached weekly report",respond,blocked,Wait_for_Human
+Your order #9808 has been shipped and is expected ,respond,blocked,Wait_for_Human
+Please complete the mandatory training module befo,notify,notify,Auto_Approve
+Notice: Your account will be locked unless verific,respond,blocked,Wait_for_Human
+Your invoice of INR 13706.88 is due on 2026-01-06.,notify,notify,Auto_Approve
