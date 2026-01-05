@@ -1,0 +1,11 @@
+email_text,predicted_action,predicted_tone,hitl_status,final_action
+Please complete the mandatory training module befo,notify,urgent,Auto approved,notify
+Congratulations! You have been selected as a lucky,respond,neutral,Wait for human review,respond
+"Dear user, we detected a login from a new device. ",respond,neutral,Wait for human review,respond
+"Hello team, please find the attached weekly report",respond,neutral,Wait for human review,respond
+Reminder: The client meeting is scheduled at 17:00,respond,neutral,Wait for human review,respond
+Your invoice of INR 6363.35 is due on 2026-01-05. ,respond,neutral,Wait for human review,respond
+"Dear user, we detected a login from a new device. ",respond,neutral,Wait for human review,respond
+Please complete the mandatory training module befo,notify,urgent,Auto approved,notify
+Notice: Your account will be locked unless verific,respond,neutral,Wait for human review,respond
+Reminder: The client meeting is scheduled at 14:30,respond,neutral,Wait for human review,respond
