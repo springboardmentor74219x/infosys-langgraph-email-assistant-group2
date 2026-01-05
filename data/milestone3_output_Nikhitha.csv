@@ -1,201 +1,201 @@
-id,predicted_intent,predicted_tone,confidence,decision,final_action
-1,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-2,respond,polite,0.8,AUTO_APPROVED,respond
-3,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-4,respond,polite,0.8,AUTO_APPROVED,respond
-5,respond,polite,0.8,AUTO_APPROVED,respond
-6,respond,polite,0.8,AUTO_APPROVED,respond
-7,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-8,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-9,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-10,respond,polite,0.8,AUTO_APPROVED,respond
-11,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-12,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-13,respond,polite,0.8,AUTO_APPROVED,respond
-14,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-15,notify,urgent,0.9,AUTO_APPROVED,notify
-16,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-17,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-18,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-19,notify,urgent,0.9,AUTO_APPROVED,notify
-20,notify,urgent,0.9,AUTO_APPROVED,notify
-21,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-22,notify,urgent,0.9,AUTO_APPROVED,notify
-23,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-24,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-25,respond,polite,0.8,AUTO_APPROVED,respond
-26,respond,polite,0.8,AUTO_APPROVED,respond
-27,respond,polite,0.8,AUTO_APPROVED,respond
-28,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-29,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-30,notify,urgent,0.9,AUTO_APPROVED,notify
-31,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-32,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-33,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-34,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-35,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-36,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-37,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-38,respond,polite,0.8,AUTO_APPROVED,respond
-39,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-40,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-41,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-42,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-43,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-44,respond,polite,0.8,AUTO_APPROVED,respond
-45,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-46,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-47,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-48,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-49,notify,urgent,0.9,AUTO_APPROVED,notify
-50,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-51,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-52,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-53,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-54,respond,polite,0.8,AUTO_APPROVED,respond
-55,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-56,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-57,notify,urgent,0.9,AUTO_APPROVED,notify
-58,notify,urgent,0.9,AUTO_APPROVED,notify
-59,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-60,respond,polite,0.8,AUTO_APPROVED,respond
-61,respond,polite,0.8,AUTO_APPROVED,respond
-62,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-63,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-64,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-65,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-66,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-67,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-68,respond,polite,0.8,AUTO_APPROVED,respond
-69,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-70,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-71,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-72,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-73,notify,urgent,0.9,AUTO_APPROVED,notify
-74,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-75,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-76,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-77,respond,polite,0.8,AUTO_APPROVED,respond
-78,respond,polite,0.8,AUTO_APPROVED,respond
-79,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-80,notify,urgent,0.9,AUTO_APPROVED,notify
-81,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-82,respond,polite,0.8,AUTO_APPROVED,respond
-83,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-84,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-85,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-86,respond,polite,0.8,AUTO_APPROVED,respond
-87,respond,polite,0.8,AUTO_APPROVED,respond
-88,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-89,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-90,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-91,respond,polite,0.8,AUTO_APPROVED,respond
-92,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-93,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-94,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-95,notify,urgent,0.9,AUTO_APPROVED,notify
-96,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-97,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-98,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-99,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-100,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-101,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-102,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-103,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-104,notify,urgent,0.9,AUTO_APPROVED,notify
-105,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-106,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-107,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-108,notify,urgent,0.9,AUTO_APPROVED,notify
-109,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-110,notify,urgent,0.9,AUTO_APPROVED,notify
-111,respond,polite,0.8,AUTO_APPROVED,respond
-112,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-113,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-114,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-115,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-116,respond,polite,0.8,AUTO_APPROVED,respond
-117,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-118,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-119,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-120,respond,polite,0.8,AUTO_APPROVED,respond
-121,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-122,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-123,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-124,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-125,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-126,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-127,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-128,respond,polite,0.8,AUTO_APPROVED,respond
-129,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-130,respond,polite,0.8,AUTO_APPROVED,respond
-131,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-132,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-133,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-134,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-135,notify,urgent,0.9,AUTO_APPROVED,notify
-136,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-137,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-138,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-139,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-140,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-141,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-142,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-143,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-144,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-145,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-146,notify,urgent,0.9,AUTO_APPROVED,notify
-147,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-148,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-149,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-150,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-151,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-152,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-153,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-154,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-155,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-156,notify,urgent,0.9,AUTO_APPROVED,notify
-157,respond,polite,0.8,AUTO_APPROVED,respond
-158,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-159,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-160,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-161,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-162,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-163,respond,polite,0.8,AUTO_APPROVED,respond
-164,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-165,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-166,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-167,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-168,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-169,respond,polite,0.8,AUTO_APPROVED,respond
-170,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-171,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-172,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-173,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-174,notify,urgent,0.9,AUTO_APPROVED,notify
-175,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-176,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-177,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-178,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-179,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-180,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-181,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-182,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-183,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-184,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-185,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-186,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-187,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-188,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-189,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-190,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-191,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-192,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-193,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-194,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-195,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-196,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-197,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-198,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
-199,notify,urgent,0.9,AUTO_APPROVED,notify
-200,review,neutral,0.4,HUMAN_REVIEW_REQUIRED,respond
+email,ai_action,final_action,hitl_status,tone
+Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 25515.09 is due on 2025-12-12. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+Your invoice of INR 38766.88 is due on 2025-12-14. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #6313 has been shipped and is expected to deliver by 2026-01-10.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 32944.21 is due on 2025-12-24. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #3621 has been shipped and is expected to deliver by 2025-12-13.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+Reminder: The client meeting is scheduled at 10:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Your order #2545 has been shipped and is expected to deliver by 2025-12-27.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 9983.71 is due on 2025-12-29. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #9808 has been shipped and is expected to deliver by 2025-12-30.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 17:00 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 34531.11 is due on 2026-01-08. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #2832 has been shipped and is expected to deliver by 2025-12-25.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 13706.88 is due on 2026-01-06. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Your order #1387 has been shipped and is expected to deliver by 2026-01-07.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 13:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #5649 has been shipped and is expected to deliver by 2026-01-06.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Your order #4919 has been shipped and is expected to deliver by 2025-12-19.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 13949.9 is due on 2025-12-22. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Your invoice of INR 3679.33 is due on 2025-12-25. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 18063.84 is due on 2025-12-20. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Reminder: The client meeting is scheduled at 12:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 37060.93 is due on 2025-12-20. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 16:00 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #2869 has been shipped and is expected to deliver by 2025-12-13.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+Your invoice of INR 6363.35 is due on 2026-01-05. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 13:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 21544.38 is due on 2025-12-29. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 16:00 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 9:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Your order #3634 has been shipped and is expected to deliver by 2025-12-22.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #4920 has been shipped and is expected to deliver by 2025-12-27.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Your order #8460 has been shipped and is expected to deliver by 2025-12-29.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 16:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #5835 has been shipped and is expected to deliver by 2025-12-23.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 7041.91 is due on 2025-12-29. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+Your order #6464 has been shipped and is expected to deliver by 2025-12-18.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 3896.2 is due on 2026-01-05. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #9254 has been shipped and is expected to deliver by 2025-12-28.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Your order #6277 has been shipped and is expected to deliver by 2025-12-26.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 17:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #4522 has been shipped and is expected to deliver by 2025-12-25.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 9:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #4084 has been shipped and is expected to deliver by 2026-01-06.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your invoice of INR 35527.27 is due on 2025-12-26. Please pay to avoid late fees.,respond,respond,AUTO_APPROVED,polite
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 15:00 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hello team, please find the attached weekly report and action items for the project.",respond,respond,AUTO_APPROVED,polite
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #9749 has been shipped and is expected to deliver by 2026-01-05.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Your order #4637 has been shipped and is expected to deliver by 2025-12-16.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #5193 has been shipped and is expected to deliver by 2025-12-12.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Notice: Your account will be locked unless verification is completed.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #9129 has been shipped and is expected to deliver by 2025-12-24.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 15:00 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Reminder: The client meeting is scheduled at 14:30 tomorrow. Prepare your slides.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #5498 has been shipped and is expected to deliver by 2025-12-13.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Security alert: multiple failed login attempts were recorded on your account.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Your order #3828 has been shipped and is expected to deliver by 2025-12-16.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
+Please complete the mandatory training module before the deadline.,notify,notify,AUTO_APPROVED,urgent
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,review,respond,HUMAN_REVIEW_REQUIRED,neutral
