@@ -1,6 +1,11 @@
 email_id,ai_action,final_action,hitl_status
-Notice: Your account will be locked unless verific,respond,respond,WAIT_FOR_HUMAN
-Your invoice of INR 37060.93 is due on 2025-12-20.,respond,respond,WAIT_FOR_HUMAN
-Your invoice of INR 3679.33 is due on 2025-12-25. ,respond,respond,WAIT_FOR_HUMAN
-"Dear user, we detected a login from a new device. ",notify,notify,AUTO_APPROVED
+Reminder: The client meeting is scheduled at 10:00,respond,respond,WAIT_FOR_HUMAN
+"Hello team, please find the attached weekly report",respond,respond,WAIT_FOR_HUMAN
+"Hi, don't miss our sale with discounts up to 70% o",ignore,ignore,AUTO_APPROVED
+Security alert: multiple failed login attempts wer,notify,notify,AUTO_APPROVED
 Congratulations! You have been selected as a lucky,ignore,ignore,AUTO_APPROVED
+"Hi, don't miss our sale with discounts up to 70% o",ignore,ignore,AUTO_APPROVED
+Congratulations! You have been selected as a lucky,ignore,ignore,AUTO_APPROVED
+Your order #4920 has been shipped and is expected ,respond,respond,WAIT_FOR_HUMAN
+Notice: Your account will be locked unless verific,respond,respond,WAIT_FOR_HUMAN
+Your order #2832 has been shipped and is expected ,respond,respond,WAIT_FOR_HUMAN
