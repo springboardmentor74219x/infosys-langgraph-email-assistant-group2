@@ -1,0 +1,6 @@
+email_snippet,ai_action,final_action,hitl_status
+"Hi, don't miss our sale with discounts up to 70% o",respond,blocked,Wait_for_Human
+Congratulations! You have been selected as a lucky,respond,blocked,Wait_for_Human
+"Hello team, please find the attached weekly report",respond,blocked,Wait_for_Human
+Security alert: multiple failed login attempts wer,respond,blocked,Wait_for_Human
+Security alert: multiple failed login attempts wer,respond,blocked,Wait_for_Human
