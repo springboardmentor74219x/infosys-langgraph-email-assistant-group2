@@ -1,0 +1,11 @@
+email_id,ai_action,final_action,hitl_status
+"Hello team, please find the attached weekly report",respond,respond,WAIT_FOR_HUMAN
+Security alert: multiple failed login attempts wer,notify,notify,AUTO_APPROVED
+"Dear user, we detected a login from a new device. ",notify,notify,AUTO_APPROVED
+"Hi, don't miss our sale with discounts up to 70% o",ignore,ignore,AUTO_APPROVED
+Congratulations! You have been selected as a lucky,ignore,ignore,AUTO_APPROVED
+Congratulations! You have been selected as a lucky,ignore,ignore,AUTO_APPROVED
+Please complete the mandatory training module befo,notify,notify,AUTO_APPROVED
+Your invoice of INR 25515.09 is due on 2025-12-12.,respond,respond,WAIT_FOR_HUMAN
+Reminder: The client meeting is scheduled at 16:00,respond,respond,WAIT_FOR_HUMAN
+Congratulations! You have been selected as a lucky,ignore,ignore,AUTO_APPROVED
