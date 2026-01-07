@@ -1,0 +1,6 @@
+email,ai_action,final_action,hitl_status
+Security alert: multiple failed login attempts wer,notify,notify,AUTO_APPROVE
+Your invoice of INR 13706.88 is due on 2026-01-06.,respond,respond,WAIT_FOR_HUMAN
+"Hi, don't miss our sale with discounts up to 70% o",ignore,ignore,AUTO_APPROVE
+Please complete the mandatory training module befo,respond,blocked,WAIT_FOR_HUMAN
+Please complete the mandatory training module befo,respond,respond,WAIT_FOR_HUMAN
