@@ -1,6 +1,11 @@
 email,ai_action,final_action,hitl_status
+Your invoice of INR 7041.91 is due on 2025-12-29. ,respond,respond,WAIT_FOR_HUMAN
 Security alert: multiple failed login attempts wer,notify,notify,AUTO_APPROVE
-Your invoice of INR 13706.88 is due on 2026-01-06.,respond,respond,WAIT_FOR_HUMAN
-"Hi, don't miss our sale with discounts up to 70% o",ignore,ignore,AUTO_APPROVE
+Congratulations! You have been selected as a lucky,ignore,ignore,AUTO_APPROVE
+Security alert: multiple failed login attempts wer,notify,notify,AUTO_APPROVE
 Please complete the mandatory training module befo,respond,blocked,WAIT_FOR_HUMAN
-Please complete the mandatory training module befo,respond,respond,WAIT_FOR_HUMAN
+Reminder: The client meeting is scheduled at 15:30,respond,blocked,WAIT_FOR_HUMAN
+"Dear user, we detected a login from a new device. ",respond,blocked,WAIT_FOR_HUMAN
+"Hi, don't miss our sale with discounts up to 70% o",ignore,ignore,AUTO_APPROVE
+Notice: Your account will be locked unless verific,respond,blocked,WAIT_FOR_HUMAN
+Reminder: The client meeting is scheduled at 15:00,respond,blocked,WAIT_FOR_HUMAN
