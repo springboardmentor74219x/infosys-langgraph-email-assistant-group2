@@ -1,0 +1,6 @@
+email_snippet,ai_action,final_action,hitl_status
+Congratulations! You have been selected as a lucky,respond,respond,Wait_for_Human
+"Hi, don't miss our sale with discounts up to 70% o",respond,blocked,Wait_for_Human
+Notice: Your account will be locked unless verific,respond,respond,Wait_for_Human
+Notice: Your account will be locked unless verific,respond,blocked,Wait_for_Human
+Please complete the mandatory training module befo,notify,notify,Auto_Approve
