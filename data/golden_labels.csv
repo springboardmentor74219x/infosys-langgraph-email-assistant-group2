@@ -1,0 +1,52 @@
+email,expected
+"Please schedule a meeting with the client tomorrow at 10 AM.",respond
+"Can you tell me when my next meeting is?",respond
+"I need help resetting my banking password urgently.",notify_human
+"My account was debited twice for the same transaction.",notify_human
+"Thank you for your quick support last week.",ignore
+"Happy Diwali to the entire team!",ignore
+"What is the status of my loan application?",respond
+"There is a suspicious transaction on my credit card.",notify_human
+"Reminder: office will remain closed tomorrow.",ignore
+"Can you provide details about my customer profile?",respond
+"Please cancel my meeting scheduled for today.",respond
+"I am very unhappy with the service and want to escalate.",notify_human
+"Newsletter: New offers launching this month.",ignore
+"Can you check my calendar for today’s meetings?",respond
+"Just checking in to say hello.",ignore
+"My net banking is not working and I am locked out.",notify_human
+"Could you help me understand my last credit card statement?",respond
+"Your OTP should never be shared with anyone.",ignore
+"I want to report fraud on my debit card immediately.",notify_human
+"What meetings do I have planned for tomorrow?",respond
+"Thanks for resolving my issue so fast.",ignore
+"My loan EMI was deducted twice this month.",notify_human
+"Please send me my customer profile details.",respond
+"Company announcement: new HR policies effective next month.",ignore
+"I forgot my login PIN and need assistance.",notify_human
+"Schedule a call with my relationship manager.",respond
+"Wishing everyone a happy new year!",ignore
+"My card has been blocked after multiple failed attempts.",notify_human
+"What time is my client meeting today?",respond
+"This is just a promotional email.",ignore
+"There is an unauthorized login attempt on my account.",notify_human
+"Can you read my calendar events for today?",respond
+"Good morning team, hope you are doing well.",ignore
+"I want to raise a complaint against a bank executive.",notify_human
+"Please update me on my service request.",respond
+"This email is only for information purposes.",ignore
+"My account balance looks incorrect.",notify_human
+"Do I have any meetings scheduled today?",respond
+"Thank you for the update.",ignore
+"I suspect my account has been compromised.",notify_human
+"Please provide details of my premium banking benefits.",respond
+"Office notice: parking area maintenance tomorrow.",ignore
+"I am facing repeated transaction failures.",notify_human
+"Can you help me check my calendar availability?",respond
+"Just sending a friendly reminder.",ignore
+"My card payment failed but money was deducted.",notify_human
+"Please tell me about my customer profile.",respond
+"This is an auto-generated system notification.",ignore
+"I want to speak to a human support agent.",notify_human
+"What meetings are on my calendar this week?",respond
+"Thanks and regards.",ignore
