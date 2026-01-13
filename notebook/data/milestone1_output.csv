@@ -1,0 +1,7 @@
+email,triage
+"Hi, I need help with my order",respond
+Reminder: team meeting tomorrow,ignore
+Urgent: account locked,ignore
+Can you update me on the project status?,respond
+Lunch menu for today,ignore
+Your subscription is expiring soon,respond
