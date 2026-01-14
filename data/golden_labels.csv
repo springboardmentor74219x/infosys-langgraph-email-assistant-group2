@@ -1,0 +1,5 @@
+email,expected
+"Hello team, please find the attached report.",respond
+Reminder: your invoice is due.,ignore
+Client meeting scheduled at 10 AM.,respond
+"Weekly update, no action needed.",ignore
