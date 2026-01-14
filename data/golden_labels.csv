@@ -1,26 +1,11 @@
 email,expected
-"Hi, I need help resetting my account password as soon as possible.",respond
-"Please find the attached report and let me know your feedback.",respond
-"This is a reminder for the meeting scheduled tomorrow at 10 AM.",respond
-"My order hasn’t arrived yet, can you check the status?",respond
-"Urgent: Unable to access the company portal.",respond
-"Can you share the updated project timeline?",respond
-"I would like to apply for leave from 10th to 12th.",respond
-"There is an error in the invoice you sent yesterday.",respond
-"Please confirm if the payment has been received.",respond
-"I am facing login issues with my email account.",respond
-"Congratulations! You’ve won a free gift card. Click here.",ignore
-"Limited time offer!!! Buy now and save 70%.",ignore
-"You are selected for a lucky draw. Claim your prize.",ignore
-"Don’t miss this amazing deal on electronics.",ignore
-"This is a promotional email about our new product.",ignore
-"Weekly newsletter: Top 10 tech trends.",ignore
-"Advertisement: Best online courses at lowest price.",ignore
-"Sale ends today! Hurry up.",ignore
-"Subscribe now to get exclusive benefits.",ignore
-"Your horoscope for today is ready.",ignore
-"Reminder: Update your KYC details to avoid suspension.",respond
-"Please review the code changes pushed to the repository.",respond
-"The server is down and needs immediate attention.",respond
-"Meeting minutes from today’s discussion are attached.",respond
-"Requesting approval for the budget proposal.",respond
+"Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.",notify_human
+"Your invoice of INR 25515.09 is due on 2025-12-12. Please pay to avoid late fees.",respond
+"Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.",ignore
+"Hello team, please find the attached weekly report and action items for the project.",respond
+"Hello team, please find the attached weekly report and action items for the project.",respond
+"Your invoice of INR 38766.88 is due on 2025-12-14. Please pay to avoid late fees.",notify_human
+"Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.",ignore
+"Your order #6313 has been shipped and is expected to deliver by 2026-01-10.",respond
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",notify_human
+"Your invoice of INR 32944.21 is due on 2025-12-24. Please pay to avoid late fees.",respond
