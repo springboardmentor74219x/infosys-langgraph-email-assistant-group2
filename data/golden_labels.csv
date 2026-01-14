@@ -1,5 +1,51 @@
 email,expected
-"Hello team, please find the attached report.",respond
-Reminder: your invoice is due.,ignore
-Client meeting scheduled at 10 AM.,respond
-"Weekly update, no action needed.",ignore
+Please approve the attached report by EOD.,respond
+Reminder: submit your timesheet today.,respond
+Urgent: client issue requires immediate attention.,respond
+Meeting scheduled at 10 AM. Please join.,respond
+Action required: approve budget request.,respond
+FYI: Office will be closed on Friday.,ignore
+Newsletter: Top tech trends this week.,ignore
+Your subscription has been renewed successfully.,ignore
+Happy New Year! Wishing you success.,ignore
+System maintenance completed successfully.,ignore
+Please provide approval to proceed.,respond
+Confirm payment receipt for invoice #456.,respond
+Kindly approve the leave request.,respond
+Review and sign the attached contract.,respond
+Immediate attention required on bug #342.,respond
+Daily news summary.,ignore
+Social media notification: new follower.,ignore
+Your order has been shipped.,ignore
+Advertisement: flat 50% discount today!,ignore
+Auto-reply: I am on leave today.,ignore
+Please join the team call at 3 PM today.,respond
+Urgent: server downtime reported.,respond
+Kindly review the updated proposal.,respond
+Reminder: your invoice is due tomorrow.,respond
+Action needed: submit your project report.,respond
+Password changed successfully.,ignore
+Weather alert notification.,ignore
+Thanks for your recent purchase.,ignore
+FYI: Calendar invite accepted.,ignore
+Survey: tell us about your experience.,ignore
+Please confirm availability for tomorrow's meeting.,respond
+Escalation: client complaint unresolved.,respond
+Kindly approve the attached document.,respond
+Immediate review required for contract.,respond
+Your OTP for login is 839201.,ignore
+Happy holidays! Enjoy your break.,ignore
+Newsletter: weekly company updates.,ignore
+Your order has been delivered.,ignore
+System notification: backup completed.,ignore
+Reminder: team lunch at 1 PM.,ignore
+Please update the project status by noon.,respond
+Urgent: pending approvals need attention.,respond
+Action required: review budget proposal.,respond
+Client meeting follow-up required.,respond
+Newsletter: monthly tips and tricks.,ignore
+FYI: new company policies uploaded.,ignore
+System alert: low disk space.,ignore
+Your invoice of INR 25515.09 is due.,ignore
+Reminder: client meeting at 11:30 AM.,ignore
+Daily digest: top news and alerts.,ignore
