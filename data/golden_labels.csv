@@ -1,26 +1,9 @@
 email,expected
-Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,
-Your invoice of INR 25515.09 is due on 2025-12-12. Please pay to avoid late fees.,
-Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,
-"Hello team, please find the attached weekly report and action items for the project.",
-"Hello team, please find the attached weekly report and action items for the project.",
-Your invoice of INR 38766.88 is due on 2025-12-14. Please pay to avoid late fees.,
-Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,
-Your order #6313 has been shipped and is expected to deliver by 2026-01-10.,
-"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",
-Your invoice of INR 32944.21 is due on 2025-12-24. Please pay to avoid late fees.,
-Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.,
-Your order #3621 has been shipped and is expected to deliver by 2025-12-13.,
-"Hello team, please find the attached weekly report and action items for the project.",
-Reminder: The client meeting is scheduled at 10:30 tomorrow. Prepare your slides.,
-Please complete the mandatory training module before the deadline.,
-"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",
-Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,
-"Hi, don't miss our sale with discounts up to 70% on selected items. Click to know more.",
-Please complete the mandatory training module before the deadline.,
-Please complete the mandatory training module before the deadline.,
-Notice: Your account will be locked unless verification is completed.,
-Please complete the mandatory training module before the deadline.,
-Your order #2545 has been shipped and is expected to deliver by 2025-12-27.,
-Security alert: multiple failed login attempts were recorded on your account.,
-Your invoice of INR 9983.71 is due on 2025-12-29. Please pay to avoid late fees.,
+"Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.",respond
+"Your invoice of INR 25515.09 is due on 2025-12-12. Please pay to avoid late fees.",notify_human
+"Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.",respond
+"Hello team, please find the attached weekly report and action items for the project.",ignore
+"Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.",ignore
+"Your order #6313 has been shipped and is expected to deliver by 2026-01-10.",ignore
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",notify_human
+"Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.",respond
