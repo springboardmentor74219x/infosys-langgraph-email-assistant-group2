@@ -1,11 +1,23 @@
 email,expected
-"Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.","notify_human"
-"Your invoice of INR 25515.09 is due on 2025-12-12. Please pay to avoid late fees.","notify_human"
-"Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.","notify_human"
-"Hello team, please find the attached weekly report and action items for the project.","respond"
-"Your invoice of INR 38766.88 is due on 2025-12-14. Please pay to avoid late fees.","notify_human"
-"Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.","notify_human"
-"Your order #6313 has been shipped and is expected to deliver by 2026-01-10.","ignore"
-"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.","notify_human"
-"Your invoice of INR 32944.21 is due on 2025-12-24. Please pay to avoid late fees.","notify_human"
-"Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.","respond"
+Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,respond
+Your invoice of INR 25515.09 is due on 2025-12-12. Please pay to avoid late fees.,notify_human
+Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,respond
+Your invoice of INR 38766.88 is due on 2025-12-14. Please pay to avoid late fees.,notify_human
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,notify_human
+Your order #6313 has been shipped and is expected to deliver by 2026-01-10.,ignore
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",notify_human
+Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.,respond
+Your invoice of INR 32944.21 is due on 2025-12-24. Please pay to avoid late fees.,notify_human
+Your subscription will expire in 3 days. Renew now to continue enjoying our services.,notify_human
+Your invoice of INR 38766.88 is due on 2025-12-14. Please pay to avoid late fees.,notify_human
+Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.,notify_human
+Your order #6389 has been shipped and is expected to deliver by today.,ignore
+"Urgent: Payment of INR 10250.00 is pending. Please process immediately.",notify_human
+Reminder: Your appointment with Dr. Sharma is scheduled for 2026-01-20.,respond
+"FYI: The office will be closed next Friday due to maintenance.",respond
+Congratulations! You have earned 500 loyalty points for your recent purchase.,respond
+"Please find the monthly performance report attached for your review.",respond
+Reminder: The team meeting is scheduled at 09:00 tomorrow.,respond
+Your package #9845 is out for delivery and should arrive by 2026-01-16.,ignore
+"Hello team, please find the attached weekly report and action items for the project.",respond
+"Action required: Please update your profile information before 2026-01-18.",respond
