@@ -1,0 +1,9 @@
+email,expected
+"Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.",respond
+"Your invoice of INR 25515.09 is due on 2025-12-12. Please pay to avoid late fees.",notify_human
+"Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.",respond
+"Hello team, please find the attached weekly report and action items for the project.",ignore
+"Congratulations! You have been selected as a lucky winner. Claim your prize now by clicking the link.",ignore
+"Your order #6313 has been shipped and is expected to deliver by 2026-01-10.",ignore
+"Dear user, we detected a login from a new device. If this wasn't you, reset your password immediately.",notify_human
+"Reminder: The client meeting is scheduled at 15:30 tomorrow. Prepare your slides.",respond
