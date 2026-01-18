@@ -1,0 +1,11 @@
+email,expected
+"Hi, I need help resetting my bank account password.",respond
+"Please update me on the status of my loan application.",respond
+"I want to know my credit card outstanding balance.",respond
+"Can you reschedule my appointment to tomorrow?",respond
+"Your account has been debited, please confirm.",respond
+"Limited time offer!!! Buy now and get 50% discount",ignore
+"Congratulations! You have won a free lottery prize",ignore
+"This is a promotional email for our new product launch",ignore
+"Buy one get one free, offer valid today only",ignore
+"Click here to subscribe to our newsletter",ignore
