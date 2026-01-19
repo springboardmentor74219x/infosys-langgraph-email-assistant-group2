@@ -70,4 +70,4 @@ def create_calendar_invite(summary: str, start_time: datetime):
     }
 
     service.events().insert(calendarId="primary", body=event).execute()
-    return "Calendar event created
+    return "Calendar event created"
