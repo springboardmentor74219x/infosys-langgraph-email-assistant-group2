@@ -1,0 +1,101 @@
+email_text,expected_action,expected_tone
+"Reminder: Your team meeting is scheduled for tomorrow at 10 AM. Please confirm your availability.",respond,neutral
+"Dear Student, your internship application has been shortlisted. Kindly reply to confirm your interest.",respond,polite
+"Your invoice INV-1023 is overdue. Please complete the payment immediately to avoid penalties.",notify,urgent
+"Newsletter: Explore our latest articles and updates for this month.",ignore,neutral
+"Security Alert: Suspicious login detected on your account. Please contact support immediately.",notify,urgent
+"Thank you for attending the orientation session. No further action is required.",ignore,polite
+"Could you please share the updated project documentation by today EOD?",respond,neutral
+"Your order has been delivered successfully. We hope you enjoy your purchase.",ignore,neutral
+"Dear Candidate, this is a reminder for your interview scheduled on Monday at 11 AM.",respond,polite
+"System Maintenance Notice: Services will be unavailable tonight from 1 AM to 3 AM.",ignore,neutral
+"Please review the attached report and share your feedback by tomorrow.",respond,neutral
+"Your payment of INR 5,000 has failed. Please retry immediately.",notify,urgent
+"Invitation: Join us for the annual tech meetup next Saturday.",respond,polite
+"Weekly Newsletter: Top tech trends you should know.",ignore,neutral
+"Alert: Your account will be locked due to multiple failed login attempts.",notify,urgent
+"Thanks for submitting the assignment. We will get back with feedback soon.",ignore,polite
+"Can we reschedule our meeting to Thursday afternoon?",respond,polite
+"Your subscription has been renewed successfully.",ignore,neutral
+"Urgent: Please submit your ID proof today to continue onboarding.",notify,urgent
+"Reminder: Fee payment deadline is tomorrow.",notify,urgent
+"Dear Professor, I am requesting an extension for the assignment deadline.",respond,polite
+"Monthly invoice generated for your account. Please check the attachment.",respond,neutral
+"Promotional Offer: Get 50% off on all courses this weekend.",ignore,neutral
+"Your bank account statement for June is now available.",ignore,neutral
+"Action Required: Update your KYC details to avoid service disruption.",notify,urgent
+"Meeting agenda for today's discussion is attached.",respond,neutral
+"Thank you for your feedback. We appreciate your time.",ignore,polite
+"Reminder: Complete your internship acceptance form by today.",notify,urgent
+"Your request has been received and is under review.",ignore,neutral
+"Please approve the leave request submitted for next week.",respond,neutral
+"Alert: Unusual transaction detected on your credit card.",notify,urgent
+"Happy Holidays from the entire team!",ignore,polite
+"Could you clarify the requirements for the next project phase?",respond,polite
+"Invoice payment confirmation for order #4567.",ignore,neutral
+"Urgent reminder: Exam registration closes tonight.",notify,urgent
+"Weekly progress report submission reminder.",respond,neutral
+"Congratulations! You have successfully completed the course.",ignore,polite
+"Your refund has been initiated and will be processed in 5 business days.",ignore,neutral
+"Please find the revised schedule for next week's classes.",respond,neutral
+"Security notice: Password change recommended.",notify,urgent
+"Invitation to attend the campus placement briefing session.",respond,polite
+"Newsletter: Company updates and announcements.",ignore,neutral
+"Immediate Action Needed: Verify your email address.",notify,urgent
+"Reminder to submit your timesheet by 6 PM today.",respond,neutral
+"Thank you for contacting support. Your ticket is closed.",ignore,polite
+"Requesting approval for budget allocation.",respond,neutral
+"Payment reminder: Outstanding balance pending.",notify,urgent
+"Join us for a webinar on career development.",respond,polite
+"Your profile information has been updated successfully.",ignore,neutral
+"Final notice: Library books overdue. Please return today.",notify,urgent
+"Please confirm your participation in the group project.",respond,neutral
+"Seasonal greetings from our organization.",ignore,polite
+"Important: Internship joining date confirmation required.",respond,urgent
+"Your attendance has been marked for today's session.",ignore,neutral
+"Reminder: Submit your project proposal by tomorrow.",notify,urgent
+"Request to review pull request #234.",respond,neutral
+"Subscription expiry reminder: Renew to continue services.",notify,urgent
+"Thank you for registering for the event.",ignore,polite
+"Clarification needed regarding assignment guidelines.",respond,polite
+"Alert: Email verification pending.",notify,urgent
+"Meeting minutes from yesterday's discussion attached.",respond,neutral
+"Happy Birthday wishes from the team!",ignore,polite
+"Please update the task status in the tracker.",respond,neutral
+"Invoice available for download in your dashboard.",respond,neutral
+"Urgent security update required for your system.",notify,urgent
+"Newsletter: Learning resources curated for you.",ignore,neutral
+"Follow-up: Awaiting your response on the proposal.",respond,neutral
+"Account suspension warning due to policy violation.",notify,urgent
+"Thanks for completing the survey.",ignore,polite
+"Reminder: Orientation program starts at 9 AM tomorrow.",respond,neutral
+"Payment successful for order #7890.",ignore,neutral
+"Immediate response required: Compliance form pending.",notify,urgent
+"Requesting meeting to discuss project milestones.",respond,polite
+"End-of-day report submission reminder.",respond,neutral
+"General information: Office will remain closed on Friday.",ignore,neutral
+"Your application status has been updated.",ignore,neutral
+"Urgent: Confirm seat acceptance for internship.",notify,urgent
+"Please share availability for next week's call.",respond,polite
+"System-generated notification: Backup completed successfully.",ignore,neutral
+"Reminder: Course feedback form submission deadline today.",notify,urgent
+"Request to approve final project submission.",respond,neutral
+"Thank you for being a valued member.",ignore,polite
+"Alert: New device login detected on your account.",notify,urgent
+"Could you provide insights on the recent market trends?",respond,polite    
+"Monthly performance report is ready for your review.",respond,neutral
+"Important: Update your contact information.",notify,urgent
+"Invitation: Participate in the upcoming hackathon event.",respond,polite
+"Your password has been changed successfully.",ignore,neutral
+"Final reminder: Submit your tax documents today.",notify,urgent
+"Please find the attached syllabus for the new semester.",respond,neutral
+"Thank you for your continued support.",ignore,polite
+"Urgent: Action required to secure your account.",notify,urgent
+"Could you please send the meeting notes from last week?",respond,polite
+"Weekly digest: Top news in your industry.",ignore,neutral
+"Alert: Payment method update needed to avoid service interruption.",notify,urgent
+"Requesting feedback on the recent training session.",respond,neutral
+"Your account activity summary for the month is now available.",ignore,neutral
+"Reminder: Submit your research paper by the end of this week.",notify,urgent
+"Please confirm your attendance for the upcoming workshop.",respond,neutral
+"Season's greetings and best wishes!",ignore,polite 

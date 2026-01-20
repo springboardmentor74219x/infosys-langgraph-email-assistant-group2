@@ -1,0 +1,6 @@
+email_snippet,ai_action,tone,final_action,hitl_status
+Reminder: The client meeting is scheduled at 10:00,respond,neutral,blocked,Wait_for_Human
+"Hi, don't miss our sale with discounts up to 70% o",respond,neutral,respond,Wait_for_Human
+Please complete the mandatory training module befo,notify,urgent,notify,Auto_Approve
+Please complete the mandatory training module befo,notify,urgent,notify,Auto_Approve
+Your invoice of INR 21544.38 is due on 2025-12-29.,respond,neutral,blocked,Wait_for_Human
