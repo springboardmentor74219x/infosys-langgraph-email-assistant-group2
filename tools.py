@@ -1,19 +1,27 @@
+import os
 import base64
+import pickle
 from email.message import EmailMessage
 
 from google_auth_oauthlib.flow import InstalledAppFlow
-from googleapiclient.discovery import build
 from google.auth.transport.requests import Request
+from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
-import os
 
+# ------------------------
+# SCOPES
+# ------------------------
 SCOPES = [
     "https://www.googleapis.com/auth/gmail.send",
-    "https://www.googleapis.com/auth/calendar.events"
+    "https://www.googleapis.com/auth/calendar.events",
 ]
 
-def get_google_creds():
+# ------------------------
+# AUTH HELPER
+# ------------------------
+def get_creds():
     creds = None
+
     if os.path.exists("token.json"):
         creds = Credentials.from_authorized_user_file("token.json", SCOPES)
 
@@ -31,43 +39,57 @@ def get_google_creds():
 
     return creds
 
-
+# ------------------------
+# SEND EMAIL TOOL
+# ------------------------
 def send_email(to: str, subject: str, body: str):
-    creds = get_google_creds()
+    creds = get_creds()
     service = build("gmail", "v1", credentials=creds)
 
     message = EmailMessage()
     message.set_content(body)
     message["To"] = to
-    message["From"] = "me"
     message["Subject"] = subject
 
-    encoded_message = base64.urlsafe_b64encode(message.as_bytes()).decode()
+    encoded_message = base64.urlsafe_b64encode(
+        message.as_bytes()
+    ).decode()
 
     service.users().messages().send(
         userId="me",
         body={"raw": encoded_message}
     ).execute()
 
-    return "Email sent successfully"
+    return "Email sent successfully."
 
-from datetime import datetime, timedelta
-
-def create_calendar_invite(summary: str, start_time: datetime):
-    creds = get_google_creds()
+# ------------------------
+# CREATE CALENDAR INVITE TOOL
+# ------------------------
+def create_calendar_invite(
+    title: str,
+    description: str,
+    start_time: str,
+    end_time: str
+):
+    creds = get_creds()
     service = build("calendar", "v3", credentials=creds)
 
     event = {
-        "summary": summary,
+        "summary": title,
+        "description": description,
         "start": {
-            "dateTime": start_time.isoformat(),
+            "dateTime": start_time,
             "timeZone": "Asia/Kolkata",
         },
         "end": {
-            "dateTime": (start_time + timedelta(hours=1)).isoformat(),
+            "dateTime": end_time,
             "timeZone": "Asia/Kolkata",
         },
     }
 
-    service.events().insert(calendarId="primary", body=event).execute()
-    return "Calendar event created"
+    service.events().insert(
+        calendarId="primary",
+        body=event
+    ).execute()
+
+    return "Calendar invite created successfully."

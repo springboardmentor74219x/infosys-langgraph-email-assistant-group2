@@ -1,48 +1,64 @@
-from typing import TypedDict
-from langgraph.graph import StateGraph, START, END
-from langgraph.checkpoint.memory import MemorySaver
-from langgraph.types import interrupt, Command
+from langgraph.graph import StateGraph
 
-# 1. Define tools locally to fix the ImportError
-def send_email(email_content: str):
-    return f"Action: Email sent with content: {email_content}"
+# -----------------------------
+# Human-in-the-loop node
+# -----------------------------
+def human_edit(state):
+    text = state.get("input", "").lower()
+    memory = state.get("memory", {})
 
-def create_calendar_invite(details: str):
-    return f"Action: Calendar invite created for: {details}"
+    if "call him robert" in text:
+        memory["name_preference"] = "Robert"
 
-# 2. Define the State structure
-class AgentState(TypedDict):
-    email: str
-    action: str
-    response: str
+    state["memory"] = memory
+    return state
 
-# 3. Define the Agent Node using the 2026 Interrupt pattern
-def agent_node(state: AgentState):
-    email = state["email"]
 
-    if "meeting" in email.lower():
-        # Execution pauses here. The string is the prompt for the human.
-        # This replaces the manual 'paused' flag.
-        human_review = interrupt("I can create a calendar invite for this meeting. Please approve.")
-        
-        return {
-            "action": "create_calendar_invite",
-            "response": f"I can create a calendar invite for this meeting. (Human said: {human_review})"
-        }
+# -----------------------------
+# Agent node
+# -----------------------------
+def agent_node(state):
+    user_input = state.get("input", "")
+    memory = state.get("memory", {})
+
+    name = memory.get("name_preference", "Bob")
+
+    if "meeting" in user_input.lower():
+        response = f"""Dear {name},
+
+I hope you are doing well.
+This is a reminder about our meeting scheduled for tomorrow.
+
+Best regards,
+"""
+    else:
+        response = f"""Dear {name},
+
+This is a professional email.
+
+Best regards,
+"""
 
     return {
-        "action": "send_email",
-        "response": "Drafted a professional reply email."
+        "response": response,
+        "memory": memory,
+        "paused": False
     }
 
-# 4. Build the Graph
-# We no longer need a separate 'human' node as 'interrupt' handles the pause.
-graph = StateGraph(AgentState)
+
+# -----------------------------
+# Build graph
+# -----------------------------
+graph = StateGraph(dict)
+
+graph.add_node("human", human_edit)
 graph.add_node("agent", agent_node)
 
-graph.add_edge(START, "agent")
-graph.add_edge("agent", END)
+# ✅ HUMAN FIRST
+graph.set_entry_point("human")
+graph.add_edge("human", "agent")
 
-# 5. Compile with Checkpointer (Required for interrupts)
-memory = MemorySaver()
-app = workflow = graph.compile(checkpointer=memory)
+# -----------------------------
+# Compile
+# -----------------------------
+app = graph.compile()
