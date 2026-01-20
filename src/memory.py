@@ -1,23 +1,27 @@
-from sqlalchemy import create_engine, Table, Column, String, MetaData
+import sqlite3
+import json
 
-engine = create_engine("sqlite:///data/memory.db")
-metadata = MetaData()
+conn = sqlite3.connect("memory.db", check_same_thread=False)
+cursor = conn.cursor()
 
-memory_table = Table(
-    "memory",
-    metadata,
-    Column("user", String),
-    Column("key", String),
-    Column("value", String),
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS memory (
+    user TEXT PRIMARY KEY,
+    data TEXT
 )
+""")
+conn.commit()
 
-metadata.create_all(engine)
 
-def save_memory(user, key, value):
-    with engine.connect() as conn:
-        conn.execute(memory_table.insert().values(user=user, key=key, value=value))
+def save_memory(user, data):
+    cursor.execute(
+        "REPLACE INTO memory (user, data) VALUES (?, ?)",
+        (user, json.dumps(data))
+    )
+    conn.commit()
+
 
 def get_memory(user):
-    with engine.connect() as conn:
-        rows = conn.execute(memory_table.select().where(memory_table.c.user == user))
-        return {r.key: r.value for r in rows}
+    cursor.execute("SELECT data FROM memory WHERE user=?", (user,))
+    row = cursor.fetchone()
+    return json.loads(row[0]) if row else {}
