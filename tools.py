@@ -64,12 +64,12 @@ def send_email(to: str, subject: str, body: str):
 
 # ------------------------
 # CREATE CALENDAR INVITE TOOL
-# ------------------------
 def create_calendar_invite(
     title: str,
     description: str,
     start_time: str,
-    end_time: str
+    end_time: str,
+    attendees: list[str] | None = None
 ):
     creds = get_creds()
     service = build("calendar", "v3", credentials=creds)
@@ -86,6 +86,9 @@ def create_calendar_invite(
             "timeZone": "Asia/Kolkata",
         },
     }
+
+    if attendees:
+        event["attendees"] = [{"email": email} for email in attendees]
 
     service.events().insert(
         calendarId="primary",
