@@ -1,35 +1,64 @@
 from langgraph.graph import StateGraph
-from memory import memory
-from tools import send_email, create_calendar_invite
 
+# -----------------------------
+# Human-in-the-loop node
+# -----------------------------
+def human_edit(state):
+    text = state.get("input", "").lower()
+    memory = state.get("memory", {})
+
+    if "call him robert" in text:
+        memory["name_preference"] = "Robert"
+
+    state["memory"] = memory
+    return state
+
+
+# -----------------------------
+# Agent node
+# -----------------------------
 def agent_node(state):
-    email = state["email"]
+    user_input = state.get("input", "")
+    memory = state.get("memory", {})
 
-    if "meeting" in email.lower():
-        return {
-            "action": "create_calendar_invite",
-            "response": "I can create a calendar invite for this meeting.",
-            "paused": True
-        }
+    name = memory.get("name_preference", "Bob")
+
+    if "meeting" in user_input.lower():
+        response = f"""Dear {name},
+
+I hope you are doing well.
+This is a reminder about our meeting scheduled for tomorrow.
+
+Best regards,
+"""
+    else:
+        response = f"""Dear {name},
+
+This is a professional email.
+
+Best regards,
+"""
 
     return {
-        "action": "send_email",
-        "response": "Drafted a professional reply email.",
+        "response": response,
+        "memory": memory,
         "paused": False
     }
 
 
-def human_edit(state):
-    # Human edits are stored in memory automatically
-    state["paused"] = False
-    return state
-
-
+# -----------------------------
+# Build graph
+# -----------------------------
 graph = StateGraph(dict)
-graph.add_node("agent", agent_node)
+
 graph.add_node("human", human_edit)
+graph.add_node("agent", agent_node)
 
-graph.set_entry_point("agent")
-graph.add_edge("agent", "human")
+# ✅ HUMAN FIRST
+graph.set_entry_point("human")
+graph.add_edge("human", "agent")
 
-app = graph.compile(checkpointer=memory)
+# -----------------------------
+# Compile
+# -----------------------------
+app = graph.compile()
