@@ -205,19 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-# Environment variables
-.env
 
-# Tokens / credentials
+# Secrets / OAuth
+credentials.json
 token.json
+
+# Local databases
+*.db
 Credentials.json
-
-# Database / memory files
-memory.db
-
-# Python cache
-__pycache__/
-*.pyc
-
-
-
