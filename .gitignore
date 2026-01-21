@@ -207,9 +207,9 @@ marimo/_lsp/
 __marimo__/
 
 # Secrets / OAuth
-credentials.json
+Credentials.json
+.env
 token.json
 
 # Local databases
 *.db
-Credentials.json
