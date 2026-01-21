@@ -1,35 +1,28 @@
-from langgraph.graph import StateGraph
+from langgraph.graph import StateGraph, END
+from typing import TypedDict, Dict, Any
+
 from memory import memory
-from tools import send_email, create_calendar_invite
-
-def agent_node(state):
-    email = state["email"]
-
-    if "meeting" in email.lower():
-        return {
-            "action": "create_calendar_invite",
-            "response": "I can create a calendar invite for this meeting.",
-            "paused": True
-        }
-
-    return {
-        "action": "send_email",
-        "response": "Drafted a professional reply email.",
-        "paused": False
-    }
+from tools import (
+    hitl_edit_tool,
+    send_email_tool,
+    create_calendar_event_tool,
+)
 
 
-def human_edit(state):
-    # Human edits are stored in memory automatically
-    state["paused"] = False
-    return state
+class AgentState(TypedDict):
+    response: str
+    memory: Dict[str, Any]
 
 
-graph = StateGraph(dict)
-graph.add_node("agent", agent_node)
-graph.add_node("human", human_edit)
+builder = StateGraph(AgentState)
 
-graph.set_entry_point("agent")
-graph.add_edge("agent", "human")
+builder.add_node("hitl", hitl_edit_tool)
+builder.add_node("send_email", send_email_tool)
+builder.add_node("calendar", create_calendar_event_tool)
 
-app = graph.compile(checkpointer=memory)
+builder.set_entry_point("hitl")
+builder.add_edge("hitl", "send_email")
+builder.add_edge("send_email", "calendar")
+builder.add_edge("calendar", END)
+
+app = builder.compile(checkpointer=memory)

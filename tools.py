@@ -1,73 +1,130 @@
+import os
 import base64
 from email.message import EmailMessage
 
 from google_auth_oauthlib.flow import InstalledAppFlow
-from googleapiclient.discovery import build
 from google.auth.transport.requests import Request
+from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
-import os
 
+
+# ---------------------------
+# GOOGLE API SCOPES
+# ---------------------------
 SCOPES = [
     "https://www.googleapis.com/auth/gmail.send",
-    "https://www.googleapis.com/auth/calendar.events"
+    "https://www.googleapis.com/auth/calendar.events",
 ]
 
-def get_google_creds():
+
+# ---------------------------
+# AUTH (ABSOLUTE PATH FIX)
+# ---------------------------
+def get_creds():
     creds = None
-    if os.path.exists("token.json"):
-        creds = Credentials.from_authorized_user_file("token.json", SCOPES)
+
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    TOKEN_PATH = os.path.join(BASE_DIR, "token.json")
+    CREDENTIALS_PATH = os.path.join(BASE_DIR, "credentials.json")
+
+    if os.path.exists(TOKEN_PATH):
+        creds = Credentials.from_authorized_user_file(TOKEN_PATH, SCOPES)
 
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                "credentials.json", SCOPES
+                CREDENTIALS_PATH, SCOPES
             )
             creds = flow.run_local_server(port=0)
 
-        with open("token.json", "w") as token:
+        with open(TOKEN_PATH, "w") as token:
             token.write(creds.to_json())
 
     return creds
 
 
-def send_email(to: str, subject: str, body: str):
-    creds = get_google_creds()
+# ---------------------------
+# HITL TOOL (LEARNING + AUTO APPLY)
+# ---------------------------
+def hitl_edit_tool(state):
+    memory = state.get("memory", {})
+
+    # 1️⃣ If human edits, learn
+    if "human_edit" in memory:
+        memory["name_preference"] = memory["human_edit"]
+
+    # 2️⃣ Always apply learned preference
+    name = memory.get("name_preference", "Bob")
+    state["response"] = f"Hi {name}, please join the meeting."
+
+    state["memory"] = memory
+    return state
+
+
+
+
+# ---------------------------
+# GMAIL TOOL (SAFE)
+# ---------------------------
+def send_email_tool(state):
+    memory = state.get("memory", {})
+
+    # Send email ONLY if allowed
+    if not memory.get("send_email", False):
+        return state
+
+    # ✅ USE THE FINAL RESPONSE FROM STATE
+    response = state["response"]
+
+    creds = get_creds()
     service = build("gmail", "v1", credentials=creds)
 
     message = EmailMessage()
-    message.set_content(body)
-    message["To"] = to
-    message["From"] = "me"
-    message["Subject"] = subject
+    message.set_content(response)
+    message["To"] = memory["to"]
+    message["Subject"] = "Automated Email"
 
-    encoded_message = base64.urlsafe_b64encode(message.as_bytes()).decode()
+    encoded_message = base64.urlsafe_b64encode(
+        message.as_bytes()
+    ).decode()
 
     service.users().messages().send(
         userId="me",
         body={"raw": encoded_message}
     ).execute()
 
-    return "Email sent successfully"
+    return state
 
-from datetime import datetime, timedelta
 
-def create_calendar_invite(summary: str, start_time: datetime):
-    creds = get_google_creds()
+# ---------------------------
+# CALENDAR TOOL
+# ---------------------------
+def create_calendar_event_tool(state):
+    memory = state.get("memory", {})
+
+    if "start_time" not in memory or "end_time" not in memory:
+        return state
+
+    creds = get_creds()
     service = build("calendar", "v3", credentials=creds)
 
     event = {
-        "summary": summary,
+        "summary": "Client Meeting",
         "start": {
-            "dateTime": start_time.isoformat(),
+            "dateTime": memory["start_time"],
             "timeZone": "Asia/Kolkata",
         },
         "end": {
-            "dateTime": (start_time + timedelta(hours=1)).isoformat(),
+            "dateTime": memory["end_time"],
             "timeZone": "Asia/Kolkata",
         },
     }
 
-    service.events().insert(calendarId="primary", body=event).execute()
-    return "Calendar event created"
+    service.events().insert(
+        calendarId="primary",
+        body=event
+    ).execute()
+
+    return state
