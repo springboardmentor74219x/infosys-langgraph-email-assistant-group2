@@ -11,7 +11,7 @@ send_email(
 create_calendar_invite(
     summary="Milestone 4 Test Meeting",
     description="Testing real Google Calendar API",
-    start_time="2026-01-21T10:00:00",
-    end_time="2026-01-21T10:30:00",
+    start_time="2026-02-19T10:00:00",
+    end_time="2026-02-19T10:30:00",
     attendees=["2k22.aiml.2212656@gmail.com"]
 )
