@@ -142,27 +142,45 @@ from langgraph.graph import StateGraph
 from memory import load_memory, update_memory
 def reasoning_node(state):
 
+    from memory import load_memory, update_memory
+
     memory = load_memory()
 
     email_text = state.get("email", "").lower()
     sender_name = state.get("sender_name", "User")
+    thread_id = state.get("threadId")
 
-    owner_name = memory.get("owner_name", "Bob")
+    owner = memory.get("owner_name", "Bob")
 
-    # ----------------------------
-    # FLEXIBLE CORRECTION DETECTION
-    # ----------------------------
-
-    if (
-        "robert" in email_text
-        and "bob" in email_text
-        and ("not" in email_text or "instead" in email_text or "use" in email_text)
-    ):
+    # --------------------------------
+    # CORRECTION CASE
+    # --------------------------------
+    if "call me robert" in email_text and "not suresh" in email_text:
         update_memory("name_preference", "Robert")
+        memory = load_memory()
 
         state["draft"] = "Correction noted. I will use Robert going forward."
+        state["memory"] = memory
         return state
 
+    # --------------------------------
+    # NORMAL RESPONSE FLOW
+    # --------------------------------
+    preferred_name = memory.get("name_preference", sender_name)
+
+    reply = f"""Dear {preferred_name},
+
+Thank you for your email.
+I confirm the meeting as proposed.
+
+Best regards,
+{owner}
+"""
+
+    state["draft"] = reply
+    state["memory"] = memory
+
+    return state
     # ----------------------------
     # NORMAL RESPONSE
     # ----------------------------
