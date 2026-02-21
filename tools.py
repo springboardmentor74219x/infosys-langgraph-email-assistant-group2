@@ -27,7 +27,7 @@ def get_creds():
 
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
+            creds.refresh(Request()) 
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
                 "credentials.json", SCOPES
@@ -66,16 +66,17 @@ def send_email(to: str, subject: str, body: str):
 # CREATE CALENDAR INVITE TOOL
 # ------------------------
 def create_calendar_invite(
-    title: str,
+    summary: str,
     description: str,
     start_time: str,
-    end_time: str
+    end_time: str,
+    attendees: list[str] | None = None
 ):
     creds = get_creds()
     service = build("calendar", "v3", credentials=creds)
 
     event = {
-        "summary": title,
+        "summary": summary,
         "description": description,
         "start": {
             "dateTime": start_time,
@@ -85,6 +86,9 @@ def create_calendar_invite(
             "dateTime": end_time,
             "timeZone": "Asia/Kolkata",
         },
+        "attendees": [
+            {"email": email} for email in (attendees or [])
+        ],
     }
 
     service.events().insert(
