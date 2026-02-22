@@ -11,6 +11,6 @@ send_email(
 create_calendar_invite(
     title="Milestone 4 Test Meeting",
     description="Test calendar invite",
-    start_time="2026-01-29T10:00:00",
-    end_time="2026-01-29T10:30:00"
+    start_time="2026-02-22T10:00:00",
+    end_time="2026-02-22T10:30:00"
 )
