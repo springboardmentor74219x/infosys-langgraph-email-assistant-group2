@@ -1,5 +1,6 @@
 import base64
 import os.path
+import re
 from email.mime.text import MIMEText
 
 from google.auth.transport.requests import Request
@@ -7,10 +8,17 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
+from langgraph.graph import StateGraph
+from memory import load_memory, update_memory
+
 SCOPES = [
     "https://www.googleapis.com/auth/gmail.modify",
     "https://www.googleapis.com/auth/calendar"
 ]
+
+# ----------------------------------------------------
+# AUTHENTICATION
+# ----------------------------------------------------
 
 def get_service():
     creds = None
@@ -33,6 +41,11 @@ def get_service():
     service = build("gmail", "v1", credentials=creds)
     return service
 
+
+# ----------------------------------------------------
+# FETCH EMAIL (MOST RECENT UNREAD)
+# ----------------------------------------------------
+
 def fetch_unread_email():
     service = get_service()
 
@@ -40,7 +53,7 @@ def fetch_unread_email():
         userId="me",
         labelIds=["INBOX"],
         q="is:unread",
-        maxResults=1
+        maxResults=5   # fetch few to ensure latest
     ).execute()
 
     messages = results.get("messages", [])
@@ -48,6 +61,7 @@ def fetch_unread_email():
     if not messages:
         return None
 
+    # Pick MOST RECENT unread message
     msg = service.users().messages().get(
         userId="me",
         id=messages[0]["id"],
@@ -86,6 +100,11 @@ def fetch_unread_email():
         "body": body
     }
 
+
+# ----------------------------------------------------
+# SEND REPLY
+# ----------------------------------------------------
+
 def send_reply(thread_id, to, subject, message_text):
     service = get_service()
 
@@ -107,25 +126,10 @@ def send_reply(thread_id, to, subject, message_text):
         body=body
     ).execute()
 
-def create_calendar_event(summary, start_time, end_time):
-    service = build("calendar", "v3", credentials=get_service()._http.credentials)
 
-    event = {
-        "summary": summary,
-        "start": {
-            "dateTime": start_time,
-            "timeZone": "Asia/Kolkata"
-        },
-        "end": {
-            "dateTime": end_time,
-            "timeZone": "Asia/Kolkata"
-        }
-    }
-
-    service.events().insert(
-        calendarId="primary",
-        body=event
-    ).execute()
+# ----------------------------------------------------
+# MOVE EMAIL TO SPAM (OPTIONAL)
+# ----------------------------------------------------
 
 def move_to_spam(message_id):
     service = get_service()
@@ -138,34 +142,51 @@ def move_to_spam(message_id):
             "addLabelIds": ["SPAM"]
         }
     ).execute()
-from langgraph.graph import StateGraph
-from memory import load_memory, update_memory
-def reasoning_node(state):
 
-    from memory import load_memory, update_memory
+
+# ----------------------------------------------------
+# REASONING NODE (SMART NAME DETECTION)
+# ----------------------------------------------------
+
+def reasoning_node(state):
 
     memory = load_memory()
 
-    email_text = state.get("email", "").lower()
-    sender_name = state.get("sender_name", "User")
-    thread_id = state.get("threadId")
+    email_text = state.get("email", "")
+    sender_raw = state.get("sender", "")
 
     owner = memory.get("owner_name", "Bob")
 
-    # --------------------------------
-    # CORRECTION CASE
-    # --------------------------------
-    if "call me robert" in email_text and "not suresh" in email_text:
-        update_memory("name_preference", "Robert")
+    # Extract clean sender name
+    if "<" in sender_raw:
+        sender_name = sender_raw.split("<")[0].strip()
+    else:
+        sender_name = sender_raw
+
+    print("DEBUG → Email Text:", email_text)
+
+    # ------------------------------------------------
+    # SMART NAME CORRECTION DETECTION
+    # ------------------------------------------------
+
+    match = re.search(r"call me (\w+)", email_text.lower())
+
+    if match:
+        new_name = match.group(1).capitalize()
+
+        print("DEBUG → New Name Detected:", new_name)
+
+        update_memory("name_preference", new_name)
         memory = load_memory()
 
-        state["draft"] = "Correction noted. I will use Robert going forward."
+        state["draft"] = f"Correction noted. I will use {new_name} going forward."
         state["memory"] = memory
         return state
 
-    # --------------------------------
-    # NORMAL RESPONSE FLOW
-    # --------------------------------
+    # ------------------------------------------------
+    # NORMAL RESPONSE
+    # ------------------------------------------------
+
     preferred_name = memory.get("name_preference", sender_name)
 
     reply = f"""Dear {preferred_name},
@@ -181,27 +202,16 @@ Best regards,
     state["memory"] = memory
 
     return state
-    # ----------------------------
-    # NORMAL RESPONSE
-    # ----------------------------
 
-    preferred_name = memory.get("name_preference", sender_name)
 
-    reply = f"""
-Dear {sender_name},
-
-Thank you for your email.
-I confirm the meeting as proposed.
-
-Best regards,
-{owner_name}
-"""
-
-    state["draft"] = reply.strip()
-    return state
+# ----------------------------------------------------
+# LANGGRAPH SETUP
+# ----------------------------------------------------
 
 graph = StateGraph(dict)
+
 graph.add_node("reason", reasoning_node)
+
 graph.set_entry_point("reason")
 
 agent = graph.compile()
