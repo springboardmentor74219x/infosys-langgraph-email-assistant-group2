@@ -70,35 +70,7 @@ Schedule Meeting (if required)
 Return Final Output
 
 
-🏗️ System Architecture
 
-Incoming Email
-        │
-        ▼
-Email Parser
-        │
-        ▼
-LangGraph Workflow
-        │
- ┌──────────────┐
- │ Email Triage │
- └──────────────┘
-        │
-        ▼
-LLM (GPT-4)
-        │
- ┌───────────────────────────────┐
- │ Intent Detection              │
- │ Email Summarization           │
- │ Reply Generation              │
- │ Action Planning               │
- └───────────────────────────────┘
-        │
-        ▼
-Google Calendar API
-        │
-        ▼
-Suggested Reply + Meeting Event
 
 
 
